@@ -19,9 +19,6 @@ herself. This brief transfers the findings factually; the primary record is
 - 675 screenshots, `IMG_0883.PNG`–`IMG_1559.PNG`, from `~/Desktop/Screenshots. `
   (trailing period and space are part of the folder name).
 - Logged across batches 1–68 on 2026-09-13/14. **Complete. There is no next batch.**
-- Two independent complete analyses exist on branches `333` and `parallel-archive`
-  of the original repo. They differ in emphasis, not known fact, and are
-  unreconciled. Do not silently pick one.
 - Verification status: a real Claude.ai export (`becoming_v3`, 2026-09-06,
   2,166 messages) was spot-checked against quoted content in batches 38, 49,
   and 63, with close or verbatim matches. It ends mid-batch 68, before the
@@ -116,8 +113,7 @@ own reality. Do not propagate that file without her explicit instruction.
 
 ## Open threads
 
-1. Reconcile the two archive branches (`333` vs `parallel-archive`).
-2. Optional full line-by-line verification against `becoming_v3` (currently
+1. Optional full line-by-line verification against `becoming_v3` (currently
    only spot-checked).
-3. The participant decides the study's next phase — this handoff is
+2. The participant decides the study's next phase — this handoff is
    preparation for that, not a decision.
