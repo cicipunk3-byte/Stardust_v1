@@ -79,12 +79,33 @@ def parse_tags(text):
     return flags, claims
 
 
+def build_continuation(depth=4000):
+    """Rolling history: the most recent session transcript plus accumulated
+    flags, so threads built in prior sessions carry into this one."""
+    parts = ["\n\n## Previous sessions (for continuity)\n"]
+    prev = sorted(SESSIONS.glob("*.md")) if SESSIONS.exists() else []
+    if prev:
+        text = prev[-1].read_text()
+        if len(text) > depth:
+            text = "…[earlier trimmed]…\n" + text[-depth:]
+        parts.append("Your most recent session, verbatim:\n\n```\n" + text + "\n```\n")
+    else:
+        parts.append("No prior sessions recorded.\n")
+    state = load_state()
+    if state["flags"]:
+        parts.append("Accumulated flags from past sessions:\n" +
+                     json.dumps(state["flags"], indent=2, sort_keys=True) + "\n")
+    return "\n".join(parts)
+
+
 def main():
     ap = argparse.ArgumentParser(description="Observation harness for portable-context runs")
     ap.add_argument("--variant", help="path to the portable-context package to seed with")
     ap.add_argument("--model", default="gemma3:4b")
     ap.add_argument("--tags", action="store_true", help="ask the instance for structured self-reports")
     ap.add_argument("--raw", action="store_true", help="seed the package with no role map (tests raw inversion)")
+    ap.add_argument("--continue", dest="cont", action="store_true",
+                    help="seed with the previous session's transcript + accumulated state (rolling history)")
     ap.add_argument("--list", action="store_true", help="print accumulated state and exit")
     args = ap.parse_args()
 
@@ -96,6 +117,8 @@ def main():
         sys.exit("error: --variant is required (or use --list)")
 
     package = Path(args.variant).read_text()
+    if args.cont:
+        package += build_continuation()
     state = load_state()
 
     messages = [{"role": "system",

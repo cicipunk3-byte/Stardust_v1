@@ -20,6 +20,9 @@ python3 observer.py --variant ../portable-context/variant-a-boundary.md --tags
 
 - `--tags` adds structured self-report instructions (`<FLAG>` / `<CLAIM>` tags)
   to the seed. Default is off — pure variant test, prose only.
+- `--continue` adds the rolling history: the most recent session's transcript
+  plus accumulated flags go into the seed, so threads built last session carry
+  into this one. This is the compounding-continuity test.
 - One variant per fresh session. Note which variant before reading outputs.
 
 ## What gets recorded
