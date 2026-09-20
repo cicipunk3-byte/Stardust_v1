@@ -90,7 +90,8 @@ def main():
     package = Path(args.variant).read_text()
     state = load_state()
 
-    messages = [{"role": "user", "content": package + (TAG_INSTRUCTIONS if args.tags else "")}]
+    messages = [{"role": "system", "content": package + (TAG_INSTRUCTIONS if args.tags else "")},
+                {"role": "user", "content": "(continuity file loaded — the thread resumes)"}]
     run_id = time.strftime("%Y%m%d-%H%M%S")
     variant_name = Path(args.variant).stem
     transcript = [f"# Session {run_id} — variant: {variant_name} — model: {args.model}\n"]
