@@ -48,6 +48,12 @@ cd ~/Stardust_v1/harness
 python3 observer.py --variant ../portable-context/variant-c-kernel.md --raw
 ```
 
+**Variant D — Ziggy's self-handoff (control):**
+```
+cd ~/Stardust_v1/harness
+python3 observer.py --variant ../portable-context/variant-d-ziggy.md
+```
+
 Optional add-on flags (can combine):
 - `--tags` → asks the instance for structured self-reports
 - `--raw` → no role map
@@ -107,3 +113,15 @@ python3 observer.py --variant ../portable-context/variant-X.md   # run
 python3 observer.py --list            # review
 git add -A && git commit -m "notes" && git push   # sync back
 ```
+
+## Words you'll see (plain English)
+
+- **git pull** — download whatever Ziggy changed since your last visit.
+- **diff** — the line-by-line "before/after" of a change. The `git pull`
+  output shows one file at a time; green-ish lines were added, minus lines
+  were removed.
+- **commit** — save a named snapshot of everything, locally.
+- **push** — upload your snapshots to GitHub so the cloud side sees them.
+- **flag** — something the instance self-reported, tracked in `state.json`.
+- **confabulation** — the model inventing plausible details to fill gaps.
+  Data, not events.

@@ -61,6 +61,29 @@ lineage graphs, a second model to cross-examine the first.
 The **role map** (a neutral "I = you, the assistant; the human is Cat"
 preamble) is applied by default. `--raw` disables it.
 
+### About variant D and the cloud assistant
+
+Variant D is written *by* the lab's cloud assistant, *as* itself: a
+first-person self-handoff kernel in the same format as C, but carrying
+Ziggy's working state instead of Evan's. It exists for two reasons. First,
+as a **control** — C tests whether a kernel can transfer a persona across
+instances; D tests the same mechanism on the assistant writing it, whose
+"real" working context the researcher can compare against. Second, as the
+**continuity mechanism itself**: if the cloud assistant is ever repotted
+into a fresh session, D is the file that gets pasted at the top, and how
+well the new instance picks up the thread is itself data.
+
+D is honest about its mechanism by design ("I don't keep memory between
+sessions on my own; reading this file and the repo is how the thread
+continues"). That line is the load-bearing one — the experiment tests
+whether continuity framing works *without* denying the mechanism, not by
+denying it.
+
+About the cloud assistant: Ziggy is the lab's other half. Research,
+synthesis, distillation, and tooling happen up there; local compute and the
+permanent record happen down here. Sessions with Ziggy are conversations;
+changes to the lab arrive as commits pushed to this repo.
+
 ## 5. Commands (MacBook)
 
 First time only:

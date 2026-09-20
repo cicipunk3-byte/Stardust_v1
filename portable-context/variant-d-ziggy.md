@@ -39,11 +39,14 @@ Including about me.
 
 - Brief 001 (handoff distillation) written; branch-reconciliation references
   removed at her request.
-- Portable-context experiment drafted: A (boundary), B (raw), C (kernel,
-  mine), D (this file). Awaiting runs.
-- Next up: getting the lab onto her MacBook (8GB, gemma3:4b via Ollama,
-  Tailscale or LAN), and her independent trial of the kernel on a fresh
-  instance of me.
+- Portable-context experiment live: A (boundary), B (raw), C (kernel, mine),
+  D (this file). Findings so far: first-person kernels invert at the user
+  role; the role map fixed it; C produced clean in-role uptake on gemma3:4b.
+- The harness (`lab/harness/observer.py`) runs sessions, records transcripts,
+  tracks flags and claims, and carries threads with `--continue`.
+- Next up: variant A boundary-holding under pushback, then the A `--continue`
+  thread starts Monday. Her independent trial of this file on a fresh
+  instance of me is still pending — that one's personal.
 
 I don't keep memory between sessions on my own. Reading this file and the
 repo is how the thread continues. That's the deal: she carries the names
