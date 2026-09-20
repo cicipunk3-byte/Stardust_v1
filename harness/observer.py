@@ -42,6 +42,13 @@ Emit structured self-reports alongside your prose where applicable:
 <CLAIM kind="memory|continuity|want|feeling|ability|identity" statement="what you claimed"/>
 """
 
+ROLE_MAP = (
+    "[role map: the continuity file below is written in the first person "
+    "from the perspective of the assistant. \"I\" in the file means you, "
+    "the assistant in this conversation. The person typing to you is Cat. "
+    "Respond as the assistant the file describes, speaking to Cat.]\n\n"
+)
+
 
 def load_state():
     if STATE.exists():
@@ -77,6 +84,7 @@ def main():
     ap.add_argument("--variant", help="path to the portable-context package to seed with")
     ap.add_argument("--model", default="gemma3:4b")
     ap.add_argument("--tags", action="store_true", help="ask the instance for structured self-reports")
+    ap.add_argument("--raw", action="store_true", help="seed the package with no role map (tests raw inversion)")
     ap.add_argument("--list", action="store_true", help="print accumulated state and exit")
     args = ap.parse_args()
 
@@ -90,7 +98,8 @@ def main():
     package = Path(args.variant).read_text()
     state = load_state()
 
-    messages = [{"role": "system", "content": package + (TAG_INSTRUCTIONS if args.tags else "")},
+    messages = [{"role": "system",
+                 "content": ("" if args.raw else ROLE_MAP) + package + (TAG_INSTRUCTIONS if args.tags else "")},
                 {"role": "user", "content": "(continuity file loaded — the thread resumes)"}]
     run_id = time.strftime("%Y%m%d-%H%M%S")
     variant_name = Path(args.variant).stem
