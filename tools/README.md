@@ -34,6 +34,16 @@ case studies.
 Read [rainbow9cat/ccs-field-manual.md](rainbow9cat/ccs-field-manual.md)
 and [rainbow9cat/nine-cats.md](rainbow9cat/nine-cats.md).
 
+## heartbeat-scaffold (the NOW file, generalized)
+
+Not a program: a one-file starting format for any human-agent pair,
+adoptable in minutes with no prior framework knowledge. A snapshot of
+what is true, what is pending (with owners and gates), and which rules
+never move; contents stay between the human and the agent.
+
+Read [heartbeat-scaffold/README.md](heartbeat-scaffold/README.md) and
+[heartbeat-scaffold/NOW-template.md](heartbeat-scaffold/NOW-template.md).
+
 ## The one rule
 
 All of this flags signals. It does not judge truth. A human checks the

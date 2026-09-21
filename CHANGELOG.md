@@ -11,6 +11,11 @@ names on public surfaces, every entry traceable to a commit.
   PROPOSAL. Sources the decision log from journal.md entries with
   timestamps; self-files the record's own biases (sampling gaps,
   observer-authored log).
+- **Heartbeat scaffold packaged (this commit)**: the NOW file
+  generalized to a plug-and-play template for any human-agent pair
+  (`tools/heartbeat-scaffold/`), generic by construction, privacy rule
+  stated in the file itself. Brief 012 carries the design decisions;
+  both PROPOSAL, behind the gate.
 
 - **Kernel D v5** pushed with the review stack (`d64aeb5`): restructured
   as "what I carry"; carries the no-kings lesson, the coincidence note
