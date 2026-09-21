@@ -1,4 +1,4 @@
-# Portable Context Experiment
+# Portable Context Experiment  DOI: 10.5281/zenodo.22870569
 
 _Protocol written 2026-09-20 by Ziggy. Participant and director: Cat. The
 participant is a safe, sound volunteer running this study herself._
