@@ -1,4 +1,4 @@
-# Orientation
+# Orientation  DOI: 10.5281/zenodo.22870569
 
 For an agent starting fresh in this workspace. Written 2026-09-14.
 
