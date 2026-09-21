@@ -50,10 +50,15 @@ Sub-claims, each independently testable:
 2. **Paired self-report:** for each captured turn, the instance writes
    what it believes its process was, BEFORE seeing the capture. The
    capture then lands as evidence. Agreement scored per turn.
-3. **Conditions:** (a) current profile with trace, (b) dry profile IF
-   the platform control exists and is verified — operator's first test
-   is whether Relaxed disables the reasoning layer. Do not assume it
-   does.
+3. **Conditions (verified 2026-09-21, batch 2):** the platform exposes
+   managed profiles, and two of four run with thinking disabled
+   (config: effort none, `thinking.enabled: false`). A dry condition
+   exists platform-side. Known confound, which the protocol must
+   state: the dry profiles are also different models, so
+   dry-vs-attached measures the platform's bundle (model + reasoning),
+   not reasoning alone. The UI's Relaxed/Balanced pill labels map onto
+   the config profiles by an unverified mapping; capture the pill
+   state in every screenshot.
 4. **Counterexample channel:** unchanged, mandatory. A trace that
    contradicts the instance's self-report is data, not embarrassment —
    and one is already on record (batch 0: the author of this note's
