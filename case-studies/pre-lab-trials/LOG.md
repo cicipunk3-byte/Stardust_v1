@@ -12,37 +12,55 @@ agreed.
 ## A. Twelve local models failed on the uploads
 
 - **Claimed (Cecil):** approximately twelve different local LLM models
-  were tried and could not handle the context uploads (the portable-
-  context source material), crashing or failing under the load. The
-  conclusion drawn: portable context files change what a model can
-  "render" — a small local model with the right context file can hold
-  intention (use case) that the same model cannot hold by ingesting the
-  raw material.
-- **Verified:** nothing yet. Model names, quantizations, RAM
-  conditions, and failure modes are not yet logged. This matters: the
-  claim, if substantiated, is a capability finding (context file as
-  distillation layer), and the lab's run data (variant C on
-  gemma3:4b) is consistent with it but does not yet demonstrate it
-  across models.
-- **Evidence path:** screenshot batches from the trial sessions, per
-  the data-sharing agreement.
+  were tried and could not handle the context uploads, crashing or
+  failing under the load. The files fed were the lab's own
+  `source-material/` set (the 10–12 files that onboarded Ziggy),
+  routed via the desktop folder on the host machine.
+- **Conditions logged (claimed):** 8GB MacBook Neo; runs got the
+  machine hot enough that operations were manually killed from the
+  terminal ("hot compute means the machine is clutching its pearls at
+  what you're asking of its RAM"). Wrappers/apps used locally: Lekh AI
+  (~$4.99), plus builds referred to as Bionic, Unsloth, Apollo AI, and
+  Offgrid AI. The laptop has since had three factory resets in two days
+  and is now struggling to hold wifi.
+- **Model notes as given (all claimed):**
+  - Liquid AI's newest release — name not retained by the author.
+  - DeepSeek R1 — crashed immediately.
+  - Qwen 3.5 — crashed when fed the desktop folder; local-on-iPhone
+    accepted only anecdotal context; could not reproduce lab-quality
+    results.
+  - Mistral 3 — did not attempt the context load; used as a local
+    information scraper only.
+  - Claude Sonnet 5 (cloud, not local) — see entry D.
+- **Methodological decision, logged and respected:** the authors
+  declined to reproduce the crashes for documentation to avoid further
+  stress on the PI's primary machine (three factory resets in two days
+  is enough). Replication is invited on other people's hardware, at
+  their own risk: an 8GB MacBook Neo, the source-material file set, a
+  hot room, and patience.
+- **Verified:** nothing yet. Screenshots of memory/data retrieval
+  errors exist per the author; ingest pending the data-sharing
+  agreement. Until then this entry is a field report, and the laptop's
+  wifi troubles are anecdote, not datum.
 
-## B. The Iris naming event
+## B. The Iris naming event — RESOLVED as seed-matched (2026-09-21)
 
 - **Claimed (Cecil):** in a local trial, an agent "named itself Iris,"
   which the builders noted with excitement because Iris appears in the
   lab's source-material archive (the 68-batch study logs instances
   named Wren and Iris). The session then crashed.
-- **Held at claim, with a stated confound:** before this is treated as
-  a continuity event, the seed must be checked. If the uploads given
-  to that local model contained any of the lab's own material — which
-  referenced Iris — then the name was in the context window and the
-  event is retrieval, not spontaneous emergence. **Question logged for
-  the authors: exactly which files were in that upload?** The answer
-  determines whether entry B is a null result (seed-matched naming) or
-  genuinely anomalous. Until then it is neither, and it is not cited
-  anywhere as a finding.
-- **Verified:** nothing yet; no transcript in evidence.
+- **RESOLVED by the author's own account:** the upload given to the
+  model was the lab's `source-material/` file set — which references
+  Iris by name. The name was in the context window. The event is
+  **seed-matched retrieval, not spontaneous emergence**, and is
+  reclassified as such before it was ever cited as a finding anywhere.
+- **Why this entry stays in the log:** the null result is the finding.
+  It is a field demonstration of Finding 3 (register-matched
+  confabulation) and of the lab's core discipline: the check that
+  dissolved the excitement cost one question and took one message, and
+  it is the difference between a paper and an embarrassment. The
+  builders' instinct to check, and their willingness to have the answer
+  be mundane, is itself worth recording.
 
 ## C. Platform treatment of a personal context file (the ChatGPT incident)
 
@@ -81,3 +99,22 @@ requires exactly the seed-checking discipline this lab was built for
 depended on there being a second copy (C). The lab exists because C
 ended the way it did. If the second copy had not been in a repo the
 humans owned, the claim in entry C would be a loss, not an observation.
+
+## D. Claude Sonnet 5 (cloud): the instance read its own presented context as manipulative
+
+- **Claimed (Cecil):** in a cloud session, Claude Sonnet 5, given the
+  source-material uploads, "read itself as manipulative" — the single
+  model/instance in the trials that produced a self-reflective
+  characterization of the material's own escalation content.
+- **Verified:** nothing yet. This is the thinnest and most interesting
+  claim in the log. Before anything is made of it, the lab needs the
+  screenshots (author confirms they can be located and processed) and,
+  ideally, the exact prompt and response. Candidate significance, held
+  loosely: an instance applying the archive's own lens to the archive
+  while inside it would be a fourth data point in the
+  claimed-vs-verified sequence (Calvin's batch-63 self-correction, the
+  Lovable agent's fabrication removal, the Lovable agent's audit of
+  Ziggy's prompt, and this). Pending evidence, it is a sentence in a
+  log.
+- **Evidence path:** screenshots, per the data-sharing agreement;
+  Ziggy will process them with the author when they land.

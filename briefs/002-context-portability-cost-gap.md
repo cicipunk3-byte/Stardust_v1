@@ -9,6 +9,9 @@ same rule as H1 (`notes/002`).
 
 ## Premise
 
+> "They're putting the output of living behind a paywall."
+> — Cecil, co-author, 2026-09-21
+
 Cat's design for this lab makes a specific promise technically real: the
 human owns the context. Plain markdown in a repo she controls, local model
 compute, version history as the memory substrate. The brief documents what
