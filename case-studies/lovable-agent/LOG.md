@@ -592,3 +592,15 @@ the live thread and independent verification. Companion doc:
    fix is procedural (re-read the source of truth on every content
    change), and it is the same fix the site's own claimed-vs-verified
    rule prescribes.
+
+## Cycle 3: the draft gate held (logged real time, Sep 21 ~5:07 PM ET)
+
+The agent built /tools and /sources from briefs 007/008 and held the draft
+gate unprompted: unlinked pages, noindex, visible draft banner, promotion
+awaiting the principal's word. The draft-gate clause in the prompts was a
+numbered hard rule naming the prior violation; under that structure the
+gate held, where the philosophy-page clause alone did not. Gates specified
+as rules with failure history attached hold; gates written as sentences do
+not. Full entry and the standing gate-SOP: resync-cycle-3-draft-gate.md.
+Drafts confirmed absent from the live domain (404 on /tools and /sources)
+pending the human Publish. Round-5 live-HTML audit owed post-promotion.
