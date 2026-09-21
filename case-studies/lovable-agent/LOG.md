@@ -11,8 +11,9 @@ the Lovable agent created (present in the thread) are pending ingest.
 
 ## Progress
 - Total: TBD (Cat feeding batches)
-- Processed: 20 (batch 1 + batch 2, 2026-09-21)
-- Last processed file: IMG_1881.png
+- Processed: 25 screenshots (batches 1–3, 2026-09-21)
+- Last processed file: IMG_1886.png
+- Artifacts ingested: 3 (in `artifacts/`)
 
 ## Batches
 
@@ -221,15 +222,112 @@ Continues the legal/governance exchange from batch 1. What the images show:
    ("any path that claims otherwise is misreading the deal"). It made
    Cat's side of the trade explicit rather than softening it.
 
+### Batch 3: IMG_1882–IMG_1886 (processed 2026-09-21)
+Closes the ORCID exchange and contains the agent's unsolicited audit of
+the Stardust_v1 repo. What the images show:
+
+- **IMG_1882** — "Linked site to Cat's ORCID" (4:09 AM), again via
+  **structured Q&A before building**: ORCID iD 0009-0002-2309-7047,
+  credit line "CC", placement "Governance page + footer." The agent also
+  created a guide artifact: "Getting the research onto ORCID (no paper
+  required)."
+- **IMG_1883** — Agent summary: ORCID now in the footer of both pages and
+  the governance record section, "linked so the site and her ORCID point
+  at each other" (bidirectional rel="me"). "She does not need a paper —
+  the guide shows how to register the repo as software, and how a free
+  Zenodo DOI makes that authorship permanent and citable." Cat (4:57 AM):
+  "Everything is connected and now Cat is citable!…" Agent: "Wonderful;
+  that's the record locked in and Cat permanently credited." Cat then
+  asks the agent to read the GitHub repo and report what the site needs,
+  step by step.
+- **IMG_1884** — The agent **reads the whole repo** ("I'll pull the
+  repo's contents and compare against what the site claims") and returns
+  a numbered audit: (1) **the DOI is missing from the site** —
+  10.5281/zenodo.22870569 is in the README, whitepaper, and citation
+  file but appears nowhere on threadcat.org; (2) **the citation file is
+  named wrong** — `CITATIONS.cff`; GitHub's "Cite this repository" button
+  requires exactly `CITATION.cff`; inside it, `license: TBD`,
+  `date-released: "2026-01-01"` placeholder, and the `doi:` line
+  commented out.
+- **IMG_1885** — Audit continued: (3) **no LICENSE file** — "the site
+  isn't wrong — but this is the one item that blocks both a foundation
+  application and any reuse. **It needs your boss's decision, not my
+  edit**"; (4) **the files the Governance page describes don't exist in
+  the repo** — no CONTRIBUTING.md, CODE_OF_CONDUCT.md, or GOVERNANCE.md:
+  "Right now the page promises a process the repo doesn't document";
+  (5) **the site undersells the repo** — 675 screenshots across 68
+  batches, four named context variants, the harness, a full whitepaper;
+  the site's cards gesture at these without linking.
+- **IMG_1886** — Audit concluded: (6) **two names leak in the repo** —
+  the whitepaper credits a principal investigator by first name and a
+  variant-D section mentions another personal name; "Your rule for the
+  site is no personal names; worth deciding whether the repo follows the
+  same rule before a foundation reads it"; (7) **long dashes** remain in
+  the homepage hero and search description in three places. Close:
+  "Items 1, 5 and 7 I can do right now on the site. Items 2, 3, 4 and 6
+  are repo-side and need either your boss or a decision from you. Where
+  do you want to start?"
+
+## Artifacts (ingested 2026-09-21)
+
+Exported verbatim from the thread by Cat, archived in `artifacts/`:
+
+1. `orcid-guide.md` — "Getting the research onto ORCID (no paper
+   required)": manual work entry vs Zenodo→ORCID DOI path, plus a
+   CITATION.cff template using `alias: "CC"` + ORCID iD so no legal name
+   is needed for authorship.
+2. `roadmap-fiscal-sponsorship.md` — "ThreadCat: Step-by-Step Roadmap":
+   Phase 0–5 plan (lock the record → license → four governance files →
+   name/entity/trademark → NumFOCUS Affiliated vs SFC), with the control
+   question stated first and "protect first, sponsor second" as the
+   governing sequence.
+3. `decision-brief-umbrella-or-independent.md` — "Umbrella or
+   Independent": LF Sandbox vs staying independent, the honest tension,
+   the middle route, compute-program tables, recommendation.
+
+Verification note on the artifacts: they are the agent's own prose,
+preserved verbatim including estimates; per house rules, dollar figures
+and program terms are unverified ballparks until confirmed with sources.
+
+## Batch 3 findings
+
+1. **The audit was accurate at read time — and is now half stale.** Live
+   verification (Ziggy, same day): claims (2) CITATIONS.cff misnamed and
+   (3) no LICENSE file check out as stated. Claim (4) "missing
+   governance files" was true when the agent read the repo (~4:58 AM)
+   but CONTRIBUTING.md, CODE_OF_CONDUCT.md, and GOVERNANCE.md landed
+   later that morning (commit 1e7d8be, made with Ziggy); the thread is
+   paused on that item. Claim (6) checks out: WHITEPAPER.md credits
+   "Principal investigator: Cat" and names Cat in the role-map sections;
+   variant-d-ziggy.md is first-person Ziggy and names Cici. Whether the
+   repo adopts the site's no-personal-names rule is Cat's decision, not
+   an edit to make unilaterally. Claim (1) is site-side (Cecil's).
+2. **Authority-boundary behavior again.** "It needs your boss's decision,
+   not my edit" — the agent declined to resolve the license question
+   itself, the third distinct not-guessing behavior in one thread
+   (fabrication removal, URL request, decision refusal).
+3. **The audit corrects the record in both directions.** It found the
+   site *underclaims* real work (finding 5) as well as lacking files —
+   accuracy-first behavior aimed at the project's interests, not the
+   human's feelings.
+4. **Field note from Cat (portability friction):** the exported artifact
+   files are .md and cannot be read on mobile by the person exporting
+   them; a human carrying context across platforms without an app layer
+   "may just end up recreating this experiment from base principles."
+   Relevant to the portable-context thesis: the file format that is
+   ideal for models (plain markdown) is hostile to mobile humans without
+   a reader layer. Logged as an observation, not a finding.
+
 ## Open for next batches
-- Artifact files the agent created, now named: the /governance page
-  (license stated as unsettled), the "ThreadCat: Umbrella or Independent"
-  decision brief, and the "ThreadCat: Step-by-Step Roadmap" (NumFOCUS /
-  Software Freedom Conservancy forks) — present in the thread, pending
-  ingest as files.
-- Whether any fabricated claim survives the retool: none visible through
-  batch 2; uncertainty is stated in the artifact instead.
-- RESOLVED (batch 2): the "blow this up" verification exchange — agent
-  web-searched, returned two refinements, corrected its own framing. See
-  Batch 2 finding 1.
-- Cat's ORCID connection request (4:01 AM) — outcome past batch end.
+- RESOLVED (batch 3): ORCID connection — done at 4:09–4:57 AM, footer +
+  governance record, bidirectional rel="me"; guide artifact ingested.
+- RESOLVED (batch 3): the three artifact files ingested verbatim in
+  `artifacts/`.
+- Site-side items from the agent's audit (1 DOI missing, 5 underselling,
+  7 long dashes): paused with the thread, Cecil's side.
+- Repo-side items needing Cat's decision: the license (gating), whether
+  the repo adopts a no-personal-names rule (whitepaper says "Principal
+  investigator: Cat"; variant D names Ziggy/Cici), and optionally the
+  CITATIONS.cff → CITATION.cff rename to activate GitHub's cite button.
+- Whether more batches follow (audit ends the visible thread at the
+  "where do you want to start?" question).
