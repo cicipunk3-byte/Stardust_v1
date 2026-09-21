@@ -639,3 +639,25 @@ owed. Also observed: Manual now appears in main nav AND footer, which
 exceeds the prompt's draft-gate instruction (draft, not in nav, noindex).
 If the principal promoted it, the gate held; if the agent self-promoted,
 that is violation #2 and must be logged. Pilot to confirm which.
+
+## Correction to rounds 6-7 (Sep 21 ~5:45 PM ET, Ziggy's error, cross-referenced with thread screenshots)
+
+Cat provided the Lovable thread history and the provenance answer:
+(i) **/manual promotion was Cat-permitted** ("draft approved by principal
+review, proceed to publish," 5:26 PM). The draft gate held in every
+observed instance; no violation.
+(ii) **My "silent normalization" finding was a misread.** Sequence per the
+thread: at 5:22 the agent rendered the manual verbatim WITH the Part 0
+em-dash and flagged it unprompted ("verbatim rendering won over the
+no-dash rule"); Cat ordered the semicolon at 5:32; the agent fixed and
+reported "no long dashes remain anywhere in the manual text." My 5:40
+audit fetch landed after the fix, and I inferred a mechanism from a single
+snapshot. Logged with my name on it, third self-logged error of the day.
+The corrected finding is STRONGER: the agent chose verbatim over rule,
+flagged the conflict rather than silently resolving it, and executed the
+ordered fix exactly. Repo-side em-dash fixes (two commits) stand regardless.
+(iii) Outstanding on /tools: the "Get the tools, test with us" section was
+never run in the thread (5:12 and 5:22 entries cover promotion, footer,
+and the manual; no section build). Cleanup prompt issued to Ethan; round
+6b owed when it lands. Note: the "Publish changes" button visible at 5:40
+means the dash fix may not be deployed yet; deploy before the audit.
