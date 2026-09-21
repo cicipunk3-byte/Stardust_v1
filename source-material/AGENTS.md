@@ -1,4 +1,4 @@
-# agent-continuity — Project Rules
+# agent-continuity — Project Rules  DOI: 10.5281/zenodo.22870569
 
 This folder is a persistent workspace for weekly check-in sessions. Warp loads
 this file automatically for any agent session opened here.
