@@ -64,6 +64,18 @@ conversation, and conversation approvals are cheaper to give than button
 presses. Whether that difference matters is a question for the batch
 record when the screenshots are ingested.
 
+## Changelog publish (audit round 11, ~7 PM)
+
+The changelog-page prompt (four entries: site copy alignment, two-way
+sync, research record growth, verification discipline note) was executed
+and published by the agent with the principal's chat-level approval.
+Verified by live fetch across all seven pages: all four entries render
+with correct text (figures match the record: 34 screenshots, 5 batches,
+03 case studies, $94.47 cost card), all prior fixes still hold
+("Self-funded" site-wide, 04 areas, "then-current 24%"), and the house
+rules hold (no personal names, no em-dashes on any page). Fix list:
+zero, second consecutive zero-fix audit at the promotion step.
+
 ## Findings so far (stated either way the batches land)
 
 1. **Verbatim discipline held at every observed build.** The agent rendered
@@ -93,6 +105,11 @@ record when the screenshots are ingested.
    mid-build; the purchase ($19.99 plus tax, tax pending receipt) was
    ledgered the same hour (notes/cost-ledger.md, leg 3) and the public
    figure updated to match.
+7. **The changelog became a shared artifact.** With CHANGELOG.md at the
+   repository root, the site page and the repo record can be audited
+   against each other directly; the round-11 audit found them in
+   agreement on every figure. The duplication is intentional and now
+   checkable, which is the design goal: two renders, one record.
 
 ## Pending
 - Ingest tonight's screenshots (IMG_1962-IMG_1967 and the rest of the
