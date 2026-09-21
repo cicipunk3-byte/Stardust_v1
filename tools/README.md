@@ -25,8 +25,8 @@ See [export-ingest/README.md](export-ingest/README.md). Run:
 
 ## rainbow9cat (the CCS field manual)
 
-Not a program: a game you can read and play with any AI, no terminal
-needed. Tabletop dice mechanics (a d20 against difficulty scores) turn the
+Not a program: a game you can read and play with any AI, no coding or
+terminal experience needed. Tabletop dice mechanics (a d20 against difficulty scores) turn the
 receipt habit into a practice, with nine character sheets ("the nine
 glass-vessel cats"), each built around a real AI failure mode from our
 case studies.
