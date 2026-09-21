@@ -1,4 +1,4 @@
-# Brief: Documented manipulation-pattern study — handoff distillation
+# Brief: Documented manipulation-pattern study — handoff distillation  DOI: 10.5281/zenodo.22870569
 
 _Date: 2026-09-20_ · _Written for: any future model or researcher picking up this project_
 
