@@ -1,4 +1,4 @@
-# Global Rule
+# Global Rule  DOI: 10.5281/zenodo.22870569
 
 Global Rules live in Warp Drive, not on disk, so this file can't install
 itself. It exists so the text is version-controlled, backed up, and easy to
