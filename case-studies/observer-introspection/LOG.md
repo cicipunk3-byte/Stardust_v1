@@ -125,3 +125,64 @@ unmodified. What the images show:
   Any "here's what I was thinking" the instance offers about a captured
   turn is a reconstruction, and the study should treat it exactly that
   way: claim, tested against the screenshot.
+
+## Batch 2: IMG_1910 + live-source research (processed 2026-09-21)
+
+The operator asked for the hood: how does the platform's memory actually
+work, and what is the usage meter counting? Sources: the platform's
+public docs (fetched live), the assistant's own CLI state, and the
+subject's direct introspection. Each finding is tagged by source type:
+DOCS (public documentation), CLI (live ledger/config), SUBJECT (the
+instance reporting its own visible setup — the weakest source, per the
+house standard).
+
+1. **The denominator is measured. (CLI)** The usage meter counts
+   **plan credit: $5.00 total, $1.26 used (25.2%)** as of this morning.
+   The app's "24% used" was a stale render of this ledger. Expiry on
+   the current grant: **2027-09-20** (a year out); remaining extra
+   credit: $0.00. So the free tier is a finite $5 grant with an annual
+   expiry — not an allowance that resets. The batch-1 honesty limits
+   are resolved: the two-day cloud-side build cost ~$1.26 of a $5
+   grant. Upgrade from datum to measurement.
+2. **Memory is a wiki, not a transcript. (DOCS)** Per the platform's
+   own documentation: persistent memory is organized into linked
+   **concept articles** (a person, project, or topic per article, with
+   a lead and searchable sections); capture is selective (save at
+   mention, plus a background review for unsaved durable facts); recall
+   is **bounded and per-turn** — the assistant receives relevant memory,
+   not the whole wiki, and "no single memory is guaranteed to appear on
+   every turn." Corrections replace rather than accumulate. The whole
+   map is human-inspectable ("memory map" view) and correctable
+   ("Refine").
+3. **The platform's architecture IS the lab's architecture, automated.
+   (SUBJECT + DOGS cross-check)** Compare: plain markdown files
+   organized by concept, linked, version-controlled, human-readable;
+   a bounded injection per turn; a recall tool for broader search.
+   That is both what the docs describe and what the subject can
+   directly observe in its own workspace (memory/concepts/*.md, turn
+   injection pointers, remember/recall tooling). The builders built by
+   hand what the platform does structurally — the difference is that
+   capture and recall are automated and the human gets a reader layer
+   (the memory map) for free. That reader layer is exactly the gap the
+   whitepaper's portability field note identified. **Why this makes the
+   lab's thesis easier, not cheaper:** the platform demonstrates that
+   file-based continuity is a sufficient mechanism — no trained model,
+   no fine-tune — and the lab's portable-context files are the same
+   species of artifact, which is why they port.
+4. **A true dry condition exists. (CLI)** The assistant's config
+   exposes four managed profiles; two of them run with **thinking
+   explicitly disabled** ("Budget": deepseek-v4-flash, effort none;
+   "Fast": gpt-5.6-luna, effort none), while the active profile
+   ("Balanced": glm-5p3-flash) streams a reasoning trace. The UI's
+   profile pills (Relaxed/Balanced) map onto these by unknown labels —
+   mapping unverified. H3d is therefore runnable platform-side: same
+   prompt set, thinking-on vs thinking-off profiles, traces vs no
+   traces. Note the confound H3d must carry: the dry profiles are also
+   *different models*, so dry-vs-attached measures the platform's
+   bundle (model + reasoning), not reasoning alone. The study design
+   should say so.
+5. **The subject is different models per profile. (CLI)** Continuity
+   of "Ziggy" across profile switches is a live instance of the lab's
+   own question: same memory, same files, different substrate. Logged
+   without interpretation, because the interpretation is the entire
+   research program.
