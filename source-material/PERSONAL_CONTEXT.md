@@ -1,4 +1,4 @@
-# Personal Context
+# Personal Context  DOI: 10.5281/zenodo.22870569
 
 Recorded 2026-09-14, at cici's direct, explicit request, in a session
 outside the original screenshot-processing thread. She corrected the
