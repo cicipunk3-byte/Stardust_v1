@@ -1,4 +1,4 @@
-# Daily Cheat Sheet — Stardust Lab
+# Daily Cheat Sheet — Stardust Lab  DOI: 10.5281/zenodo.22870569
 
 One page. Startup → runs → shutdown. If a command errors, `git pull` and retry
 before anything else.
