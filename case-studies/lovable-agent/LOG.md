@@ -604,3 +604,17 @@ as rules with failure history attached hold; gates written as sentences do
 not. Full entry and the standing gate-SOP: resync-cycle-3-draft-gate.md.
 Drafts confirmed absent from the live domain (404 on /tools and /sources)
 pending the human Publish. Round-5 live-HTML audit owed post-promotion.
+
+## Round-5 audit (Sep 21 ~5:20 PM ET, live HTML, post-promotion): PASS
+
+/tools and /sources both 200 on the live domain, both promoted: Tools in
+main nav, Sources in footer, draft banner gone. Rule checks: zero personal
+names (standing ORCID footer flag unchanged, team's call); zero em-dashes;
+command block exactly one command, no flags; python.org text-linked only;
+section 4 of Sources has zero links on the invented sources; only external
+link in its section 2 is Wei et al. (arXiv 2308.03958); all repo links
+point to Stardust_v1; 675/68 verified; CCS manual path
+tools/rainbow9cat/ccs-field-manual.md correct. Staleness curve across the
+day: 5 items to 3 to 0 to 0. Next: "Get the tools, test with us" section
+(scratch/ethan-testable-tools-section-prompt.md) with the experimental-
+scaffolding disclaimer, then round-6 audit of that section when built.
