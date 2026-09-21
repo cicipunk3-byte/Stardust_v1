@@ -554,6 +554,23 @@ the live thread and independent verification. Companion doc:
   ZIP is a one-time snapshot without git history, so two-way GitHub sync
   remains the piece that keeps the copies from drifting; metric sync
   still owed.
+- **Agent follow-up (1:05 PM ET):** checked the repository directly and
+  reported the honest state: repo exists, public, default branch main,
+  zero commits, "Git Repository is empty"; no push has occurred; the
+  project still syncs only to Lovable's internal storage. Confirmed
+  assets all resolve, still no secrets, and removed the unused original
+  hero as cleanup with the site otherwise untouched. Repeat of the
+  boundary statement: the push belongs to the workspace integration,
+  not the agent.
+- **Connector correction (supersedes the private-repo hypothesis):**
+  Lovable's own Git panel states "connecting creates a new repository
+  for this project; importing an existing repo isn't supported." The
+  earlier failure was not about repo privacy; the connector cannot
+  attach to a pre-made repository at all. Builders' decision: let
+  Lovable create its own repo under their GitHub account (connected
+  moving forward, two-way sync), pull local copies on a schedule and
+  after big updates; the manually created threadcat-site repo to be
+  renamed or removed so the name stays clean.
 
 ### Midday findings
 
