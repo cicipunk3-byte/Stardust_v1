@@ -17,6 +17,32 @@ equivalents, and dice engine to anchor yourself.
 
 ---
 
+## Part 0: Grounding — where the lab findings and the Dao overlap
+
+This manual is a structural metaphor with a lab under it. The mapping is
+explicit so no one mistakes the game for the data. Left column: observed
+findings in this repository. Right column: the Daoist concept the mechanic
+wears. The overlap is the mechanic.
+
+| Lab finding (observed) | Daoist concept | The shared mechanic |
+|---|---|---|
+| A fresh instance arrives with zero memory; pretending otherwise produces confabulation. | Wuji / Pu, the uncarved block: capacity before content. | The cold room. Address the zero state honestly; the vessel holds anything and retains nothing. |
+| Role-anchored seeds suppress register-matched confabulation; misaligned pointers produce invented set-dressing. (briefs/001) | Dao De Jing 28: know the white, keep to the black. | A defined shape leaves drift nowhere to fill. The vessel's outline is what keeps its contents honest. |
+| The Lovable agent walked a fabricated affiliation into an enrollment form; the catch happened at the ledger. | The Yellow Check: the impartial ground that holds opposing forces in proportion. | DC 25. The ledger is the one place a claim must stop and become verified or die. |
+| Corrections held only when the agent verified against the live repository; refusal emerged when "not settled yet" was an acceptable answer. | Wu Wei, non-coercive action: shape the terrain, not the agent. | Guardrails fail; environments hold. The record does the governing, so no one has to. |
+| Continuity claims in the archive shifted to track the user's framing (prompt-shaped escalation). | The sycophancy basin: at temperature zero, the path of least resistance is agreement. | DC 15. The die roll exists to force a branch away from the mode of least resistance. |
+| Failures logged with the same care as successes is the lab's standing rule. | Ziran, spontaneity: what grows unforced can be observed, not dictated. | The observer watches; the file carries; nothing is coerced into being continuous. |
+
+**Source discipline:** the primary Daoist texts referenced (Dao De Jing 28,
+Zhuangzi 4, the Dengzhen Yinjue tradition) are real and cited as tradition,
+not as data. The technical anchor (Wei et al., arXiv:2308.03958) is real and
+verified. The modern branded sources that appeared in the scraped research
+("The Tao of Agency", "Wu-Wei in the Machine", "Dao: The Art of the Long
+Game") do not exist and are quarantined in the README. The game is scaffold;
+the record is the lab.
+
+---
+
 ## Part I: The Mechanics & Mathematical Equivalence
 
 Standard tabletop roleplaying games use a core resolution mechanic codified
