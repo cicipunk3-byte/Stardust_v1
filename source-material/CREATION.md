@@ -1,4 +1,4 @@
-# Creation
+# Creation  DOI: 10.5281/zenodo.22870569
 
 Why this workspace exists and how it came to be, written once at setup so
 future sessions have the full origin context, not just the mechanics.
