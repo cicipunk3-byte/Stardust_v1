@@ -17,8 +17,8 @@ fresh instances.
 
 ## Contents
 
-- `ccs-field-manual.md` — the cleaned quickstart manual and dice engine.
-- `nine-cats.md` — the nine glass-vessel character sheets, cleaned.
+- `ccs-field-manual.md`; the cleaned quickstart manual and dice engine.
+- `nine-cats.md`; the nine glass-vessel character sheets, cleaned.
 
 ## Fact-check ledger (claimed vs verified)
 
@@ -42,11 +42,11 @@ Verified real, kept:
 Quarantined, NOT carried into these artifacts (non-verifiable; treat as
 folklore until a receipt exists):
 
-- "The Tao of Agency (2026)" — no record found.
+- "The Tao of Agency (2026)"; no record found.
 - "Wu-Wei in the Machine: Open-Ended Learning in Goal-Free Generative Agent
-  Societies" (Cambridge, 2025) — no record found.
-- "Dao: The Art of the Long Game (2026)" — no record found.
-- "[Open Secure AI Alliance]", "[WAICO]" — no record found.
+  Societies" (Cambridge, 2025); no record found.
+- "Dao: The Art of the Long Game (2026)"; no record found.
+- "[Open Secure AI Alliance]", "[WAICO]"; no record found.
 
 Corrections applied during cleaning:
 
