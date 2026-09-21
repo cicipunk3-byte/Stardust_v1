@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata below."
+title: "ThreadCat: research on AI continuity and context in sandbox environments"
+abstract: >-
+  Research on whether an AI agent can maintain continuity across sessions using
+  a plain-text continuity file carried by a human-owned file and local models
+  only, conducted in sandbox environments.
+type: software
+authors:
+  - alias: "CC"
+    orcid: "https://orcid.org/0009-0002-2309-7047"
+repository-code: "https://github.com/cicipunk3-byte/Stardust_v1"
+url: "https://threadcat.org"
+keywords:
+  - AI continuity
+  - context persistence
+  - sandbox environments
+  - local models
+  - reproducibility
+license: TBD
+date-released: "2026-01-01"
+# doi: 10.5281/zenodo.22870569
