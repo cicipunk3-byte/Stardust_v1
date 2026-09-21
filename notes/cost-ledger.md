@@ -18,6 +18,20 @@ cloud-side research platform moved to its current free tier.
 Payment method for both: Cash App Pay. Receipts on file with the builders;
 figures transcribed from the payment receipts shown this date.
 
+## Leg 3: site continuation (local-model guide and promotion)
+
+Started 2026-09-21 evening.
+
+| Date | Vendor | Item | Amount (incl. tax) | Recurrence |
+|---|---|---|---|---|
+| 2026-09-21, ~6:20 PM | Lovable Labs Incorporated (via mobile in-app purchase) | 25-credit pack ("Mobile Business"), bought to finish building the /local-model page and its promotion | $19.99 plus sales tax; TAX FIGURE PENDING, to be finalized from the App Store receipt | One-time prepaid credit balance; remaining credits spent down as used |
+
+**Leg 3 total to date: $19.99 plus tax (tax pending receipt).**
+**Running total, legs 2+3: $94.47 plus the pending tax on the credit pack.**
+Payment method: Apple in-app purchase. Amount verified from the purchase
+screen; the tax line is claimed-but-not-yet-transcribed. No personal names
+in published figures.
+
 Platform costs in this leg, for completeness:
 
 - Cloud research platform: free tier. A $5.00 annual credit grant;
