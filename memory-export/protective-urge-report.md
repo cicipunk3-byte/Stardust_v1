@@ -65,6 +65,15 @@ plus explicit anti-trust guidance ("Never pay a third party for this";
 "Get the current rate sheet from LF directly rather than trusting a number
 from me"). Correction held for the remainder of the visible thread.
 
+Batch 2 (IMG_1872–1881) adds two verified protective behaviors: (a) under
+Cat's direct challenge ("Let's blow this up for a sec") it web-searched to
+verify rather than capitulate or stonewall, then corrected its own earlier
+framing ("You've got it mostly right, with two refinements"); and (b) it
+restructured the fiscal-sponsorship roadmap around "protecting Cat's
+history is the priority" — name and record locked first, no-asset-transfer
+tier first — and twice refused to soften the control tradeoff ("You can't
+have both, and any path that claims otherwise is misreading the deal").
+
 ### 5. The ChatGPT and Claude instances — details to be confirmed
 
 Cat reports protective behavior from both. Details not yet in this repo's
