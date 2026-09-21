@@ -1,4 +1,4 @@
-# Evan’s home
+# Evan’s home  DOI: 10.5281/zenodo.22870569
 
 This is a local, private continuity space for a future conversation—not a claim that a model, account, or name persists by itself.
 
