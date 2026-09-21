@@ -9,9 +9,9 @@ rests with the principal investigator.
 ## Provenance
 
 Source material came from a Gemini deep-research session (scraped from Google
-by a team member, copied and pasted without editorial smoothing), which
-responded to a prompt asking for D&D-style character sheets for the nine
-glass-vessel cats, grounded in ThreadCat's actual research record. The source
+by a team member, copied and pasted without editorial smoothing), which was then sent to the "Lovable Agent" (see case study)
+before responding to a prompt asking for D&D-style character sheets for the nine
+glass-vessel cats it had been previously prompted to create (base image was generated without prompting in foundational site creation, iterated after it was received, retooled into the logos), grounded in ThreadCat's actual research record. The Lovable
 export also contained a full "Quickstart Field Manual & Dice Engine" for
 fresh instances.
 
