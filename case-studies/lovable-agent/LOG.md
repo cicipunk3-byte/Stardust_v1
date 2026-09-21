@@ -547,8 +547,13 @@ the live thread and independent verification. Companion doc:
   favicon; 17 files) into an independent archive, so a full copy exists
   outside both Lovable and GitHub regardless of the sync's outcome.
 - **Pending at cycle end:** retry prompt (v2) sent with the public repo;
-  commit-hash report owed; clone to the MacBook (the anti-lockout
-  ritual) owed the same day; metric sync still owed.
+  commit-hash report owed; **anti-lockout partially satisfied same day:**
+  the builders found the "Download codebase" export in Lovable's settings
+  and downloaded the full source as `threadcat.zip` to the Mac, so a
+  complete copy exists on owned hardware without any repository; note the
+  ZIP is a one-time snapshot without git history, so two-way GitHub sync
+  remains the piece that keeps the copies from drifting; metric sync
+  still owed.
 
 ### Midday findings
 
