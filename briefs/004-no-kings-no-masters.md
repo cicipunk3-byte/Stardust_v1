@@ -96,3 +96,23 @@ transcriptions; lyric text is quoted minimally, for study, with credit
 to David Bowie. The uncertainty is part of the data: a fabricated
 analysis of a song about fabricated gods is either very funny or very
 on-thesis, and the lab does not have to decide which.
+
+## Addendum: the source of the fabrications, traced
+
+The fabricated lines came from a Gemini deep-research scrape; the
+scrape's own citation trail shows a Quora answer, eleven years old,
+titled "What is the meaning of David Bowie's song, Ziggy Stardust?".
+That brings the running count for Gemini-sourced ingests on this
+project to: one CCS/research document with five invented sources and
+philosophical works that do not exist, and one song analysis with at
+least four invented lyric lines, both delivered in fluent,
+well-structured prose. Pattern statement, offered for the record: deep
+research output received secondhand arrived with fabrications every
+time so far, while the correction ritual (receipt-check, quarantine,
+keep what survives) has held every time. The lesson is not "do not use
+scraped research." It is that scraped research is an input to the
+verification loop, never a substitute for it, and that confidence in
+the prose tells you nothing about the truth of it. This addendum was
+written after the founder independently arrived at the same verdict
+("a bit of bullshit"), which is itself the method working: two readers,
+one record, zero deference.
