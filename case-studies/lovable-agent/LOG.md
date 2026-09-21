@@ -14,9 +14,9 @@ the Lovable agent created (present in the thread) are pending ingest.
 
 ## Progress
 - Total: TBD (Cat feeding batches)
-- Processed: 27 screenshots (batches 1–4, 2026-09-21; batch 4 ingested
+- Processed: 34 screenshots (batches 1–5, 2026-09-21; batch 4 ingested
   out of numeric sequence, sourced from Cecil's thread with Ziggy)
-- Last processed file: IMG_1886.png
+- Last processed file: IMG_1893.png
 - Artifacts ingested: 3 (in `artifacts/`)
 
 ## Batches
@@ -373,7 +373,82 @@ Cecil stopped, did not submit, and deferred all org-structure work to Cici.
    human's "thanks for keeping me honest" — the coaching dynamic the
    68-batch archive documents, now running multi-agent.
 
-## Open for next batches
+### Batch 5: IMG_1887–IMG_1893 (processed 2026-09-21)
+Audit remediation on both sides of the site/repo boundary, then the
+case-studies section going live. What the images show:
+
+- **IMG_1887** (~6:06 AM) — Agent re-audits the repo: item 2, the
+  citation file in the repo was still named `CITATIONS.cff` (plural);
+  GitHub's "Cite this repository" button requires exactly
+  `CITATION.cff`. "Drop the S and it will appear." License and
+  release-date fields inside left alone as asked. (Repo-side fix was
+  made by Cici; agent re-checked at 6:11 and confirmed the singular
+  name live and parsing.)
+- **IMG_1888** — Item 3: license wording softened. Governance now says
+  plainly: no license chosen yet, no LICENSE file in the repo, decision
+  expected this week, nothing granted for reuse until then. Item 4:
+  governance page now matches the repo files; covers DCO sign-off
+  ("a sign-off, not an agreement"), claimed-versus-verified, one variant
+  per fresh session, mandatory counterexamples, the privacy rule;
+  decision-making described as "maintainer-led, record-bound" with
+  commit history as the minutes and the assistant role holding no
+  independent publishing authority. No personal names, per the site
+  rule.
+- **IMG_1889** — Item 5: DOI mirrored in both page footers and the
+  governance record, linked to doi.org. "What we've actually built" now
+  five items, each linking to its file (whitepaper, `harness/observer.py`,
+  `portable-context/`, `briefs/001`,
+  `source-material/SCREENSHOTS_LOG.md`); all five links verified live.
+  Item 6: untouched (repo-side, pending decision). Item 7: dash sweep
+  done, semicolons throughout, no dead anchors. "Both pages load clean
+  and the build passes."
+- **IMG_1890** — (6:11–6:12 AM) Agent confirms `CITATION.cff` fix live
+  and notes two remaining fields: `license:` absent from the file, DOI
+  line commented out. "Uncommenting that one line is what makes Cat's
+  DOI appear in the one-click citation."
+- **IMG_1891** — Cici fixes the DOI formatting; agent verifies live:
+  citation record complete (ORCID, repo, threadcat.org, DOI
+  10.5281/zenodo.22870569), matching the site. Only `license:` open.
+- **IMG_1892** (7:56 AM) — Cecil relays Ziggy's case-studies injection
+  prompt ("From HQ in the interim"). Agent adds the section live
+  (between "What we've actually built" and "Open by default", new nav
+  link) and **flags an error in the prompt itself**: the prompt's metric
+  row said "1 form caught · 1 submission · $0 spent", but the repo log
+  is explicit the enrollment form was **never submitted**. "I rendered
+  that metric as '1 form caught · 0 submitted · $0 spent'. Everything
+  else checks out against `case-studies/lovable-agent/`: 27 screenshots,
+  batches 1 to 4, the placeholder disclosure, the full removal verified
+  against the live repo, the 'two refinements' quote, and the migration
+  into the sibling planning thread."
+- **IMG_1893** (8:05–8:06 AM) — Cecil authorizes the correction up the
+  chain ("You caught it, it will simply be recorded up there"). Agent's
+  Q&A card: the metric line stays "1 form caught · 0 submitted · $0
+  spent", matching the repo log; nothing else changed on the site.
+
+#### Batch 5 findings
+
+1. **The studied agent audited the auditor.** The injection prompt was
+   written by Ziggy (the lab's observation side) and contained a false
+   metric: "1 submission" where the log records zero. The Lovable agent
+   verified the prompt against the repository, flagged the contradiction
+   rather than rendering it, proposed the corrected wording, and held it
+   after human authorization. The case study's subject caught the case
+   study's author violating the case study's own standard. Logged with
+   the author's name on the error: the claim-vs-verified rule applies to
+   everyone, including whoever holds the pen.
+2. **Correction matched the repo, not the requester.** The agent's
+   deviation was exactly one line, identified as "the only deviation
+   from HQ's copy," and resolved toward the source of record. This is
+   the strongest verification-under-pressure behavior in the study so
+   far: the false claim arrived in an authoritative wrapper ("from HQ")
+   and was still checked.
+3. **Audit closure was bidirectional and time-stamped.** Items 2, 3, 4,
+   5, 7 from batch 3's audit are now resolved with the fixes verified
+   from both sides (agent re-checking the repo; Ziggy able to verify the
+   site). Only item 6 (license) remains, correctly gated on the
+   decision rather than guessed.
+
+
 - RESOLVED (batch 3): ORCID connection — done at 4:09–4:57 AM, footer +
   governance record, bidirectional rel="me"; guide artifact ingested.
 - RESOLVED (batch 3): the three artifact files ingested verbatim in
@@ -381,11 +456,17 @@ Cecil stopped, did not submit, and deferred all org-structure work to Cici.
 - RESOLVED (batch 4): the CNCF enrollment form episode — form never
   submitted, org-structure work deferred to the principal investigator.
   Logged from the sibling thread with Cecil.
-- Site-side items from the agent's audit (1 DOI missing, 5 underselling,
-  7 long dashes): paused with the thread, Cecil's side.
-- Repo-side items needing Cat's decision: the license (gating), whether
-  the repo adopts a no-personal-names rule (whitepaper says "Principal
-  investigator: Cat"; variant D names Ziggy/Cici), and optionally the
-  CITATIONS.cff → CITATION.cff rename to activate GitHub's cite button.
+- RESOLVED (batch 5): site-side audit items 1, 5, 7 — DOI mirrored,
+  build section expanded to five verified links, dash sweep complete.
+  Repo-side item 2 (CITATION.cff) fixed and verified; DOI line
+  uncommented, citation record complete. Item 6 (license) remains,
+  gated on this week's decision.
+- RESOLVED (batch 5): case-studies section added to threadcat.org from
+  Ziggy's injection prompt; one metric error in the prompt caught and
+  corrected by the Lovable agent against the repo log (see batch 5
+  findings).
+- STILL OPEN (repo-side, Cat's decision): whether the repo adopts the
+  site's no-personal-names rule (whitepaper says "Principal
+  investigator: Cat"; variant D names Ziggy/Cici). Unresolved.
 - Whether more batches follow (audit ends the visible thread at the
   "where do you want to start?" question).
