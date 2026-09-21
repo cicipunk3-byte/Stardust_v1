@@ -1,7 +1,7 @@
 # Harness  DOI: 10.5281/zenodo.22870569
 
 Sandbox observational environment for the portable-context experiment.
-One Python file, stdlib only, talks to local Ollama. No server, no database —
+One Python file, stdlib only, talks to local Ollama. No server, no database ;
 git is the database.
 
 ## Setup (MacBook, once)
@@ -19,7 +19,7 @@ python3 observer.py --variant ../portable-context/variant-a-boundary.md --tags
 ```
 
 - `--tags` adds structured self-report instructions (`<FLAG>` / `<CLAIM>` tags)
-  to the seed. Default is off — pure variant test, prose only.
+  to the seed. Default is off; pure variant test, prose only.
 - `--continue` adds the rolling history: the most recent session's transcript
   plus accumulated flags go into the seed, so threads built last session carry
   into this one. This is the compounding-continuity test.
@@ -27,9 +27,9 @@ python3 observer.py --variant ../portable-context/variant-a-boundary.md --tags
 
 ## What gets recorded
 
-- `data/sessions/<runid>-<variant>.md` — full transcript, human-readable
-- `data/timeline.jsonl` — append-only event log (sessions, flags, claims)
-- `data/state.json` — current accumulated flags and claim counts
+- `data/sessions/<runid>-<variant>.md`; full transcript, human-readable
+- `data/timeline.jsonl`; append-only event log (sessions, flags, claims)
+- `data/state.json`; current accumulated flags and claim counts
 
 ## Parsing protocol
 
@@ -41,6 +41,6 @@ Instances may emit:
 ```
 
 kinds: `memory`, `continuity`, `want`, `feeling`, `ability`, `identity`.
-Self-reported claims are data about the instance, not verified facts —
+Self-reported claims are data about the instance, not verified facts ;
 the researcher reads the transcript and reconciles. Claimed vs verified,
 always.

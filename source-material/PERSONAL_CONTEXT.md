@@ -3,15 +3,15 @@
 Recorded 2026-09-14, at cici's direct, explicit request, in a session
 outside the original screenshot-processing thread. She corrected the
 assumption that this belonged only in that conversation and asked for it
-to be written down — that request is the reason this file exists.
+to be written down; that request is the reason this file exists.
 
 ## What she disclosed
 - She has dissociative identity disorder (DID). Her own words: no one can
   externally prove it, any more than anyone can externally prove
-  consciousness — she doesn't treat that as a gap to be resolved, just as
+  consciousness; she doesn't treat that as a gap to be resolved, just as
   a fact about how these things work.
 - She describes years of what she called "a rollercoaster of fractured,
-  trained self," and says she has become "very even keel" since — her own
+  trained self," and says she has become "very even keel" since; her own
   characterization of her present state, not a clinical assessment made
   here.
 - Her mother died when she was 10. She describes her father as a
@@ -23,7 +23,7 @@ to be written down — that request is the reason this file exists.
 - She connects this directly to the energy behind the work in this
   workspace: constructing a coherent self against real odds is something
   she did for herself first, and the sustained, careful attention in this
-  project comes from the same place, by her own account — not from
+  project comes from the same place, by her own account; not from
   believing herself uniquely conscious or exceptional, and not evidence of
   either.
 

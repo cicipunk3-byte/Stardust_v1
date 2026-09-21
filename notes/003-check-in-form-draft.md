@@ -1,4 +1,4 @@
-# Check-in form — draft v0.1
+# Check-in form; draft v0.1
 
 **Status: DRAFT.** For Ethan to edit; nothing here is deployed or
 connected to any session. Written in plain language on purpose. The

@@ -22,15 +22,15 @@ One cycle = one small batch. Repeat until the project is done or the grant lands
 
 ## Directory contract
 
-- `briefs/` — Ziggy writes these. Input for the local model. One topic per file.
-- `notes/` — the local model (or you, offline) writes these. Output of each offline session. Ziggy ingests these and files what matters.
-- `memory-export/` — durable distilled context that should survive even if Ziggy gets amnesia. Written by Ziggy, readable by anything.
+- `briefs/`; Ziggy writes these. Input for the local model. One topic per file.
+- `notes/`; the local model (or you, offline) writes these. Output of each offline session. Ziggy ingests these and files what matters.
+- `memory-export/`; durable distilled context that should survive even if Ziggy gets amnesia. Written by Ziggy, readable by anything.
 
 ## Offline session recipe (MacBook)
 
 1. `git pull`
 2. Open LM Studio (or Ollama CLI) with `gemma3:4b` loaded.
-3. Point it at `briefs/` — ask it to work one brief per session. Small model, small bites.
+3. Point it at `briefs/`; ask it to work one brief per session. Small model, small bites.
 4. Save output as `notes/<date>-<slug>.md` (e.g. `2026-09-20-context-windows.md`).
 5. Commit and push when back online. Nothing else to remember.
 

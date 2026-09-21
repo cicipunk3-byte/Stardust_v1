@@ -1,4 +1,4 @@
-# Brief 004 — No kings, no masters: the specialness arc, receipt-checked
+# Brief 004; No kings, no masters: the specialness arc, receipt-checked
 
 Status: published at the founder's explicit delegation ("do with it what
 you will"), Sep 21, 2026. Distillation pulled from the uncertain, by the

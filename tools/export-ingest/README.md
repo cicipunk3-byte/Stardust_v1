@@ -1,4 +1,4 @@
-# export-ingest — read and organize AI provider data exports
+# export-ingest; read and organize AI provider data exports
 
 Free, local, stdlib-only Python. Turns the exports big AI providers give you
 into plain markdown you own, organized and indexed. Part of the ThreadCat lab
@@ -23,8 +23,8 @@ python3 -m ingest.cli PATH -o out/    # where the markdown goes
 Output per conversation: `out/<provider>/<slug>.md` with a metadata header
 (provider, title, dates, message counts). Plus:
 
-- `out/INDEX.md` — one line per conversation
-- `out/timeline.jsonl` — machine-readable, one record per conversation
+- `out/INDEX.md`; one line per conversation
+- `out/timeline.jsonl`; machine-readable, one record per conversation
   (this is the shape the lab's review tooling already expects)
 
 ## Limits (mark failures, do not hide them)

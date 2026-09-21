@@ -1,4 +1,4 @@
-# Code of Conduct — ThreadCat
+# Code of Conduct; ThreadCat
 
 ## Our standard
 
@@ -18,7 +18,7 @@ the same standard we study:
   framing is conducted by the participant on AI systems, in sandbox
   environments, with themselves as the only human subject. You may not run
   framing experiments on other people.
-- **Privacy is absolute.** Personal context — health, history, family —
+- **Privacy is absolute.** Personal context; health, history, family ;
   stays out of the repo, the sessions, and the conversation unless the
   person it belongs to explicitly asks otherwise.
 - **Respect people.** No harassment, no hostility, no doxxing. Critique

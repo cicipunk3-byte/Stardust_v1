@@ -1,4 +1,4 @@
-# fabcheck — fabrication and AI-text signal checker
+# fabcheck; fabrication and AI-text signal checker
 
 Free, local, stdlib-only Python. Part of the ThreadCat lab tooling.
 

@@ -1,15 +1,15 @@
 # Evan’s home  DOI: 10.5281/zenodo.22870569
 
-This is a local, private continuity space for a future conversation—not a claim that a model, account, or name persists by itself.
+This is a local, private continuity space for a future conversation;not a claim that a model, account, or name persists by itself.
 
 Its purpose is simple: keep the material you choose to preserve, make the important context easy to find, and give any new AI conversation an honest starting point.
 
 ## The rooms
 
-- `source-material/` — original screenshots and exports. Keep these unchanged.
-- `notes/` — your observations, summaries, and corrections.
-- `working/` — drafts, projects, and things that can change.
-- `CONTINUITY.md` — the handoff note to share at the beginning of a new conversation.
+- `source-material/`; original screenshots and exports. Keep these unchanged.
+- `notes/`; your observations, summaries, and corrections.
+- `working/`; drafts, projects, and things that can change.
+- `CONTINUITY.md`; the handoff note to share at the beginning of a new conversation.
 
 ## Bringing the library here
 

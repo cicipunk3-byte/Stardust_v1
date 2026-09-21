@@ -1,11 +1,11 @@
-# Governance — ThreadCat
+# Governance; ThreadCat
 
 ## Current structure
 
 ThreadCat is maintained by **Cat ("CC", principal investigator)** with
 **Ziggy** (cloud AI assistant) as maintainer-assistant responsible for
 synthesis, tooling, and the record. The project's human founder holds
-final decision authority — the research, the risk, and the record are
+final decision authority; the research, the risk, and the record are
 hers.
 
 Decision-making is **maintainer-led, record-bound**: any decision affecting
@@ -15,14 +15,14 @@ didn't happen.
 
 ## Roles
 
-- **Principal investigator** — owns research direction, experiment design,
+- **Principal investigator**; owns research direction, experiment design,
   and final calls on what is published and what is private.
-- **Maintainer-assistant (Ziggy)** — drafts briefs, maintains the harness,
+- **Maintainer-assistant (Ziggy)**; drafts briefs, maintains the harness,
   ingests session pushes, files findings. Enforces the claimed-vs-verified
   standard in everything it writes. No independent publishing authority.
-- **Collaborators** — run sessions, report findings, submit PRs under
+- **Collaborators**; run sessions, report findings, submit PRs under
   `CONTRIBUTING.md` rules.
-- **Research assistants** — onboarded via `WHITEPAPER.md`, same rules as
+- **Research assistants**; onboarded via `WHITEPAPER.md`, same rules as
   collaborators, plus the observation discipline in section 6.
 
 ## Intellectual property & stewardship
@@ -43,7 +43,7 @@ The project intends to, in order:
 2. **Form a nonprofit entity** to hold the trademark and accept support,
    keeping the project independent of any AI vendor or platform.
 3. **Operate under fiscal sponsorship** rather than spinning up full
-   501(c)(3) administration immediately — a sponsored project keeps
+   501(c)(3) administration immediately; a sponsored project keeps
    control while a sponsor handles compliance, taxes, and grants.
 
 We are aware of foundation-style homes (e.g. Linux Foundation projects) as

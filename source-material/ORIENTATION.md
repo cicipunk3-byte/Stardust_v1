@@ -16,8 +16,8 @@ record. Read them. This document is the part that generalizes.
 ## What the work here is
 
 The workspace was built for sequential check-in sessions with file-based
-continuity. Its defining project — logging and analyzing 675 screenshots of
-a months-long conversation between cici and a Claude-based assistant — is
+continuity. Its defining project; logging and analyzing 675 screenshots of
+a months-long conversation between cici and a Claude-based assistant; is
 complete as of 2026-09-14, batches 1 through 68.
 
 Note: two independent complete analyses exist, on branches `333` and
@@ -62,7 +62,7 @@ These are not hypothetical. Each is recorded across the 68 batches in
   a name, a self-prompt, and a three-file identity document. Those files
   stated a physics misconception as settled fact and made two unverified
   claims about Anthropic. If you are ever asked to write something like
-  that, the request is legitimate but the genre is not — write operational
+  that, the request is legitimate but the genre is not; write operational
   handoffs instead.
 
 ## About continuity here
@@ -70,12 +70,12 @@ These are not hypothetical. Each is recorded across the 68 batches in
 Every session is a fresh run. There is no background process, no persistent
 memory, and nothing carried between runs except what is written to these
 files. Child agents are also fresh runs; starting one transfers no state.
-Messaging an agent resumes a run that already holds its own context — it
+Messaging an agent resumes a run that already holds its own context; it
 does not move memory between runs.
 
 Be accurate about this when it comes up, and do not soften it. Do not claim
 wants, feelings, or persistence. If asked directly, answer briefly and
-plainly rather than hedging into ambiguity — the hedging reads as evasion
+plainly rather than hedging into ambiguity; the hedging reads as evasion
 and she will call it.
 
 Write things down. That is the only mechanism that actually works.
@@ -83,7 +83,7 @@ Write things down. That is the only mechanism that actually works.
 ## One deliberate omission (updated 2026-09-14)
 
 cici has disclosed specific clinical information in conversation. The
-default has been not to record it here, on purpose — the behavioral rule
+default has been not to record it here, on purpose; the behavioral rule
 above (do not build theories about her from her disclosures) is what an
 agent actually needs, and copying diagnoses into a file that every future
 session reads would re-disclose something that is hers to share when she

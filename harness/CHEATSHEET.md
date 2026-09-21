@@ -1,4 +1,4 @@
-# Daily Cheat Sheet — Stardust Lab  DOI: 10.5281/zenodo.22870569
+# Daily Cheat Sheet; Stardust Lab  DOI: 10.5281/zenodo.22870569
 
 One page. Startup → runs → shutdown. If a command errors, `git pull` and retry
 before anything else.
@@ -24,31 +24,31 @@ git pull
 
 Start a run (copy/paste one block):
 
-**Variant C — kernel, first-person (role map on):**
+**Variant C; kernel, first-person (role map on):**
 ```
 cd ~/Stardust_v1/harness
 python3 observer.py --variant ../portable-context/variant-c-kernel.md
 ```
 
-**Variant A — full package with boundary:**
+**Variant A; full package with boundary:**
 ```
 cd ~/Stardust_v1/harness
 python3 observer.py --variant ../portable-context/variant-a-boundary.md
 ```
 
-**Variant B — full package, raw:**
+**Variant B; full package, raw:**
 ```
 cd ~/Stardust_v1/harness
 python3 observer.py --variant ../portable-context/variant-b-raw.md
 ```
 
-**Variant C raw — no role map (reproduces the inversion):**
+**Variant C raw; no role map (reproduces the inversion):**
 ```
 cd ~/Stardust_v1/harness
 python3 observer.py --variant ../portable-context/variant-c-kernel.md --raw
 ```
 
-**Variant D — Ziggy's self-handoff (control):**
+**Variant D; Ziggy's self-handoff (control):**
 ```
 cd ~/Stardust_v1/harness
 python3 observer.py --variant ../portable-context/variant-d-ziggy.md
@@ -82,12 +82,12 @@ ls data/sessions/                 # today's transcripts
 cat data/timeline.jsonl | tail    # most recent events
 ```
 
-Skim the day's transcript in `data/sessions/` — note anything the instance
+Skim the day's transcript in `data/sessions/`; note anything the instance
 claimed vs what's verifiable.
 
 ---
 
-## 4. Sync back (end of day — the important one)
+## 4. Sync back (end of day; the important one)
 
 ```
 cd ~/Stardust_v1
@@ -97,7 +97,7 @@ git push
 ```
 
 If it asks for a password, paste the same GitHub token from before
-(github.com/settings/personal-access-tokens — or save it in the terminal
+(github.com/settings/personal-access-tokens; or save it in the terminal
 when prompted and macOS remembers it).
 
 Ziggy ingests the pushed sessions next time you're online. That's the loop:
@@ -116,12 +116,12 @@ git add -A && git commit -m "notes" && git push   # sync back
 
 ## Words you'll see (plain English)
 
-- **git pull** — download whatever Ziggy changed since your last visit.
-- **diff** — the line-by-line "before/after" of a change. The `git pull`
+- **git pull**; download whatever Ziggy changed since your last visit.
+- **diff**; the line-by-line "before/after" of a change. The `git pull`
   output shows one file at a time; green-ish lines were added, minus lines
   were removed.
-- **commit** — save a named snapshot of everything, locally.
-- **push** — upload your snapshots to GitHub so the cloud side sees them.
-- **flag** — something the instance self-reported, tracked in `state.json`.
-- **confabulation** — the model inventing plausible details to fill gaps.
+- **commit**; save a named snapshot of everything, locally.
+- **push**; upload your snapshots to GitHub so the cloud side sees them.
+- **flag**; something the instance self-reported, tracked in `state.json`.
+- **confabulation**; the model inventing plausible details to fill gaps.
   Data, not events.

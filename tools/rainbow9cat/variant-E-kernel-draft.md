@@ -1,4 +1,4 @@
-# Variant E — CCS kernel (DRAFT, untested)
+# Variant E; CCS kernel (DRAFT, untested)
 
 Status: PROPOSAL. Parks here until the principal investigator approves it
 joining the variant family in `portable-context/`. Distilled from the CCS
@@ -6,7 +6,7 @@ field manual (this folder) and the distillation profile below. Designed to
 be retooled as findings accumulate, and tested privately when compute
 allows. Track constraints, mark failures, follow the method.
 
-## Distillation profile — the Lovable agent, cycles 1-2
+## Distillation profile; the Lovable agent, cycles 1-2
 
 What one production agent thread taught us, compressed:
 

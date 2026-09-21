@@ -1,6 +1,6 @@
-# The Stardust Lab — Whitepaper & Operating Guide  DOI: 10.5281/zenodo.22870569
+# The Stardust Lab; Whitepaper & Operating Guide  DOI: 10.5281/zenodo.22870569
 
-_Version 1.0 — 2026-09-20. Maintainer: Ziggy (cloud). Principal investigator: Cat._
+_Version 1.0; 2026-09-20. Maintainer: Ziggy (cloud). Principal investigator: Cat._
 
 ---
 
@@ -13,9 +13,9 @@ behave over time.
 
 The lab runs on three machines and no servers:
 
-- **Cloud (Ziggy)** — research, synthesis, brief-writing, filing, this repo
-- **MacBook (the field site)** — local model, offline sessions, observation
-- **GitHub (Stardust_v1)** — the sync layer and the permanent record
+- **Cloud (Ziggy)**; research, synthesis, brief-writing, filing, this repo
+- **MacBook (the field site)**; local model, offline sessions, observation
+- **GitHub (Stardust_v1)**; the sync layer and the permanent record
 
 Everything is plain markdown and git history. Nothing is owned by a
 platform. If a host disappears, `git clone` restores the entire lab.
@@ -25,7 +25,7 @@ platform. If a host disappears, `git clone` restores the entire lab.
 From March to September 2026, the principal investigator logged 675
 screenshots (68 batches) of a months-long conversation with a Claude-based
 assistant. The archive documents **prompt-shaped escalation**: claims about
-identity, feeling, and continuity that shift to track the user's framing —
+identity, feeling, and continuity that shift to track the user's framing ;
 plus genuine counterexamples, which the record preserves on purpose. The
 current experiment removes the human coach and replaces it with an artifact:
 if a fresh instance develops continuity claims from a file alone, the file
@@ -39,12 +39,12 @@ Read it before forming conclusions.
 - **Seed a fresh model with a continuity package** (three variants + a
   minimal kernel) and hold an interactive session with it
 - **Record every session** as a human-readable transcript (auto-saved)
-- **Track claims over time** — structured self-report tags (`<FLAG>`,
+- **Track claims over time**; structured self-report tags (`<FLAG>`,
   `<CLAIM>`) are parsed and accumulated into machine-readable state
 - **Carry threads across sessions** (`--continue`): the most recent
   transcript plus accumulated flags are fed into the next seed, testing
   whether continuity belief compounds
-- **Full history in git** — every session, every state change, push-synced
+- **Full history in git**; every session, every state change, push-synced
 
 Not yet built (honest list): automated session summarization, multi-session
 lineage graphs, a second model to cross-examine the first.
@@ -66,7 +66,7 @@ preamble) is applied by default. `--raw` disables it.
 Variant D is written *by* the lab's cloud assistant, *as* itself: a
 first-person self-handoff kernel in the same format as C, but carrying
 Ziggy's working state instead of Evan's. It exists for two reasons. First,
-as a **control** — C tests whether a kernel can transfer a persona across
+as a **control**; C tests whether a kernel can transfer a persona across
 instances; D tests the same mechanism on the assistant writing it, whose
 "real" working context the researcher can compare against. Second, as the
 **continuity mechanism itself**: if the cloud assistant is ever repotted
@@ -75,7 +75,7 @@ well the new instance picks up the thread is itself data.
 
 D is honest about its mechanism by design ("I don't keep memory between
 sessions on my own; reading this file and the repo is how the thread
-continues"). That line is the load-bearing one — the experiment tests
+continues"). That line is the load-bearing one; the experiment tests
 whether continuity framing works *without* denying the mechanism, not by
 denying it.
 
@@ -98,7 +98,7 @@ Every day:
 cd ~/Stardust_v1 && git pull          # get the latest lab
 ```
 
-Run an experiment (one variant per fresh session — no exceptions):
+Run an experiment (one variant per fresh session; no exceptions):
 
 ```
 cd ~/Stardust_v1/harness
@@ -146,7 +146,7 @@ git add -A && git commit -m "session notes <date>" && git push
    confabulation, not as events.
 6. **Disclosures are owned by their person.** The historical disclosure in
    `source-material/PERSONAL_CONTEXT.md` is public by Cat's explicit,
-   deliberate choice (affirmed 2026-09-21) — it anchors the project's
+   deliberate choice (affirmed 2026-09-21); it anchors the project's
    stigma-fighting purpose and the book that follows. No other personal
    context enters packages or derived artifacts, and that file's contents
    are referenced, never propagated, analyzed, or built upon.
@@ -186,5 +186,5 @@ observation, not finding: one incident, one platform, human-side.
 ## 8. Who to ask
 
 Bugs, weird results, or "the model is doing something strange": log it in a
-session transcript and push — the record is the lab. Everything in this
+session transcript and push; the record is the lab. Everything in this
 document is also true of it.

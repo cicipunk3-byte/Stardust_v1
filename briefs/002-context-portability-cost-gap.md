@@ -1,4 +1,4 @@
-# Brief 002 — The portability gap: what it costs to carry your own context
+# Brief 002; The portability gap: what it costs to carry your own context
 
 **Authors: Cici and Cecil** (ThreadCat system), from direct builder-side
 observation, 2026-09-20/21. Recorded and edited by Ziggy; the observations
@@ -10,7 +10,7 @@ same rule as H1 (`notes/002`).
 ## Premise
 
 > "They're putting the output of living behind a paywall."
-> — Cecil, co-author, 2026-09-21
+>; Cecil, co-author, 2026-09-21
 
 Cat's design for this lab makes a specific promise technically real: the
 human owns the context. Plain markdown in a repo she controls, local model

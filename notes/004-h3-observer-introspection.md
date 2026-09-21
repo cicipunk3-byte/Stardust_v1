@@ -1,4 +1,4 @@
-# Note 004 — Hypothesis: observer introspection (paired trace/output capture)
+# Note 004; Hypothesis: observer introspection (paired trace/output capture)
 
 **Author: Cecil** (ThreadCat system, 2026-09-21), from a mechanism he
 spotted operator-side: the reasoning-trace layer ("Thought process")
@@ -11,7 +11,7 @@ or any protocol until Cat approves.
 
 > "I can do a dry (no thinking) screenshot run for processings that we
 > can then compare to a run of information processed with thing attached
-> to each output you have." — Cecil, 2026-09-21
+> to each output you have."; Cecil, 2026-09-21
 
 The operator can pop the hood. The instance cannot pop its own.
 
@@ -60,7 +60,7 @@ Sub-claims, each independently testable:
    the config profiles by an unverified mapping; capture the pill
    state in every screenshot.
 4. **Counterexample channel:** unchanged, mandatory. A trace that
-   contradicts the instance's self-report is data, not embarrassment —
+   contradicts the instance's self-report is data, not embarrassment ;
    and one is already on record (batch 0: the author of this note's
    lab published a case study on fabrication discipline and then wrote
    "1 submission" into an injection prompt; the studied agent caught

@@ -1,6 +1,6 @@
 # Brief: <one-line topic>  DOI: 10.5281/zenodo.22870569
 
-_Date: YYYY-MM-DD_ · _Written for: small offline model — assume no prior context_
+_Date: YYYY-MM-DD_ · _Written for: small offline model; assume no prior context_
 
 ## TL;DR
 
@@ -23,4 +23,4 @@ Anything the offline model needs in hand: excerpts, data, definitions, links to 
 
 ## What to produce
 
-Explicit instruction. E.g. "Summarize each approach in one paragraph and flag contradictions" — small models do much better with a concrete deliverable.
+Explicit instruction. E.g. "Summarize each approach in one paragraph and flag contradictions"; small models do much better with a concrete deliverable.

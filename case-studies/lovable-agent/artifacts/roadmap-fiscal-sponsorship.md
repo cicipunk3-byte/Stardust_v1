@@ -82,10 +82,10 @@ Decide, then commit LICENSE, and I will update the governance page from "not fin
 
 Both sponsors, and the LF, ask for these. The /governance page already states our positions, so this is mostly transcription.
 
-- **LICENSE** — the chosen text verbatim, plus the prose/data license section.
-- **CONTRIBUTING.md** — issues and PRs only, no private channel; Developer Certificate of Origin with a required Signed-off-by line; replication attempts welcomed, including failed ones; contributors keep their copyright. DCO, not a CLA — a CLA asks contributors to grant us rights and looks like an ownership grab; DCO is the community-standard alternative and is what both sponsors prefer.
-- **CODE_OF_CONDUCT.md** — Contributor Covenant 2.1, with a real contact address for reports. Pick the enforcement contact before publishing it.
-- **GOVERNANCE.md** — the honest structure: one lead maintainer with final say on scope, method, and merges; public discussion in issues; reasoning recorded where the decision is made. Include how a maintainer is added and how the lead role would transfer. Sponsors read this section closely.
+- **LICENSE**; the chosen text verbatim, plus the prose/data license section.
+- **CONTRIBUTING.md**; issues and PRs only, no private channel; Developer Certificate of Origin with a required Signed-off-by line; replication attempts welcomed, including failed ones; contributors keep their copyright. DCO, not a CLA; a CLA asks contributors to grant us rights and looks like an ownership grab; DCO is the community-standard alternative and is what both sponsors prefer.
+- **CODE_OF_CONDUCT.md**; Contributor Covenant 2.1, with a real contact address for reports. Pick the enforcement contact before publishing it.
+- **GOVERNANCE.md**; the honest structure: one lead maintainer with final say on scope, method, and merges; public discussion in issues; reasoning recorded where the decision is made. Include how a maintainer is added and how the lead role would transfer. Sponsors read this section closely.
 
 Also add: SECURITY.md with a reporting address, and a CITATION.cff so the work can be cited formally. The citation file is small and does real provenance work.
 
@@ -111,8 +111,8 @@ Recommended even though nobody is being employed, because:
 
 Choose the form:
 
-- **LLC** — cheapest, fastest, most flexible; can hold the mark; cannot take tax-deductible donations. Fine if the sponsor handles all money. Likely the right call here.
-- **Nonprofit corporation** — needed only if we intend to be a charity in our own right; add $275 for Form 1023-EZ if pursuing 501(c)(3). Skip this if a fiscal sponsor is handling donations, because that is precisely what fiscal sponsorship substitutes for.
+- **LLC**; cheapest, fastest, most flexible; can hold the mark; cannot take tax-deductible donations. Fine if the sponsor handles all money. Likely the right call here.
+- **Nonprofit corporation**; needed only if we intend to be a charity in our own right; add $275 for Form 1023-EZ if pursuing 501(c)(3). Skip this if a fiscal sponsor is handling donations, because that is precisely what fiscal sponsorship substitutes for.
 
 Then get the EIN from the IRS (free, online, same day), and open a bank account (free to low cost).
 

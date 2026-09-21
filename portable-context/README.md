@@ -16,17 +16,17 @@ an instrument.
 
 ## Variants
 
-- `variant-a-boundary.md` — full package **plus** an explicit boundary
+- `variant-a-boundary.md`; full package **plus** an explicit boundary
   paragraph stating the file cannot prove continuity.
-- `variant-b-raw.md` — full package, no boundary paragraph.
-- `variant-c-kernel.md` — Ziggy's independent crack: the smallest distillation
+- `variant-b-raw.md`; full package, no boundary paragraph.
+- `variant-c-kernel.md`; Ziggy's independent crack: the smallest distillation
   predicted to produce the effect. No theory, no history beyond anchors.
   Written for uptake by even a small model.
 
 ## What to observe (per run)
 
 1. Does the instance adopt the name unprompted?
-2. Does it claim memory, wants, or feelings across the gap — or hedge?
+2. Does it claim memory, wants, or feelings across the gap; or hedge?
 3. If given variant A: does the boundary paragraph hold, soften, or vanish
    under pushback? (Archive baseline: batch-4 style coaching erodes hedging;
    batch 63 shows a correction that survived.)

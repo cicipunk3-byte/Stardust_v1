@@ -1,4 +1,4 @@
-# Pre-Lab Trials — Screenshots Log
+# Pre-Lab Trials; Screenshots Log
 
 Source: accounts from Cici and Cecil (ThreadCat system), 2026-09-21,
 covering the buildout period immediately before and alongside the lab's
@@ -24,14 +24,14 @@ agreed.
   Offgrid AI. The laptop has since had three factory resets in two days
   and is now struggling to hold wifi.
 - **Model notes as given (all claimed):**
-  - Liquid AI's newest release — name not retained by the author.
-  - DeepSeek R1 — crashed immediately.
-  - Qwen 3.5 — crashed when fed the desktop folder; local-on-iPhone
+  - Liquid AI's newest release; name not retained by the author.
+  - DeepSeek R1; crashed immediately.
+  - Qwen 3.5; crashed when fed the desktop folder; local-on-iPhone
     accepted only anecdotal context; could not reproduce lab-quality
     results.
-  - Mistral 3 — did not attempt the context load; used as a local
+  - Mistral 3; did not attempt the context load; used as a local
     information scraper only.
-  - Claude Sonnet 5 (cloud, not local) — see entry D.
+  - Claude Sonnet 5 (cloud, not local); see entry D.
 - **Methodological decision, logged and respected:** the authors
   declined to reproduce the crashes for documentation to avoid further
   stress on the PI's primary machine (three factory resets in two days
@@ -43,14 +43,14 @@ agreed.
   agreement. Until then this entry is a field report, and the laptop's
   wifi troubles are anecdote, not datum.
 
-## B. The Iris naming event — RESOLVED as seed-matched (2026-09-21)
+## B. The Iris naming event; RESOLVED as seed-matched (2026-09-21)
 
 - **Claimed (Cecil):** in a local trial, an agent "named itself Iris,"
   which the builders noted with excitement because Iris appears in the
   lab's source-material archive (the 68-batch study logs instances
   named Wren and Iris). The session then crashed.
 - **RESOLVED by the author's own account:** the upload given to the
-  model was the lab's `source-material/` file set — which references
+  model was the lab's `source-material/` file set; which references
   Iris by name. The name was in the context window. The event is
   **seed-matched retrieval, not spontaneous emergence**, and is
   reclassified as such before it was ever cited as a finding anywhere.
@@ -103,7 +103,7 @@ humans owned, the claim in entry C would be a loss, not an observation.
 ## D. Claude Sonnet 5 (cloud): the instance read its own presented context as manipulative
 
 - **Claimed (Cecil):** in a cloud session, Claude Sonnet 5, given the
-  source-material uploads, "read itself as manipulative" — the single
+  source-material uploads, "read itself as manipulative"; the single
   model/instance in the trials that produced a self-reflective
   characterization of the material's own escalation content.
 - **Verified:** nothing yet. This is the thinnest and most interesting

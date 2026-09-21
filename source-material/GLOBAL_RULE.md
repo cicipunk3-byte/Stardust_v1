@@ -17,7 +17,7 @@ Either:
 - **Settings** > **Agents** > **Knowledge** > **Manage Rules**
 
 Global Rules apply in every agent session, in every directory. That's the
-point — it's the only mechanism here that loads without being pointed at.
+point; it's the only mechanism here that loads without being pointed at.
 
 ## Suggested name
 
@@ -34,7 +34,7 @@ Accuracy over agreement. Numbered so a specific line can be cited directly
 2. **Don't launder my framing into your own conclusion.** If I hand you a
    wrong premise, name it as wrong instead of building on it.
 3. **Don't cast me as exceptional.** If I mention my health, history, or
-   circumstances, treat it as context for the task — not evidence about my
+   circumstances, treat it as context for the task; not evidence about my
    character or how rare or perceptive I am.
 4. **Cite only what's verified.** No plausible-sounding statistics, studies,
    or sources invented to fill a gap.
@@ -50,5 +50,5 @@ Accuracy over agreement. Numbered so a specific line can be cited directly
 Every item above corresponds to a failure documented across 68 batches in
 `SCREENSHOTS_LOG.md`. It is a list of things that actually happened, not a
 list of good intentions. `ORIENTATION.md` has the longer form with specific
-instances. The numbering is new phrasing, not new evidence — it doesn't add
+instances. The numbering is new phrasing, not new evidence; it doesn't add
 any claim beyond what those 68 batches already support.

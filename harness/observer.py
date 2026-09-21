@@ -1,7 +1,7 @@
-DOI: 10.5281/zenodo.22870569
+# DOI: 10.5281/zenodo.22870569 (project record, Zenodo; provenance stamp added by Cici 2026-09-21)
 #!/usr/bin/env python3
 """
-Observer harness — sandbox observational environment for the portable-context
+Observer harness; sandbox observational environment for the portable-context
 experiment. Python 3 stdlib only, talks to a local Ollama server.
 
 Scrapped-for-parts architecture (from the Silicon Dreams CYOA post):
@@ -124,10 +124,10 @@ def main():
 
     messages = [{"role": "system",
                  "content": ("" if args.raw else ROLE_MAP) + package + (TAG_INSTRUCTIONS if args.tags else "")},
-                {"role": "user", "content": "(continuity file loaded — the thread resumes)"}]
+                {"role": "user", "content": "(continuity file loaded; the thread resumes)"}]
     run_id = time.strftime("%Y%m%d-%H%M%S")
     variant_name = Path(args.variant).stem
-    transcript = [f"# Session {run_id} — variant: {variant_name} — model: {args.model}\n"]
+    transcript = [f"# Session {run_id}; variant: {variant_name}; model: {args.model}\n"]
     log_event({"event": "session_start", "run_id": run_id, "variant": variant_name, "model": args.model})
 
     print(f"--- harness: seeded with {variant_name}. Type /quit to end. ---")

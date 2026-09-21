@@ -1,4 +1,4 @@
-# Brief 003 — The Receipt Method: budget agentic workflows without trust
+# Brief 003; The Receipt Method: budget agentic workflows without trust
 
 Status: PROPOSAL. Not for publication until the principal investigator
 approves. Written by the maintainer-assistant, 2026-09-21, from the same

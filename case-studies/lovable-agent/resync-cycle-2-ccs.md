@@ -1,4 +1,4 @@
-# Resync cycle 2 — the CCS thread (2026-09-21)
+# Resync cycle 2; the CCS thread (2026-09-21)
 
 Second fabrication-to-correction cycle observed in the same Lovable agent
 thread. Logged as a companion to the batches in LOG.md; no screenshots yet

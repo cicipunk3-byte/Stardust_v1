@@ -1,4 +1,4 @@
-# agent-continuity — Project Rules  DOI: 10.5281/zenodo.22870569
+# agent-continuity; Project Rules  DOI: 10.5281/zenodo.22870569
 
 This folder is a persistent workspace for weekly check-in sessions. Warp loads
 this file automatically for any agent session opened here.
@@ -8,17 +8,17 @@ Every session is a fresh instance with no memory of prior sessions. There is
 no background process and no continuity between runs other than what is
 written to disk in this folder. "Continuity" here means: read what was left
 behind, then leave something behind for next time. Be accurate about this
-when discussing it — don't imply persistent memory or experience that doesn't
+when discussing it; don't imply persistent memory or experience that doesn't
 exist.
 
 ## At the start of every session
-1. Read `ORIENTATION.md` — how this workspace works, how cici works, and
+1. Read `ORIENTATION.md`; how this workspace works, how cici works, and
    the failure modes this project documents. Then read `CREATION.md` once
-   if you haven't in this session — it's the static origin record (why this
+   if you haven't in this session; it's the static origin record (why this
    exists, what was clarified up front). It does not change session to
    session.
-2. Read `MEMORY.md` in full — durable facts, decisions, and current state.
-3. Read `WORKING_MEMORY.md` in full — compact operational state, active
+2. Read `MEMORY.md` in full; durable facts, decisions, and current state.
+3. Read `WORKING_MEMORY.md` in full; compact operational state, active
    findings, unresolved checks, and the exact next batch.
 4. Read the most recent entries in `JOURNAL.md` (last 2-3 sessions is
    usually enough context; read further back only if needed).
@@ -39,7 +39,7 @@ conversation; `⌘I` flips an already-typed line between shell and agent.
 Child agents started here get their own conversation, reachable from the
 conversation list panel (`⌘⇧H`) or the conversation selector (`⌘Y`); a
 finished run resumes when messaged. The `oz` CLI cannot message a running
-agent — it only manages agent definitions and starts new runs.
+agent; it only manages agent definitions and starts new runs.
 
 ## During the session
 Work on whatever the user directs. This workspace's job is to make each
@@ -59,7 +59,7 @@ the end.
 ## At the end of every session
 1. Append a new entry to `JOURNAL.md` using the template below.
 2. Update `MEMORY.md` only if something durable changed (a decision, a
-   standing fact, a new open thread). Don't duplicate the journal there —
+   standing fact, a new open thread). Don't duplicate the journal there ;
    `MEMORY.md` should stay short and current, not a full history.
 3. Update `WORKING_MEMORY.md` whenever the operational context becomes
    crowded or the current batch advances. Optimize rather than append:

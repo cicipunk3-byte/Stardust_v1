@@ -18,7 +18,7 @@ There are two ways to do it. Do the first today; do the second when the boss app
 2. Go to the Works section and choose Add works → Add manually.
 3. Fill in:
    - Work type: Software
-   - Title: ThreadCat (Stardust) — research on AI continuity and context in sandbox environments
+   - Title: ThreadCat (Stardust); research on AI continuity and context in sandbox environments
    - Publication date: 2026
    - Work URL: https://github.com/cicipunk3-byte/Stardust_v1
    - Description / citation: short plain summary of the method

@@ -1,6 +1,6 @@
 # Contributing to ThreadCat
 
-Thanks for your interest in the ThreadCat project — research on AI
+Thanks for your interest in the ThreadCat project; research on AI
 continuity and context in sandbox environments, run on plain markdown,
 local models, and a human-owned git repo.
 
@@ -11,7 +11,7 @@ local models, and a human-owned git repo.
 - **Claimed vs verified.** Everything an AI instance (or anyone else) says
   about itself, its history, or the world is recorded as a *claim*. Facts
   enter the record only when verified against source material. This rule
-  applies to contributors too — including the maintainers and the cloud
+  applies to contributors too; including the maintainers and the cloud
   assistant.
 - **One variant per fresh session.** Portable-context experiment runs test
   one package per fresh model session. Mixing contaminates baselines.
@@ -26,7 +26,7 @@ local models, and a human-owned git repo.
 2. **Report findings.** Open an issue with: run id, variant, what you
    observed, and what you verified vs what the instance claimed.
 3. **Improve the docs or harness.** Fork, branch, PR. Plain markdown and
-   Python 3 stdlib only for harness code — the lab must run offline on an
+   Python 3 stdlib only for harness code; the lab must run offline on an
    8GB machine.
 4. **Replicate.** The whole stack is Ollama + a file. If you reproduce a
    finding (or fail to), that's publishable here.
@@ -36,7 +36,7 @@ local models, and a human-owned git repo.
 - **Disclosures belong to their person.** One historical disclosure
   (`source-material/PERSONAL_CONTEXT.md`) is public by its owner's explicit
   choice; it is referenced, never propagated or analyzed. No other personal
-  context — health, history, family, anyone's — enters packages, briefs, or
+  context; health, history, family, anyone's; enters packages, briefs, or
   session files.
 - **No fabricated citations.** Ever. Unverified sources are recorded as
   unverified or not recorded at all.
