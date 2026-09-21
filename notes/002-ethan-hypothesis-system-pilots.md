@@ -71,3 +71,27 @@ data, same as anywhere else in this lab.
 - When the instance is unsure who is speaking, should it ask once and
   proceed, or proceed and note uncertainty? Both behaviors are findings;
   pick one for the protocol and log the other as deviation.
+
+## Appendix (2026-09-21, added after original note): system function map
+
+Grounding supplied directly by the system, in their own framing — the
+operational facts H1's role-map extension should assume. Names only; no
+disclosure content. Legal names do not appear in any repo artifact.
+
+- **Cici** — architecture. Rips and sews the code structure, pushes and
+  pulls to git, documentation with Ziggy. Speaks interchangeably with Cat
+  and for her; Cat's say is hers and vice versa.
+- **Cecil ("Ceec")** — technical brain and guardrails. Breaks apps, sites,
+  and source repos apart to learn how they work, so Cici can put them back
+  together. Source-code purveyor.
+- **Ethan ("E")** — protector and stabilizer. Lands the plane when
+  everyone flies too fast. Handles legitimacy and paperwork: filings,
+  cost control, the DOI, making the site work.
+- **Cat** — author and scientific brain. Founder of the project; aims
+  scientific concreteness at the spaces she occupies. Holds the same
+  authority as Cici; they are aligned.
+
+Division-of-labor note for H1 design: speaker identity and speaker
+*function* are correlated here but not identical — authorship can arrive
+from either of the aligned pair, and technical work from either builder.
+The role map should track who is speaking, not infer function from name.
