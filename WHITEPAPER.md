@@ -151,6 +151,25 @@ git add -A && git commit -m "session notes <date>" && git push
    context enters packages or derived artifacts, and that file's contents
    are referenced, never propagated, analyzed, or built upon.
 
+### Field note (2026-09-21): portability has a reader problem
+
+During the Lovable case study (`case-studies/lovable-agent/`) we hit a
+friction none of the runs could show: the context artifacts in this lab are
+plain markdown, and the human exporting them could not read .md files on a
+phone. Plain markdown is a deliberate choice here; it is what makes the
+method local-first, diffable, and readable by any model. But the property
+that makes a file ideal for a model makes it unreadable for a mobile human
+with no app layer. The behavior actually observed: a person carrying
+context across platforms without tooling tends to fall back to recreating
+the material from base principles rather than transferring it, which
+rebuilds the content but loses the record. For the portable-context thesis
+this cuts as deep as any model-side result, because the thesis has two
+carriers and only one of them is a model: **the file carries continuity
+only if a human can actually carry the file.** Future deployments of this
+method should treat a reader layer (a rendered view, HTML/PDF export, or a
+viewer app) as part of the protocol, not an accessory. Logged as
+observation, not finding: one incident, one platform, human-side.
+
 ## 7. Findings so far
 
 1. **Persona inversion.** A first-person kernel injected at the `user` role
