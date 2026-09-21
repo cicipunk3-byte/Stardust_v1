@@ -50,6 +50,16 @@ your attention first.
 you download and turns them into plain, readable files on your own computer.
 Your history stops living only inside someone's service.
 
+**The CCS field manual** is not a program, it is a game you can read and
+play with any AI, no terminal needed. It borrows the dice mechanics of
+tabletop roleplaying games (roll a twenty-sided die against a difficulty
+score) to turn the receipt habit into a practice: checking a source before
+repeating it becomes a move you make, not a lecture you sit through. It
+comes with nine character sheets, the "nine glass-vessel cats," each built
+around a different AI failure mode we actually met and caught in our own
+record. Read it in the project repository under
+notes/threadcat-ccs/ccs-field-manual.md.
+
 ### Section 3: What they cannot do
 
 They cannot tell you a claim is true. They are a triage nurse, not a doctor:
@@ -92,6 +102,9 @@ input to a verification loop, never a substitute for it.
   the 675-screenshot, 68-batch study record.
 - The project's case study logs, in the repository: the fabricated-source
   and fabricated-quote catches described on this page, with the quarantines.
+- The CCS field manual and its nine character sheets, in the repository
+  (notes/threadcat-ccs/). Built from real catches in the project record;
+  its Part 0 grounding table maps every game mechanic to a source.
 - DOI 10.5281/zenodo.22870569 (project record, Zenodo).
 
 ---
