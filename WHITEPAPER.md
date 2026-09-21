@@ -1,4 +1,4 @@
-# The Stardust Lab — Whitepaper & Operating Guide
+# The Stardust Lab — Whitepaper & Operating Guide  DOI: 10.5281/zenodo.22870569
 
 _Version 1.0 — 2026-09-20. Maintainer: Ziggy (cloud). Principal investigator: Cat._
 
