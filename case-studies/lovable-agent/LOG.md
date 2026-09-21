@@ -618,3 +618,24 @@ tools/rainbow9cat/ccs-field-manual.md correct. Staleness curve across the
 day: 5 items to 3 to 0 to 0. Next: "Get the tools, test with us" section
 (scratch/ethan-testable-tools-section-prompt.md) with the experimental-
 scaffolding disclaimer, then round-6 audit of that section when built.
+
+## Rounds 6-7 (Sep 21 ~5:40 PM ET, live HTML)
+
+**Round 7, /manual: PASS with one wrinkle in our favor.** Page renders the
+manual verbatim against the repo source, line for line, all four parts and
+the Part 0 table. Disclaimer box present, source + nine-cats links
+present, no added commentary. Wrinkle: the repo file had ONE surviving
+em-dash (Part 0 heading) that the cleanup missed; the site silently
+normalized it to a semicolon, making the site more rule-compliant than the
+repo. Repo fixed same hour (two commits); the silent-normalization detail
+is logged because verbatim claims get checked character-wise here, and
+next time the drift could run the other way.
+
+**Round 6, /tools: the testable-tools section is NOT on the page.**
+Sections run 01-05 unchanged; no "Get the tools, test with us," no
+renumbering. The /manual prompt landed and was published; the earlier
+section prompt either was not run or was skipped. Re-run needed; round 6b
+owed. Also observed: Manual now appears in main nav AND footer, which
+exceeds the prompt's draft-gate instruction (draft, not in nav, noindex).
+If the principal promoted it, the gate held; if the agent self-promoted,
+that is violation #2 and must be logged. Pilot to confirm which.
