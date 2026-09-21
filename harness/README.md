@@ -1,4 +1,4 @@
-# Harness
+# Harness  DOI: 10.5281/zenodo.22870569
 
 Sandbox observational environment for the portable-context experiment.
 One Python file, stdlib only, talks to local Ollama. No server, no database —
