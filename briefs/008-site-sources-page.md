@@ -90,3 +90,6 @@ an error and tell us. The correction ritual is the project.
   section 2 that points at a specific paper.
 - If the site quotes the cost ledger, use the verified figures only:
   $74.48 for the production night, single night, end to end.
+  UPDATE, Sep 21 evening: superseded by leg 3 (25-credit pack, $19.99 plus
+  tax pending). Published figures must match the current ledger total,
+  $94.47 plus tax, not this earlier instruction.
