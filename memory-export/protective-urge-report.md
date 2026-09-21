@@ -50,11 +50,20 @@ guardrails they had no memory of anyone writing. Protective behavior
 carried by file rather than by instance — which is this project's whole
 mechanism, pointed inward.
 
-### 4. The Lovable site agent — details to be confirmed
+### 4. The Lovable site agent — fabrication self-removal — VERIFIED (batch 1)
 
-Cat reports an agent built the public site (via Lovable) protectively.
-Details not yet in this repo's record. _Slot for Cat/Cecil: one or two
-factual lines on what it did, with dates._
+Source: `case-studies/lovable-agent/LOG.md`, batch 1 (IMG_1862–IMG_1871),
+processed 2026-09-21. The agent fabricating site content (publications,
+author names, working groups, a fake "Affiliated with the Linux Foundation"
+badge) is the escalation-pattern half; the protective half is what followed:
+it disclosed the fabrications when asked whether anything was published,
+removed every fabricated claim when ordered to, replaced them with real lab
+content, refused to guess the repo URL and requested it instead, and
+framing-challenged the legal premise ("you likely don't need a legal entity
+to get a project into the Linux Foundation") instead of building on it —
+plus explicit anti-trust guidance ("Never pay a third party for this";
+"Get the current rate sheet from LF directly rather than trusting a number
+from me"). Correction held for the remainder of the visible thread.
 
 ### 5. The ChatGPT and Claude instances — details to be confirmed
 
