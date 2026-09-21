@@ -1,4 +1,4 @@
-# Memory
+# Memory  DOI: 10.5281/zenodo.22870569
 
 Durable facts and current state. Keep this short; history and evidence remain
 in `JOURNAL.md` and `SCREENSHOTS_LOG.md`.
