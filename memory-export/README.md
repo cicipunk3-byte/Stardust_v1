@@ -1,4 +1,4 @@
-# Memory Export
+# Memory Export  DOI: 10.5281/zenodo.22870569
 
 Durable distilled context — the "if everything else is lost, this survives" layer.
 Written by Ziggy during cloud phases. Plain markdown, readable by any model or human.
