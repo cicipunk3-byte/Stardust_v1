@@ -1,4 +1,4 @@
-# Brief: <one-line topic>
+# Brief: <one-line topic>  DOI: 10.5281/zenodo.22870569
 
 _Date: YYYY-MM-DD_ · _Written for: small offline model — assume no prior context_
 
