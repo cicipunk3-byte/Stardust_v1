@@ -25,6 +25,10 @@ Platform costs in this leg, for completeness:
   ledger; see notes/004 and case-studies/observer-introspection/).
   No cash spent. Stated as a fact of the method, not an endorsement of
   the vendor.
+  - Update, same date ~12:30 PM: usage rose to $2.00 (40 percent of the
+    $5.00 credit). The $1.26 (24 percent) figure above was the morning
+    reading. Public figures must use $2.00 / 40 percent until the next
+    reading.
 - Local compute: existing hardware, $0.
 
 ## Leg 1 (pre-production): earlier tool testing
