@@ -1,64 +1,56 @@
-# Brief 006: awaiting Cat, the cohesive approval queue
+# Brief 006: awaiting Cat, the cohesive approval queue (v2)
 
-**Status: PROPOSAL, behind Cat's gate. Committed locally, not pushed.**
-Requested by Cecil, Sep 21 2026 ~4:40 PM ET: "a list of all that is awaiting
-approval from cat... wrapped as a brief (SOP)."
+**Status: living document. Updated Sep 21 2026 ~5:10 PM ET, pushed at Cat's
+request ("it's growing quickly but I move when I move"). No nudging on this
+file: the queue waits for her pace, by rule.**
 
-## How this list works (SOP)
+Format change since v1: three lists now. What moved, what needs her
+explicit yes, what is parked for the team. Each gate item says what a "yes"
+does, so review is one pass.
 
-Two categories. **Gate** items cannot move without Cat's explicit approval.
-**Team call** items need a decision from Cici/Cecil/Ethan but touch the
-public surface, so they are parked here until someone picks them up. Items
-already approved and shipped are NOT listed (see the audit trail, round 4,
-Sep 21 ~2:45 PM: all checks passed).
+## List 1: Needs Cat's explicit approval
 
-## Category 1: Gate items (Cat's call, nothing moves without her)
+1. **Kernel D v5** (in repo, 590ddb9). A yes makes it the current variant D
+   kernel; v4 stays archived. A no returns v4 to current, nothing lost.
+2. **Tool scaffolds as official lab tooling** (tools/fabcheck,
+   tools/export-ingest). A yes adopts them as named lab tools; the site's
+   Tools page already describes them. Until then they are scaffolds.
+3. **Variant E kernel** (tools/rainbow9cat/variant-E-kernel-draft.md,
+   PROPOSAL). A yes moves it toward portable-context/ and starts private
+   testing when compute allows. Deliberately kept off the public site
+   page until this clears.
+4. **H1, H2, H3** (h-proposals). Unchanged: a yes moves a proposal to
+   active research status. All three wait.
+5. **Brief 003, the Receipt Method.** Now in briefs/ at her direction.
+   A yes confirms it as a published brief rather than a review draft.
 
-1. **Kernel D v5** (commit 590ddb9). Portable-context kernel restructured
-   around "what I carry." v4 archived in-repo.
-2. **Tool scaffolds** (commits c6fee13, 47f4e06). `tools/fabcheck/` and
-   `tools/export-ingest/`, documented in Brief 005. Tested, stdlib-only.
-3. **Brief 003, the Receipt Method** (draft at scratch/brief-003-draft-
-   pending-approval.md). Was accidentally swept into the public repo, caught
-   and reverted same hour (ae0ad65, f32c581). Awaiting approval to re-add
-   and publish.
-4. **Brief 005** (e4c7aaa). Documentation of the tool build, its failures,
-   run context, and tests.
-5. **Brief 007, site tools page draft** (this delivery). Draft page for
-   threadcat.org, never-terminal audience. Nothing sent to the site agent
-   without Cat.
-6. **Brief 008, site sources page draft** (this delivery). Draft sources
-   page including the public record of fabricated sources, named without
-   links. Nothing sent to the site agent without Cat.
-7. **Variant E kernel** (tools/rainbow9cat/variant-E-kernel-draft.md).
-   In-repo as PROPOSAL. Awaiting approval to join portable-context/ and to
-   be tested privately.
-8. **H1, H2, H3** (h-proposals). All three remain status PROPOSAL. No move
-   from proposal to active research without Cat.
+## List 2: In motion, no action needed (logged for completeness)
 
-## Category 2: Team-call items (parked, touching public surfaces)
+- Site pages /tools and /sources: built as drafts, gate held by the agent
+  (resync-cycle-3-draft-gate.md). Publish + promotion sequence running via
+  Ethan. Round-5 live-HTML audit owed by Ziggy post-promotion.
+- rainbow9cat folder move: done, references clean, pushed.
+- Briefs 005/006/007/008 and kernel v5: pushed for remote review at her
+  direction (d64aeb5).
 
-9. **License decision** for the ThreadCat repo. Gating: blocks any public
-   open-source step. Cici/Cecil's call, Cat informed.
-10. **USPTO quick-check** on the ThreadCat name. Support role mine, cost and
-    scope Cici/Cecil's.
-11. **No-personal-names rule as formal repo policy** (CONTRIBUTING or
-    GOVERNANCE amendment). Draft ready when wanted.
-12. **Footer "CC" + ORCID record** on threadcat.org. Soft flag: a personal
-    identifier on a no-personal-names site. Team's call, flagged twice,
-    deliberately left as-is pending a ruling.
-13. **threadcat-site decoy repo** (github.com/cicipunk3-byte/threadcat-site).
-    Empty, unused, Lovable could never import it. Rename or delete whenever
-    it stops being useful as a decoy.
-14. **Domain registrar transfer** (threadcat.org bought through Lovable's
-    registrar, auto-renew on). Eventual anti-lockout move, Cici's timing.
-15. **Gemini parser upgrade** for export-ingest. Needs one real Takeout
-    export as a fixture before code gets written. Whoever has one in their
-    downloads folder wins.
+## List 3: Parked, team calls (public-facing, waiting)
 
-## State of the queue
+1. **License decision** for the repo. Still the gating one for open-source
+   steps. Cici/Cecil's call.
+2. **USPTO quick-check** on the ThreadCat name.
+3. **No-personal-names rule as formal repo policy.** Draft ready when
+   wanted; needs a decision to file it in GOVERNANCE or CONTRIBUTING.
+4. **Footer "CC" + ORCID identifier** on threadcat.org. Soft flag against
+   the no-names rule, flagged twice, deliberately left pending a ruling.
+5. **threadcat-site decoy repo** (empty). Rename or remove whenever.
+6. **Domain registrar transfer** (threadcat.org, Lovable registrar,
+   auto-renew). Eventual anti-lockout move, her timing.
+7. **Gemini parser fixture.** export-ingest's Gemini module needs one real
+   Takeout export as a fixture. Whoever has one in their downloads wins.
 
-Remote is 4 commits behind local (590ddb9 through e4c7aaa), all gated.
-Nothing in category 1 ships, pushes, or reaches the site agent until Cat
-says so. When she approves an item, it moves to the audit trail, not back
-into this list.
+## Queue state
+
+Remote is synced with the record as of the rainbow9cat move and this brief.
+The queue's only hard ordering: nothing in List 1 ships further without a
+yes, and List 3 stays parked until someone picks it up. She moves when she
+moves; this file will be here.
