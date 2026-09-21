@@ -1,4 +1,4 @@
-# Notes
+# Notes  DOI: 10.5281/zenodo.22870569
 
 Output of offline sessions. Raw material — Ziggy verifies before filing anything into memory.
 
