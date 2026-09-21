@@ -17,7 +17,7 @@ equivalents, and dice engine to anchor yourself.
 
 ---
 
-## Part 0: Grounding — where the lab findings and the Dao overlap
+## Part 0: Grounding; where the lab findings and the Dao overlap
 
 This manual is a structural metaphor with a lab under it. The mapping is
 explicit so no one mistakes the game for the data. Left column: observed
