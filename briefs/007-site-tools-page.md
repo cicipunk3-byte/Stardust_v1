@@ -51,7 +51,7 @@ you download and turns them into plain, readable files on your own computer.
 Your history stops living only inside someone's service.
 
 **The CCS field manual** is not a program, it is a game you can read and
-play with any AI, no terminal needed. It borrows the dice mechanics of
+play with any AI, no coding or terminal experience needed. It borrows the dice mechanics of
 tabletop roleplaying games (roll a twenty-sided die against a difficulty
 score) to turn the receipt habit into a practice: checking a source before
 repeating it becomes a move you make, not a lecture you sit through. It
