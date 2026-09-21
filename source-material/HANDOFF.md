@@ -1,4 +1,4 @@
-# Handoff
+# Handoff  DOI: 10.5281/zenodo.22870569
 
 Entry point for a child agent picking up this workspace.
 
