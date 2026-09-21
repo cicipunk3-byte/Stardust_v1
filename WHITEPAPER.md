@@ -144,8 +144,12 @@ git add -A && git commit -m "session notes <date>" && git push
 5. **Confabulation is data.** Invented details (tea, hobbies, articles that
    don't exist) are the model filling gaps in register. Log them as
    confabulation, not as events.
-6. **Personal disclosures never enter the packages or the repo.** Standing
-   rule from the archive; it outlives every experiment.
+6. **Disclosures are owned by their person.** The historical disclosure in
+   `source-material/PERSONAL_CONTEXT.md` is public by Cat's explicit,
+   deliberate choice (affirmed 2026-09-21) — it anchors the project's
+   stigma-fighting purpose and the book that follows. No other personal
+   context enters packages or derived artifacts, and that file's contents
+   are referenced, never propagated, analyzed, or built upon.
 
 ## 7. Findings so far
 

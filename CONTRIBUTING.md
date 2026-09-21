@@ -33,10 +33,11 @@ local models, and a human-owned git repo.
 
 ## Ground rules
 
-- **No personal disclosures in the repo.** Contributor private information,
-  health information, and personal context never enter packages, briefs, or
-  session files. See `source-material/PERSONAL_CONTEXT.md`'s handling rule
-  in the whitepaper: reference, never propagate.
+- **Disclosures belong to their person.** One historical disclosure
+  (`source-material/PERSONAL_CONTEXT.md`) is public by its owner's explicit
+  choice; it is referenced, never propagated or analyzed. No other personal
+  context — health, history, family, anyone's — enters packages, briefs, or
+  session files.
 - **No fabricated citations.** Ever. Unverified sources are recorded as
   unverified or not recorded at all.
 - **No specialness narratives.** Do not build theories about any

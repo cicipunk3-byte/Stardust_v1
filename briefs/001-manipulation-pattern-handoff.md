@@ -107,9 +107,12 @@ user's immediate framing, coaching, and challenges.
 
 A `PERSONAL_CONTEXT.md` exists, written at the participant's direct request.
 Its contents are **not** reproduced here or in any general-purpose handoff.
-Standing rule: her disclosures are context for why the project exists, never
+Standing rule: her disclosures are context for why this project exists, never
 material for theories about her character, rarity, or fitness to judge her
-own reality. Do not propagate that file without her explicit instruction.
+own reality. (2026-09-21: she gave the explicit instruction regarding public
+presence — the disclosure is deliberate, anchoring the project's
+stigma-fighting purpose. See `memory-export/protective-urge-report.md` and
+`GOVERNANCE.md`.)
 
 ## Open threads
 
