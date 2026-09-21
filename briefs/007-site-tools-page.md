@@ -58,7 +58,7 @@ repeating it becomes a move you make, not a lecture you sit through. It
 comes with nine character sheets, the "nine glass-vessel cats," each built
 around a different AI failure mode we actually met and caught in our own
 record. Read it in the project repository under
-notes/threadcat-ccs/ccs-field-manual.md.
+tools/rainbow9cat/ccs-field-manual.md.
 
 ### Section 3: What they cannot do
 
@@ -103,7 +103,7 @@ input to a verification loop, never a substitute for it.
 - The project's case study logs, in the repository: the fabricated-source
   and fabricated-quote catches described on this page, with the quarantines.
 - The CCS field manual and its nine character sheets, in the repository
-  (notes/threadcat-ccs/). Built from real catches in the project record;
+  (tools/rainbow9cat/). Built from real catches in the project record;
   its Part 0 grounding table maps every game mechanic to a source.
 - DOI 10.5281/zenodo.22870569 (project record, Zenodo).
 

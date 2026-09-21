@@ -103,7 +103,7 @@ claims against that record, and then verifies from outside the platform.
 
 Reusable by anyone: steps 1-8 above, in that order. The specific
 prompts, audit checklists, and failure log are in the repository
-(case-studies/lovable-agent/, notes/cost-ledger.md, notes/threadcat-ccs/).
+(case-studies/lovable-agent/, notes/cost-ledger.md, tools/rainbow9cat/).
 
 Not claimed: that this replaces engineering judgment. It replaces
 trusting the platform. The method is expensive in exactly the way the

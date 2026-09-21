@@ -30,7 +30,7 @@ Sep 21 ~2:45 PM: all checks passed).
 6. **Brief 008, site sources page draft** (this delivery). Draft sources
    page including the public record of fabricated sources, named without
    links. Nothing sent to the site agent without Cat.
-7. **Variant E kernel** (notes/threadcat-ccs/variant-E-kernel-draft.md).
+7. **Variant E kernel** (tools/rainbow9cat/variant-E-kernel-draft.md).
    In-repo as PROPOSAL. Awaiting approval to join portable-context/ and to
    be tested privately.
 8. **H1, H2, H3** (h-proposals). All three remain status PROPOSAL. No move

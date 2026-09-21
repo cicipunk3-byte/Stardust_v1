@@ -46,7 +46,7 @@ python3 -m fabcheck.cli --stdin < notes.txt
 ```
 
 Output: markdown ledger with CLAIMED / SIGNAL / VERIFIED / QUARANTINE
-sections, same shape as the CCS cleanup ledger in notes/threadcat-ccs/.
+sections, same shape as the CCS cleanup ledger in tools/rainbow9cat/.
 
 ## Layout
 

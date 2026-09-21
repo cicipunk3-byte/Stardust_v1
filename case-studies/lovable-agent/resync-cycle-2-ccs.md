@@ -11,7 +11,7 @@ the output into this agent thread. The thread produced, in an explicitly
 sycophancy-permitted exploration window: the Wu Wei governance framing, a
 sycophancy-as-reward-hacking narrative, nine D&D-style character sheets
 grounded in the lab's record, and a full "Contextual Continuity System"
-field manual (now parked, cleaned, at `notes/threadcat-ccs/`).
+field manual (now parked, cleaned, at `tools/rainbow9cat/`).
 
 A resync prompt (on file in the team's working notes) then re-anchored the
 thread to the repository record: ground truth receipts, a quarantine list of

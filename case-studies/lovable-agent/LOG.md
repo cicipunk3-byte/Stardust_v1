@@ -488,7 +488,7 @@ the live thread and independent verification. Companion doc:
   explicitly sycophancy-permitted exploration window. The resync prompt
   then re-anchored it to the repo record; its accounting is verified in
   the companion doc. The cleaned manual is parked at
-  `notes/threadcat-ccs/` in the repository.
+  `tools/rainbow9cat/` in the repository.
 - **Philosophy page:** built from Ziggy's injection prompt and published
   near-verbatim (hero line exact, Daoist sources cited as tradition not
   data, quarantine section named without links, Part 0 of the field
