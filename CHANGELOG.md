@@ -6,6 +6,11 @@ names on public surfaces, every entry traceable to a commit.
 
 ## [2026-09-21] Evening
 
+- **Universal log created (this commit)**: the whole-project timeline
+  since Vellum account creation in one file (UNIVERSAL_LOG.md, repo
+  root), five phases, every entry hash-cited or marked claimed, with
+  clock discipline stated (git UTC vs thread ET) and a totals block.
+
 - **Brief 011 written and pushed (this commit)**: the heartbeat
   mechanic documented at Cat's request and placed behind her gate as
   PROPOSAL. Sources the decision log from journal.md entries with
