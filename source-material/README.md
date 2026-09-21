@@ -1,4 +1,4 @@
-# The Lab
+# The Lab  DOI: 10.5281/zenodo.22870569
 
 Local-first research loop. Plain markdown, git versioned, no platform owns it.
 
