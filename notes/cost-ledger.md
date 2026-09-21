@@ -4,7 +4,7 @@ Append-only. Every entry carries vendor, item, amount, date, payment
 method, and recurrence, with the receipt as source. Claimed versus
 verified on every entry, per the lab's standing rule. No personal names.
 
-## Leg 2 (current leg): public presence and the field manual
+## Leg 2: public presence and the field manual
 
 Started 2026-09-21. Claim: the only costs incurred in this leg, since the
 cloud-side research platform moved to its current free tier.
