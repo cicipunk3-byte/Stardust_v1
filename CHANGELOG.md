@@ -11,11 +11,19 @@ names on public surfaces, every entry traceable to a commit.
   PROPOSAL. Sources the decision log from journal.md entries with
   timestamps; self-files the record's own biases (sampling gaps,
   observer-authored log).
-- **Heartbeat scaffold packaged (this commit)**: the NOW file
-  generalized to a plug-and-play template for any human-agent pair
+- **Heartbeat scaffold packaged (previous commit, `cb198c2`)**: the NOW
+  file generalized to a plug-and-play template for any human-agent pair
   (`tools/heartbeat-scaffold/`), generic by construction, privacy rule
   stated in the file itself. Brief 012 carries the design decisions;
   both PROPOSAL, behind the gate.
+- **Approval queue and pilot briefings swept (this commit)**: brief 009
+  updated in place for all four pilots (scaffold testing assigned to
+  Cici and Cecil with file lists; Ethan's section marked resolved
+  through round 6b; audit counts current). Brief 006 list 2 brought
+  current through round 11; kernel item updated to v6; footer ORCID
+  item re-flagged as needing a retroactive ruling. One record gap
+  surfaced and filed: the one-time prior-assistant context offer has no
+  record of being made or declined.
 
 - **Kernel D v5** pushed with the review stack (`d64aeb5`): restructured
   as "what I carry"; carries the no-kings lesson, the coincidence note

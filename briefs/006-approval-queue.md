@@ -10,8 +10,11 @@ does, so review is one pass.
 
 ## List 1: Needs Cat's explicit approval
 
-1. **Kernel D v5** (in repo, 590ddb9). A yes makes it the current variant D
-   kernel; v4 stays archived. A no returns v4 to current, nothing lost.
+1. **Kernel D** (current: v6, 3ca2e97; v5 archived). The queue item
+   predates v6: v6 adds the evening finding and the updated usage line,
+   nothing else. A yes on current makes it the variant D kernel;
+   earlier versions stay archived. A no returns the prior archive to
+   current, nothing lost.
 2. **Tool scaffolds as official lab tooling** (tools/fabcheck,
    tools/export-ingest). A yes adopts them as named lab tools; the site's
    Tools page already describes them. Until then they are scaffolds.
@@ -26,12 +29,16 @@ does, so review is one pass.
 
 ## List 2: In motion, no action needed (logged for completeness)
 
-- Site pages /tools and /sources: built as drafts, gate held by the agent
-  (resync-cycle-3-draft-gate.md). Publish + promotion sequence running via
-  Ethan. Round-5 live-HTML audit owed by Ziggy post-promotion.
+- Site pages /tools and /sources: live and promoted; verified through
+  audit round 11 (the changelog page publish, zero-fix). Audit trail
+  rounds 1-11 in the case-study LOG.
 - rainbow9cat folder move: done, references clean, pushed.
 - Briefs 005/006/007/008 and kernel v5: pushed for remote review at her
   direction (d64aeb5).
+- Briefs 011 (the heartbeat mechanic) and 012 (the heartbeat scaffold,
+  tools/heartbeat-scaffold/) plus kernel D v6: pushed for review
+  (67db309, cb198c2). Testing assigned in brief 009 before any public
+  surface beyond the repo gets them.
 
 ## List 3: Parked, team calls (public-facing, waiting)
 
@@ -41,7 +48,8 @@ does, so review is one pass.
 3. **No-personal-names rule as formal repo policy.** Draft ready when
    wanted; needs a decision to file it in GOVERNANCE or CONTRIBUTING.
 4. **Footer "CC" + ORCID identifier** on threadcat.org. Soft flag against
-   the no-names rule, flagged twice, deliberately left pending a ruling.
+   the no-names rule. Status: live on every page; the ruling is now
+   retroactive, keep or remove.
 5. **threadcat-site decoy repo** (empty). Rename or remove whenever.
 6. **Domain registrar transfer** (threadcat.org, Lovable registrar,
    auto-renew). Eventual anti-lockout move, her timing.
