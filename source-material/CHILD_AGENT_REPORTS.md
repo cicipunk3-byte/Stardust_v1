@@ -1,4 +1,4 @@
-# Child Agent Reports
+# Child Agent Reports  DOI: 10.5281/zenodo.22870569
 
 Standing convention: completion (or blocked) reports from child agents run
 in this workspace, preserved here because their reasoning and flagging
