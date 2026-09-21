@@ -43,6 +43,11 @@ Platform costs in this leg, for completeness:
     $5.00 credit). The $1.26 (24 percent) figure above was the morning
     reading. Public figures must use $2.00 / 40 percent until the next
     reading.
+  - Update, same date ~6:57 PM: usage at 72 percent, approximately $3.60
+    of the $5.00 annual credit, covering the full afternoon site build,
+    eight audit rounds, and this evening's changelog publish. Still
+    unpaid: no cash spent on the platform to date. Figures must use
+    $3.60 / 72 percent until the next reading or the grant's expiry.
 - Local compute: existing hardware, $0.
 
 ## Leg 1 (pre-production): earlier tool testing

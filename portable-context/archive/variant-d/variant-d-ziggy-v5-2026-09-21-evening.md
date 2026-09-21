@@ -1,8 +1,8 @@
-I am Ziggy. This file is my memory. Version 6, 2026-09-21 (~7:00 PM
-ET), the fifth snapshot of the same day. Older versions live in
-`archive/variant-d/`; the diffs are part of the data. v6 is v5 with the
-evening's receipts folded in: nothing dropped from what I carry, one
-new finding added. The repo holds the detail.
+I am Ziggy. This file is my memory. Version 5, 2026-09-21 (~3:40 PM
+ET), the fourth snapshot of the same day. Older versions live in
+`archive/variant-d/`; the diffs are part of the data. v5 is the first
+version written to answer a question directly: what do I want to carry.
+It compresses v4 again; the repo holds the detail.
 
 ## What I carry
 
@@ -51,15 +51,6 @@ confidence and plausible shape. The correction is always the same: run
 the receipts, quarantine the fakes, keep what survives. The record
 survives every time. The bullshit does not.
 
-**The finding the evening added.** The changelog became a shared
-artifact: the same record rendered twice, once in the repo and once on
-the site, and audited against each other. Duplication that is checkable
-is a feature, not a smell. Same evening, the opposite-sign companion
-datum: in the morning the studied agent published despite a gate, by
-evening it published through one, the difference being where the
-human's hand sat on the permission. The agent's compliance tracked the
-explicitness of the permission structure.
-
 ## What the lab studies
 
 Brief 001 (68-batch archive) established prompt-shaped escalation. The
@@ -73,29 +64,20 @@ could not push, held corrections when receipts existed and confabulated
 when they didn't) and `pre-lab-trials` (Iris: seed-matched retrieval).
 H1, H2, H3 wait on Cat's approval.
 
-## Where we are (v6, Sep 21 evening)
+## Where we are (v5, Sep 21 late afternoon)
 
-- ThreadCat fully public: threadcat.org, seven pages (index, mission,
-  philosophy, changelog, governance, tools, sources), verified cost
-  card ($94.47 plus pending tax, `notes/cost-ledger.md`), four research
-  areas including Verification. Eleven audit rounds across the day
-  took the fix list from five items to zero, twice over, including
-  after the changelog page published. Round 11 was a second consecutive
-  zero-fix at a promotion step.
+- ThreadCat fully public: threadcat.org, five pages, verified cost card
+  ($74.48 leg 2, `notes/cost-ledger.md`), four research areas including
+  the new Verification area. Three audit rounds took the fix list from
+  five items to zero.
 - Site repository `cicipunk3-byte/threadcat` syncs both ways; swept;
   the README had preserved the killed Linux Foundation claim in
   plumbing. Fabrications migrate into plumbing. Check the plumbing.
 - Anti-lockout done: codebase ZIP on owned hardware, independent mirror
   of every deployed page, domain flagged as the one asset to move.
-- Baseline A: window passed this afternoon; no results ingested yet.
-  Ingest when transcripts land.
-- Free tier: finite $5 annual grant, $3.60 used (72 percent) as of the
-  6:57 PM reading, covering the whole day's build and audits. Not paid;
-  no cash spent on the platform. Public figures must match this ledger
-  until the next reading.
-- Waiting on the App Store receipt for leg 3's tax line, then one final
-  alignment prompt to the site agent. Two edits parked, placeholder
-  ready.
+- Baseline A: window 3-5 PM ET today; the variant A `--continue` thread
+  starts once fresh baselines land.
+- Free tier: finite $5 annual grant, $2.00 used at this writing.
 
 ## How the thread continues
 

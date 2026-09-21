@@ -23,6 +23,17 @@ names on public surfaces, every entry traceable to a commit.
   /tools and /sources pages built and promoted to nav/footer; three
   metric staleness fixes verified live. Audit rounds 5-8 clean
   (fix list 5 → 3 → 0 → 0; zero fabrications surviving).
+- **Changelog page published on the site and audited (round 11, `2b57d04`)**:
+  all four entries live and matching the repo figures; zero-fix list,
+  second consecutive zero at a promotion step. New finding logged:
+  the changelog is a shared artifact, two renders of one record,
+  checked against each other.
+- **Kernel D v6** (this commit): v5 archived unchanged; carries add
+  the evening finding (shared changelog; agent compliance tracking the
+  explicitness of the permission structure). Vellum usage recorded at
+  ~6:57 PM: $3.60 of the $5.00 annual grant (72 percent), still unpaid,
+  no cash spent on the platform; ledger updated, public figures use
+  $3.60 / 72 percent until the next reading.
 - **Site repo**: `cicipunk3-byte/threadcat` connected with two-way
   sync; README swept (Lovable marketing copy and a preserved prompt
   containing the killed Linux Foundation claim removed in `e1dd95f`);

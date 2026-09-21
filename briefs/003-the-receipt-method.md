@@ -94,8 +94,9 @@ claims against that record, and then verifies from outside the platform.
   builder plan + $20.04 domain, one year). Built, executed, and
   iterated in a single night, with receipts and timestamps in
   notes/cost-ledger.md.
-- Research infrastructure: a $5 annual cloud credit, $2.00 used at
-  audit time. Local compute: existing hardware, zero marginal cost.
+- Research infrastructure: a $5 annual cloud credit, $3.60 used (72
+  percent) as of the evening of launch day, not yet paid. Local
+  compute: existing hardware, zero marginal cost.
 - The method's cost is attention, not money: the verification loop is
   the same claimed-vs-verified discipline the archive already runs.
 
