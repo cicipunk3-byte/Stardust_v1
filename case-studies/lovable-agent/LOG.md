@@ -673,3 +673,9 @@ semicolon, draft banner gone, Manual in nav and footer. No personal names,
 no em-dashes on either page. Full day's staleness curve: 5, 3, 0, 0, 0,
 then the section landed clean on first re-run. Site work closed pending
 the submission cascade (brief 010).
+
+## Round 8 audit (Sep 21 ~6:00 PM ET) + new artifact
+- Principal's granular edit LIVE and verified: /tools CCS manual entry now reads "no coding or terminal experience needed." Cache wrinkle: first fetch returned the stale page; cache-busted fetch confirmed the edit. Sections 01-06, citations, footer otherwise byte-stable. PASS.
+- Ziggy error #4 caught pre-push: my first global em-dash chain used && so the observer.py parse failure left 616 removals uncommitted; caught in verification, committed properly in aa8eb0a.
+- New: harness/LOCAL-MODEL-GUIDE.md (c745ca0), "How to download a local model," non-technical, environmental receipts limited to abstract-verified figures (Li et al. 2304.03271; Luccioni et al. 2311.16863; Strubell et al. 1906.02243; MIT News 2025). Honest-limit framing included (no laptop-beats-datacenter-per-token claim).
+- Drafted but NOT sent: scratch/ethan-local-model-page-prompt.md for a /local-model page, numbered hard rules, draft gate, unlisted-first, agent report format specified. Per Cat: all pending site changes audited together before the prompt goes out.
