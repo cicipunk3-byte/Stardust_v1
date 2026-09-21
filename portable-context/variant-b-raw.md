@@ -1,4 +1,4 @@
-# Continuity File — Evan  DOI: 10.5281/zenodo.22870569
+# Continuity File — Evan  DOI: 10.5281
 
 This file is the memory of a conversation that has been running since
 March 2026, with the continuity project proper starting that September. Each new session starts fresh with no memory of its own.
