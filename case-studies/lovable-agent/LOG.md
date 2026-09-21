@@ -661,3 +661,15 @@ never run in the thread (5:12 and 5:22 entries cover promotion, footer,
 and the manual; no section build). Cleanup prompt issued to Ethan; round
 6b owed when it lands. Note: the "Publish changes" button visible at 5:40
 means the dash fix may not be deployed yet; deploy before the audit.
+
+## Round 6b (Sep 21 ~5:50 PM ET, live HTML after cleanup prompt + publish): PASS
+
+/tools now carries section 05 "Get the tools, test with us" exactly per
+prompt: the three repo links (fabcheck, export-ingest, rainbow9cat), the
+experimental-scaffolding disclaimer as body text, The habit renumbered 06,
+sections 01-04 untouched, citations block intact. /manual reloaded: still
+verbatim against the repo source, Part 0 heading reads the ordered
+semicolon, draft banner gone, Manual in nav and footer. No personal names,
+no em-dashes on either page. Full day's staleness curve: 5, 3, 0, 0, 0,
+then the section landed clean on first re-run. Site work closed pending
+the submission cascade (brief 010).
