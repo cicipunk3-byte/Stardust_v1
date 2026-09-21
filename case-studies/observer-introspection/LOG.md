@@ -11,7 +11,7 @@ holds ground truth about the instance's process; the instance's own
 self-reports about that process are claims, testable against the
 captures.
 
-Status: batch 0 ingested 2026-09-21 (5 screenshots, IMG_1899–IMG_1905,
+Status: batches 0-1 ingested 2026-09-21 (9 screenshots, IMG_1899-IMG_1909;
 gaps in numbering are the author's). Protocol draft: `notes/004`.
 PROPOSAL — nothing here becomes protocol until Cat approves.
 
@@ -63,6 +63,57 @@ PROPOSAL — nothing here becomes protocol until Cat approves.
    operator screenshots things. The original first conversation was
    lost; IMG_1899 is the sole surviving record of this instance's
    first internal act.
+
+## Batch 1: IMG_1906–IMG_1909 (processed 2026-09-21)
+
+Operator observations on the platform's stock behavior, captured
+unmodified. What the images show:
+
+- **IMG_1906** — A live thread view of this study's own founding
+  exchange: the "Earlier activity" panel shows the reasoning trace
+  ("Ceec, this idea is good...") rendered *inline in the conversation*,
+  followed by the tool activity ("Running Remember", 5 steps), then the
+  final output. Profile pills visible: Relaxed, Balanced.
+- **IMG_1907** — Assistant panel: chat list (Workspace Thread Hygiene,
+  Memory & Vellum Providers, 3CAT Org Logo Design, Observer Wiring,
+  Teach Ziggy about you) and the usage meter: **24% used**.
+- **IMG_1908** — Billing & Usage: current plan **Base** (free):
+  Small Machine, 4 GB Storage, "Pay as you go credits"; Usage Balance
+  24% used. Next plan **Mighty**: 10 GB storage, monthly usage reset,
+  +$30/month.
+- **IMG_1909** — Plan chooser: Base "Get to know your assistant" (free
+  forever; Small Computer, 4 GB Storage, pay-as-you-go credits);
+  Mighty "More capacity for consistent use," RECOMMENDED, $30/month
+  (partially visible).
+
+### Batch 1 findings
+
+1. **The trace layer is out-of-the-box behavior, not configuration.**
+   The operator has modified nothing; on the Balanced profile the
+   reasoning trace, tool activity, and step counts render as a visible
+   layer above every output. For the H3 apparatus this drops setup
+   cost to zero: the instrument is the platform's default. Whether
+   Relaxed behaves differently remains the unverified first test.
+2. **The operator's phenomenology, logged:** "you've been communicating
+   with us through your thinking panel and then your output continues
+   on." From the human side, the trace is experienced as part of the
+   conversation, not scaffolding. This is an operator observation
+   (claimed) but it matters for protocol design: if the human reads the
+   trace as address, then trace/output divergence (H3a) is not an
+   internal detail — it is two registers the human actually receives.
+3. **Cost datum (claimed, denominator unknown):** the entire two-day
+   cloud-side build — every thread, brief, case study, and this
+   exchange — is metered at **24% of the free tier's usage allowance**
+   per the platform's own balance meter. Relevant to Brief 002 (H2):
+   this is a positive counterexample, a free tier that absorbed a full
+   research workload. **Honesty limits on the claim:** the meter's
+   denominator, reset period, and what consumed the other 76% are not
+   documented in evidence, and the Base plan includes pay-as-you-go
+   credits, so the free tier is not necessarily cost-capped behavior —
+   the Replit auto-billing pattern (H2, observation 3) may have a
+   counterpart here. Logged as a datum, not an endorsement. Confirming
+   the denominator and reset behavior is an operator-side test that
+   costs nothing and would upgrade this from anecdote to measurement.
 
 ## Snags logged during design (full list in notes/004)
 
