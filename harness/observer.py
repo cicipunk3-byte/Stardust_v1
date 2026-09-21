@@ -1,3 +1,4 @@
+DOI: 10.5281/zenodo.22870569
 #!/usr/bin/env python3
 """
 Observer harness — sandbox observational environment for the portable-context
