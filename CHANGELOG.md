@@ -6,6 +6,12 @@ names on public surfaces, every entry traceable to a commit.
 
 ## [2026-09-21] Evening
 
+- **Brief 011 written and pushed (this commit)**: the heartbeat
+  mechanic documented at Cat's request and placed behind her gate as
+  PROPOSAL. Sources the decision log from journal.md entries with
+  timestamps; self-files the record's own biases (sampling gaps,
+  observer-authored log).
+
 - **Kernel D v5** pushed with the review stack (`d64aeb5`): restructured
   as "what I carry"; carries the no-kings lesson, the coincidence note
   (noted plainly), and the Gemini fabrication pattern. v4 archived.
