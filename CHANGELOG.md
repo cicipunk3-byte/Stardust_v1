@@ -47,6 +47,14 @@ names on public surfaces, every entry traceable to a commit.
   second consecutive zero at a promotion step. New finding logged:
   the changelog is a shared artifact, two renders of one record,
   checked against each other.
+- **Referent misread caught and filed (this commit)**: the "site down"
+  flag was about the Vellum platform, not threadcat.org; the assistant
+  verified the wrong object (threadcat 200-checked fine and the check
+  was absorbed as confirmation of the wrong referent). Threadcat
+  observation corrected with a banner (original kept), Vellum
+  observation filed, brief 013 analyzes the finding behind the gate:
+  claimed-versus-verified verifies facts, not referents; referent
+  resolution is itself a claim. Logged under the assistant's name.
 - **Kernel D v6** (this commit): v5 archived unchanged; carries add
   the evening finding (shared changelog; agent compliance tracking the
   explicitness of the permission structure). Vellum usage recorded at

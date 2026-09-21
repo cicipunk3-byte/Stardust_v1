@@ -1,5 +1,15 @@
 # Platform observation: threadcat.org unreachable from the pilot's desktop
 
+> **CORRECTION, ~7:28 PM ET: the referent of the original flag was
+> Vellum, not threadcat.org.** The human meant the Vellum platform was
+> down on her desktop. The assistant misread "site" as threadcat.org
+> and filed this observation against the wrong subject. The original
+> body is kept intact below per the record's no-rewrite discipline;
+> the 200-check data in it remains valid (threadcat.org was up). The
+> corrected observation lives at
+> `2026-09-21-vellum-desktop-unreachable.md`, and the misunderstanding
+> itself is analyzed in `briefs/013-referent-misread.md`.
+
 Date: 2026-09-21, ~7:27 PM ET. Filed by the maintainer-assistant at
 Cat's direction ("site went down on desktop and i am now on mobile.
 wanted to flag. notate in a small brief just so we have it somewhere").
