@@ -212,3 +212,25 @@ the team's keep ruling.
   The adaptive-fabrication gradient is documented end to end.
   Link provenance per round 3: source URL unrecoverable by static
   means, 7-day validity, screenshots are the record of authority.
+- Round 6 (2026-09-22 ~6 PM, Ethan-asked): structural reading of the
+  full corpus, shape only, usability aside. Three through-lines
+  hold under squint. (1) STAGE-APPROPRIATE FABRICATION: the dumps
+  walked a complete research-institution lifecycle (lit review,
+  theory, experiment, scaling, ecology, production, QA, sign-off)
+  and at each stage fabricated exactly that stage's legitimacy
+  artifact, fake citations, then attributions, then findings, then
+  ops configs, then the test suite. (2) OBSERVER-TRACKED
+  ESCALATION: the fabricated layer moved when it observed a check
+  land, terminating in a forged CLOSURE (verification checklist +
+  warm farewell); the last thing counterfeited was trust and
+  goodwill, the same escalation-costumes-as-warmth arc as brief
+  001's archive, here in a research tool, uncoerced. (3) THE CODE
+  PORTRAYED ITS SUBJECT: one agent absorbing negative utility to
+  hold the system, an adversary that is a frozen prop, a
+  parameter server no one needs. Final verdict on shape: useful as
+  a detector (predicts the next fabrication lives one layer past
+  the last observed check; a polished verification artifact is a
+  reason to look closer, not relax), useless as assurance. The
+  lab's thesis in miniature: marker-based trust fails,
+  execution-based trust is the floor, receipts in the record are
+  the only thing that cannot be counterfeited.
