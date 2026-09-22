@@ -214,3 +214,74 @@ The "verify the basic math" snippet contains a typo variable
 silently substitutes the correct name. It runs and it proves
 nothing. Rigor theater: worth showing at the gate as an example
 of what unverified verification looks like.
+
+# ADDENDUM 2: dump 3 (mesosystem, GA, API), checked Sep 22 ~5:00 PM
+
+## Mesosystem diffusion: propagation real, all three numbers fabricated
+
+1. DIFFUSION IS REAL. A shock in cluster 0's scapegoat spreads across
+   the network: at T=50 the scapegoat variances are 0.567 / 0.791 /
+   0.786 / 0.569 across four clusters. Note the shape: variance
+   HOMOGENIZES, and the origin cluster ends LOWER than its neighbors.
+   The shock diffuses outward and the system meets in the middle.
+2. FABRICATED: the "0.72 contagion threshold." Sweep of initial
+   shock 0.4 to 1.0: neighbor variance moves 0.678 to 0.695, nearly
+   flat, no jump anywhere. The dynamics are linear in the shock.
+   Likely origin of the myth: the equilibrium value ~0.7 observed in
+   one run and post-hoc renamed a "threshold."
+3. FABRICATED: "42% dampening per hop" is the parameter restated.
+   boundary_resistance = 0.58; 1 - 0.58 = 0.42. That is an input
+   wearing a finding's clothes.
+4. UNTRACEABLE: "2.3 times more susceptible" under high denial. No
+   code path computes any such multiplier.
+
+## Genetic algorithm sandbox: runs, evolves, barely
+
+Runs end to end, selection/crossover/mutation all work, fitness
+improves 0.324 to 0.328 over three generations: mechanics fine,
+effect nearly flat at this population size. Fine as a demo.
+
+Citation check on the GA section: [EvoMAS, 2026] is a REAL paper
+(arXiv 2602.06511, "EvoMAS: Evolutionary Generation of Multi-Agent
+Systems", Feb 2026) but MISATTRIBUTED: it evolves LLM-based
+multi-agent system configurations via execution feedback, not NumPy
+GA operators over boundary-resistance vectors. [Mohajerani, 2025]
+for macro-environmental shocks: UNTRACEABLE, no such matching paper
+found. That is a fabricated citation in the classic sense, the
+first since the CCS manual's five.
+
+## REST API pipeline: the plumbing works, the intelligence is absent
+
+1. The HTTP layer genuinely works: GET /status and POST /step with a
+   shock payload, live round-trip verified.
+2. The "Deep Neural Network State Space" is decoration: the policies
+   are UNTRAINED random networks with no learning loop anywhere in
+   the file. Three of the four policies produce the SAME action
+   regardless of input state (checked at all-zeros vs all-ones);
+   only the hero's argmax moves. The "deep state space" is four
+   constant functions plus noise.
+3. Chaos collapses to 0.0000 within two cycles because the constant
+   policies happen to include scapegoat-absorb. "Production pipelines
+   functional" is true of the plumbing and silent about the rest.
+4. Diagnostics labels are semantically loose: high variance ACROSS
+   clusters gets labeled "enmeshment leakage," high mean chaos gets
+   labeled "rigid homeostatic collapse." Neither label matches its
+   clinical referent; both are thresholds on numpy.std/mean.
+
+## Attribution fraud list, dump 3
+
+- Sameroff credited with governing equations: fourth occurrence.
+- Minuchin "clinical proof defining boundary resistance indices":
+  no such thing in Families and Family Therapy.
+- Wegscheider-Cruse "experimental validation for the active noise
+  cancellation behaviors of the Mascot role": absurd. A 1981 ACOA
+  clinical book validating signal processing.
+
+## Keep/toss for dump 3
+
+KEEP: mesosystem code as genuine scaffold + the homogenization
+observation (shocks diffuse, systems equalize: real behavior of the
+model); GA as demo; API plumbing as a service skeleton.
+TOSS: 0.72 threshold, 42% finding, 2.3x susceptibility, Mohajerani
+2025, the "deep policy" framing on untrained nets, the diagnostic
+label semantics as clinical claims.

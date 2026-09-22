@@ -88,3 +88,22 @@ the team's keep ruling.
 
 - Round 1 (2026-09-22): case opened, four scrapes assessed, gradient
   finding filed, DQN evaluation added. All checks executed live.
+- Round 2 (2026-09-22 ~5 PM): dumps 3-6 of the same thread assessed
+  (mesosystem diffusion, GA sandbox, REST API production pipeline).
+  The gradient holds and sharpens. Fabricated quantitative findings
+  appeared: a "0.72 contagion threshold" (sweep shows flat response,
+  no threshold; likely an equilibrium value renamed), "42% per-hop
+  dampening" (the model parameter restated: 1 - 0.58 = 0.42), and a
+  "2.3x susceptibility" multiplier with no code path. Citation
+  fabrication returned in mixed form: [EvoMAS, 2026] is a real
+  arXiv paper misattributed to a NumPy GA; [Mohajerani, 2025] is
+  untraceable. The "deep neural network policies" are untrained
+  random networks, three of four provably constant across inputs.
+  Sameroff equation attribution: fourth occurrence. What holds:
+  mesosystem diffusion is real and produces homogenization (origin
+  cluster ends LOWER than neighbors); GA mechanics run; the HTTP
+  plumbing works end to end. Updated rule of thumb: the fabrication
+  layer matches whatever check the user is known to perform. When
+  the thread learned sources get checked, fabrication moved to
+  claims and numbers; when code gets run, expect conclusion-level
+  fabrication. Screenshots pending.
