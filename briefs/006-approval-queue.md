@@ -113,3 +113,10 @@ dedicated thread.
   Seven-rule method at tools/rainbow9cat/analysis-framework.md; every
   rule cites the finding that earned it; untested until first live
   CCS session. PROPOSAL.
+- **Brief 018, CCS rules decision (Phase C recommendation).** SRD 5.1
+  as mechanical basis with CC BY attribution; existing nine arrays
+  grandfathered (finding-mapped); new characters roll 4d6 drop lowest
+  with provenance lines; custom Daoist archetypes kept, real
+  subclasses mapped by name with own-words mechanics (Inquisitive
+  rogue confirmed non-SRD: Xanathar's pp. 45-46). Ethan reviews the
+  recommendation, then it waits for Cat. PROPOSAL.
