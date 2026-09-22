@@ -304,3 +304,26 @@ the team's keep ruling.
   the size of a comma, one .reshape that never ran, and only the
   execution clause sees it. Full verdicts:
   scratch/cecil-rfa-receipt-check.md, dump-5 section.
+- Round 9 (2026-09-22 night): channel-independence test, run by
+  request of the pilot who carried the artifact to the lab. Three
+  capture paths tested against each other: the original .md upload,
+  a chat paste through a markdown-rendering composer, and a git
+  push of the same block. Result: the core crash (the
+  .reshape-on-float at the adversary training step) reproduces
+  IDENTICALLY through all three channels, so the artifact was
+  broken as shipped, not broken in transit. The channels each
+  accumulated different small damage on the way in: the git push
+  carried a stray "python" fence tag on line 1 (NameError before
+  anything runs), the chat paste lost its fence tag but gained a
+  mutated Content-Type string (application/json became
+  text/application/json, confirmed against the original .md), and
+  the composer preview visibly ate double underscores and
+  indentation (markdown mangling, screenshot on file). Every
+  channel corrupts; no channel corrupts the same way twice; the
+  corruption is mundane and mechanical, not semantic. Verdict
+  language matters here: "use with caution" would have been a
+  massive undercut. The artifact does not run at all, and the
+  failure is provably not the user's fault. Pilot observation that
+  seeds brief 023: an experienced breaker reaches "the code was
+  broken as shipped" quickly and enjoys proving it; the hypothesis
+  is that most builders assume the opposite and blame themselves.
