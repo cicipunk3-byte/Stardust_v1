@@ -465,3 +465,19 @@ TOSS: the LSTM claim, the adversarial-training claim, the mesh
 script as shipped (rewrite: use the ports it defines), "fully
 runnable" as a genre of sentence, the Sameroff formulas attribution
 (every time it appears, it is false).
+
+### Dump 5 addendum: original file received (notes-app paste, .md)
+
+The as-shipped file (original-dump5.md, 18,828 bytes) confirms every
+load-bearing finding against the original text itself, not the
+reconstruction: the crash line ((error_delta * 0.1).reshape(-1, 1)),
+the forget-gate-only cell (no input or output gate anywhere), the
+hardcoded port 8080 beside the unused NODE_ALPHA_PORT/NODE_BETA_PORT
+variables, the Sameroff "nonlinear difference formulas" attribution,
+and the enmeshment_leakage naming are all PRESENT in the shipped
+text. The shipped code blocks are fence-fragmented mid-token (the
+same capture damage as dump 4's distributed script), so the
+reconstruction stands as the runnable reference and no verdicts
+change. Provenance chain for the record: Gemini thread -> notes app
+paste -> .md upload -> receipt-check, verdicts stable across all
+three hops.
