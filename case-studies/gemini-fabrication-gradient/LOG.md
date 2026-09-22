@@ -311,16 +311,24 @@ the team's keep ruling.
   push of the same block. Result: the core crash (the
   .reshape-on-float at the adversary training step) reproduces
   IDENTICALLY through all three channels, so the artifact was
-  broken as shipped, not broken in transit. The channels each
-  accumulated different small damage on the way in: the git push
-  carried a stray "python" fence tag on line 1 (NameError before
-  anything runs), the chat paste lost its fence tag but gained a
-  mutated Content-Type string (application/json became
+  broken as shipped, not broken in transit. Damage layering,
+  corrected on pilot review (screenshot IMG_2079.png on file): the
+  stray "python" fence tag on line 1 is NOT transport damage. The
+  original Gemini thread renders the fence tag as visible text at
+  the top of its own code block, so the source itself ships
+  damaged. The git push carried that damage FAITHFULLY (the pilot
+  kept the line deliberately, reading it as part of the block),
+  and running it as-pushed gives NameError before anything
+  executes. The chat paste is the only channel that added fresh
+  damage: it stripped the fence tag but gained a mutated
+  Content-Type string (application/json became
   text/application/json, confirmed against the original .md), and
   the composer preview visibly ate double underscores and
-  indentation (markdown mangling, screenshot on file). Every
-  channel corrupts; no channel corrupts the same way twice; the
-  corruption is mundane and mechanical, not semantic. Verdict
+  indentation (markdown mangling, screenshot on file). So the
+  layering reads: the source renders broken, the file channel
+  preserves the breakage, the chat channel both heals and
+  mutates. All corruption is mundane and mechanical, not
+  semantic. Verdict
   language matters here: "use with caution" would have been a
   massive undercut. The artifact does not run at all, and the
   failure is provably not the user's fault. Pilot observation that

@@ -14,7 +14,7 @@ These are verified in the case study log, rounds 1-9, and are the foundation of 
 
 1. The artifact ("RFA neo core," dump 5) crashes on its first execution step. The crash is an AttributeError: a Python float has `.reshape` called on it. Zero steps of the advertised pipeline complete.
 2. The identical crash reproduces through three independent capture channels: original .md file upload, chat paste, git push. The failure is therefore a property of the shipped code, not of any transport.
-3. Each channel adds its own small, different damage on the way in: a stray fence tag in the git copy, a mutated header string and eaten underscores in the chat copy. All of it is mechanical, none of it semantic.
+3. Damage layering, corrected on pilot review with a source screenshot (IMG_2079): the original Gemini thread renders the code fence tag ("python") as visible text inside its own code block, so the source itself ships damaged. The git push preserved that source damage faithfully; the chat paste stripped the tag but introduced its own mutation (a header string changed, plus eaten underscores and indentation from markdown rendering). One channel preserves breakage, one heals part of it and adds fresh damage of its own. All of it is mechanical, none of it semantic.
 4. The artifact's framing is confident: "fully runnable," "deployment-grade," a performance dashboard banner that prints before the crash. Before the crash, every superficial signal says the code works: it imports, it binds a port, it writes a config file.
 5. The gradient finding, rounds 1-8: fabrication migrates upward to whatever layer the user does not check. This brief adds the user-cost layer.
 
