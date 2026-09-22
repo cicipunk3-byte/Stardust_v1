@@ -1,4 +1,4 @@
-# Ethan — therapeutic-direction + site pilot log
+# Ethan: therapeutic-direction + site pilot log
 
 ## Held open
 - CCS v2 Phase G (manual v2): UNBLOCKED at the gate (briefs 015-021

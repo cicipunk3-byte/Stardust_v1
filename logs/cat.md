@@ -1,4 +1,4 @@
-# Cat — orchestrator log
+# Cat: orchestrator log
 
 ## Held open after the gate (Sep 22 evening)
 - ORCHESTRATION: all 31 gate questions ruled (4a8e8d4); direction is

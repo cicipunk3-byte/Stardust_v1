@@ -1,4 +1,4 @@
-# Cecil — design/media/scaling pilot log
+# Cecil: design/media/scaling pilot log
 
 ## Held open
 - Path-3 combined familial-gamified kernel: UNBLOCKED. RFA keep-lists

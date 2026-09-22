@@ -1,4 +1,4 @@
-# Cici — pilot log
+# Cici: pilot log
 
 ## Held open
 - Baseline A trial: self-scheduled, no reminders (nudge discipline).

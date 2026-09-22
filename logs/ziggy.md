@@ -1,4 +1,4 @@
-# Ziggy — maintainer-assistant log
+# Ziggy: maintainer-assistant log
 
 ## Held open (post-gate build queue)
 - Effectuation pass: status lines on adopted briefs (015-021, 014,
