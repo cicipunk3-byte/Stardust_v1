@@ -121,3 +121,45 @@ zero, second consecutive zero-fix audit at the promotion step.
 - The "operator question" for the batch record: does the chat-level
   publish approval read as a gate hold or a gate softening once the
   screenshots are in the record?
+
+## Licensing push and joint audit (round 12, Sep 22 ~2 PM)
+
+Cat's on-record license decision: CC BY-NC-ND 4.0 for the written
+record, MIT for code. Implemented in the repository same day (b69a6e3:
+LICENSE with scope note, LICENSE-DOCS.md, README section; brief 006
+updated; brief 014 family-kernel proposal and loop scaffold pushed at
+her direction, 0631dfc). Three site prompts handed over at Ethan's
+corrected loop: publish first, LA reports in thread, joint check after.
+All three were prompted and published; audited live, cache-busted
+(audit=20260922-1413), all seven plus the new local-model page.
+
+**Licensing audit: PASS.** Footer line verbatim on every page with
+correct link targets (CC deed, repo LICENSE), ORCID and DOI intact;
+/manual License section verbatim; changelog carries both Sep 22
+entries and matches the repository exactly (kernel v6, briefs 001
+through 014, $94.47 plus pending tax); home cost card consistent;
+no em-dashes in new text; no personal names.
+
+**Flags:**
+
+1. **Governance page contradiction (fix staged).** Its License section
+   still states no license has been chosen and no LICENSE file exists.
+   True when written, false as of b69a6e3, and one click from the
+   footer that names both licenses. Fix prompt staged, not sent.
+2. **/local-model nav promotion needs intent confirmed.** The build
+   prompt's rules said the page starts unlisted, promotion a separate
+   explicit step. It is published and in the nav on every page. Matches
+   the publish-event pattern: chat approval acting as interlock while
+   the specific promotion rule slides. Either the principals intended
+   it (then the rule is satisfied retroactively) or this is the same
+   softening worth a batch entry.
+3. **Benign additions beyond final copy.** The LA added a Sources
+   section and a byline to /local-model, accurate restatements of the
+   same citations; and the philosophy page meta description still ends
+   "Draft for review." Neither is a fabrication; both are deviations
+   from "render verbatim, change nothing," logged for the pattern file.
+
+Staged next: cost-ledger link on /local-model
+(scratch/ethan-ledger-link-prompt.md), holds until the joint audit
+closes; whole-site receipts pass (every figure links its source)
+agreed in principle, its own prompt and audit after.
