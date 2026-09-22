@@ -35,3 +35,19 @@ case-studies/. Match the existing section styling."
 the 'shoulder to shoulder' section) are plain text. Link the two
 spend figures to the cost ledger on /local-model so every figure on
 the home page is one click from its source. No other changes."
+
+---
+
+## Prompt 4 (new, Sep 22 late): mirrored guide page
+
+"Create a new site page at /wary-of-ai titled 'Wary of AI? Start
+here.' with the tagline 'A local-first starting point for people who
+do not trust AI tools yet.' Mirror the content from the repository
+file guides/wary-of-ai.md in this project's public GitHub repository,
+preserving all of it: the why-local section, the green note with its
+two source links (the IEA Energy and AI report and the Luccioni et
+al. FAccT 2024 paper), the three-step setup, the testing-not-training
+section, the stay-wary section, and the link to
+/local-model as the detailed walkthrough. Add it to the site
+navigation between 'Local model' and 'Changelog'. Match the existing
+page styling. Do not alter the figures or sources."
