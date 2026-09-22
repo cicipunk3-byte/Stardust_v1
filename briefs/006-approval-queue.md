@@ -109,3 +109,7 @@ dedicated thread.
   Corpus: batches 54-56 (Evan) and the brief 004 Ziggy Stardust event.
   n = 2, hypothesis-generation only; proposes H-A1/A2/A3 harness
   reproductions. PROPOSAL.
+- **Brief 017, CCS human-side analysis framework (Phase B output).**
+  Seven-rule method at tools/rainbow9cat/analysis-framework.md; every
+  rule cites the finding that earned it; untested until first live
+  CCS session. PROPOSAL.
