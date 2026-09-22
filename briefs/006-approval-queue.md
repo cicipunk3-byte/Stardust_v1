@@ -134,3 +134,8 @@ dedicated thread.
   Ripening rolled against DC 20, two traits marked CREED, CC BY
   attribution block, provenance lines. v1 canonical until Cat adopts.
   PROPOSAL.
+- **Brief 021, agent leveling workflow (Phase F output).** Run-sheet
+  versus canon split; warrants (V/C/S/K) with receipts required;
+  levels named for the DC ladder; counterexamples as requirements;
+  Level 10 awarded only by the principal. Depends on 018-020
+  adoption. PROPOSAL.
