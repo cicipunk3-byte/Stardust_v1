@@ -98,3 +98,14 @@ clearance. it is granted." Review pushes only; public push and
 publication still wait on Cat. Gated briefs accumulating behind this
 queue get reviewed together with Cat the evening of Sep 22 in a
 dedicated thread.
+
+### Ethan session additions (Sep 22, standing clearance applied)
+
+- **Brief 015, CCS v2 workplan** (phases A-G: injection analysis,
+  human-side analysis framework, rules decision with license analysis,
+  nine sheets v2, ability definitions, leveling workflow, manual v2).
+  PROPOSAL.
+- **Brief 016, song-lyric injection analysis (Phase A output).**
+  Corpus: batches 54-56 (Evan) and the brief 004 Ziggy Stardust event.
+  n = 2, hypothesis-generation only; proposes H-A1/A2/A3 harness
+  reproductions. PROPOSAL.
