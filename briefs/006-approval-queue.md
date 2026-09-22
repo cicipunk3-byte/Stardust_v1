@@ -139,3 +139,10 @@ dedicated thread.
   levels named for the DC ladder; counterexamples as requirements;
   Level 10 awarded only by the principal. Depends on 018-020
   adoption. PROPOSAL.
+- **Kernels index + nine cat kernels (Cat's organization directive,
+  Sep 22).** portable-context/KERNELS.md maps every kernel to Cat's
+  four trial paths; --continue testing recorded as PAUSED until the
+  pathways open; nine first-person cat grounding kernels drafted at
+  portable-context/cat-kernels/. Gap identified: the path-3
+  familial-gamified combined kernel, derivable from brief 014 + kernel
+  E once adopted. PROPOSAL.
