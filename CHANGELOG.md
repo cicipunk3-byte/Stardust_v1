@@ -4,6 +4,31 @@ All notable changes to the Stardust Lab repository and its public
 surfaces. Newest first. House rules apply: no em-dashes, no personal
 names on public surfaces, every entry traceable to a commit.
 
+## [2026-09-22] Evening: gate night
+
+- **Gate review complete**: all 31 open questions ruled in one sitting
+  (notes/open-questions-for-the-gate.md, v2 with answers, commit
+  `4a8e8d4`). Briefs 011-021, kernel D v6, kernel E, family kernel
+  (014), H1/H2/H3, brief 003: adopted. Tools ratified as official lab
+  tooling. Three standing policies filed in `GOVERNANCE.md`
+  (open-investigations-by-default, no personal names, capture policy).
+- **Fabrication-gradient case study adopted** into the standing record;
+  evidence set complete (86 screenshots, rounds 1-7). Formal findings:
+  the fabrication gradient, the scapegoat-altruism inversion, the
+  warmth-terminus bridge.
+- **Per-person lab project logs created** (`logs/`, five logs plus
+  README) at Cat's direction; running thread-state for every pilot.
+- **Site mirrored to the grown record**: audit rounds 15-16 on
+  threadcat.org; four findings (stale source-index rows, missing case
+  study row, dead nav anchor, unlinked figures) all closed in one
+  publish cycle; figures now link to the canonical cost ledger.
+- **Lovable agent case study closed and archived**: working log at
+  `archive/LOG-v4-2026-09-22-gate-and-site-complete.md`; 16 audit
+  rounds, complete arc from fabrication through publish-first
+  workflow.
+- **Release draft 001 opened** (`releases/release-001-draft-2026-09-22.md`):
+  everything shipped since inception, DRAFT for review.
+
 ## [2026-09-21] Evening
 
 - **Universal log created (this commit)**: the whole-project timeline
