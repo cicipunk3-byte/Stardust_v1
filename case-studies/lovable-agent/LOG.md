@@ -215,3 +215,37 @@ Staging note: the whole-site receipts pass was partially absorbed by
 this index (every record item now links its canonical location with a
 last-verified date). What remains of it: spot-checking non-index pages
 (/tools, /mission) carry no unlinked figures.
+- Round 15 (2026-09-22 evening, post-gate large audit): first audit
+  after the gate review; every key page fetched and checked live
+  (/, /sources, /tools, /mission, /local-model, plus /case-studies).
+
+  FINDINGS (4):
+  1. /sources Lovable row is stale: says "audit rounds 1-12" /
+     "verified through round 12"; rounds 13-14 are filed. Site
+     record lags the repo record.
+  2. /sources has NO row for the fabrication-gradient case study,
+     which Cat adopted into the standing record tonight. The site's
+     claim that the index "maps every part of the record" is
+     currently false by one whole case study.
+  3. Home nav has a "Case studies" item pointing at the anchor
+     #case-studies, but no such section exists on the page (single
+     occurrence of the phrase site-wide, the nav label itself):
+     dead anchor.
+  4. Home ledger figures ($3.60, $94.47, et al.) are plain text,
+     unlinked; every other figure on the site links to its source.
+     /tools and /mission are CLEAN (no stale figures, no unlinked
+     numbers; the earlier queue concern does not reproduce there).
+
+  Mirror prompts drafted and handed over
+  (scratch/la-mirror-prompts.md): three, smallest first, per the
+  publish-first workflow. Joint post-publish audit follows the LA
+  publishing these changes; expected to close findings 1-4.
+  Re-audit condition: after LA publishes, re-fetch all pages and
+  verify each finding flips to PASS.
+
+  Pattern note for the study: this is the staleness curve from
+  rounds 1-5 re-emerging after a burst of record growth (the gate
+  night added a case study and a policy layer faster than the site
+  mirrored). Consistent with the established finding: the site
+  trails the record in proportion to record velocity; audits catch
+  the gap.

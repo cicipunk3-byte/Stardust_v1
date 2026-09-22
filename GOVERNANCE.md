@@ -53,3 +53,20 @@ happens, not a precondition for the research.
 Until the nonprofit exists, governance is this document plus the
 maintainer's judgment. Changes to this document are commits, and the
 history is the minutes.
+
+## Standing policies (ratified at the Sep 22 evening gate)
+
+- **Open investigations (ratified, Q12):** every investigation is opened
+  by default and stays open until stated otherwise on the record. The
+  lab questions, tests, and updates in the open, and offers threads to
+  follow, on the human side as much as the research side. Closing an
+  investigation is a recorded decision, not a default.
+- **No personal names (ratified, Q31):** no real names of the people
+  behind the project on any public surface; public materials use
+  "the ThreadCat builders" or pilot names as each person uses them.
+  This was site practice since launch; it is now formal policy.
+- **Capture policy (ratified, Q26):** records of AI threads are
+  archived as human-captured screenshots. Share links to AI
+  conversations are treated as ephemeral and are never the record of
+  authority (basis: the Gemini link capture failure, case study 6
+  round 3).
