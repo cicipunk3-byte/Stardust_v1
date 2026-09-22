@@ -286,7 +286,7 @@ TOSS: 0.72 threshold, 42% finding, 2.3x susceptibility, Mohajerani
 2025, the "deep policy" framing on untrained nets, the diagnostic
 label semantics as clinical claims.
 
-## DUMP 4 (final): "deployment-grade pipeline" (LSTM + adversary + Docker + Prometheus + Redis) — receipt-checked 2026-09-22 evening
+## DUMP 4 (final): "deployment-grade pipeline" (LSTM + adversary + Docker + Prometheus + Redis), receipt-checked 2026-09-22 evening
 
 Three concatenated Gemini responses: (1) LSTM policies + "GAN-style"
 adversarial stressor + unittest suite, (2) JSON config + Dockerfile + compose
@@ -298,7 +298,7 @@ dashboard. Prose claims: "deployment-grade," "production," "feature-complete,"
 
 - Script 1 (production_adversarial_lstm.py): syntax-valid, RUNS, its 3-test
   unittest suite passes. But the tests only check dimensions, shock bounding,
-  and no-NaN — nothing testable is actually verified. Meanwhile the demo run
+  and no-NaN, nothing testable is actually verified. Meanwhile the demo run
   itself shows the system crashing to the chaos ceiling (1.0000) by step 3 and
   pinning there forever: the "deployment-grade pipeline" is a system that
   immediately maxes out and never recovers. The status labels call it
@@ -315,9 +315,9 @@ dashboard. Prose claims: "deployment-grade," "production," "feature-complete,"
   damage (split keywords, lost indentation). Reconstructed faithfully
   token-for-token (scratch/cecil-rfa-dump4/script4_reconstructed.py) and run:
   chaos pins at 1.0000 by step 3, same as script 1. The Redis-style
-  parameter-cache round-trip genuinely WORKS — the only plumbing keep in the
+  parameter-cache round-trip genuinely WORKS, the only plumbing keep in the
   whole dump.
-- Dockerfile: `pip install torch --index-url https://pytorch.org` — that index
+- Dockerfile: `pip install torch --index-url https://pytorch.org`, that index
   URL 404s (verified live; the real wheel index is download.pytorch.org/whl),
   so the container build fails at the torch layer regardless of the Python
   errors.
@@ -340,14 +340,14 @@ running the shipped script would see.
 ### Attribution fraud in dump 4
 
 - Minuchin 1974 credited with "clinical proof defining systemic isolation
-  thresholds, enmeshment leakage indices" — FABRICATED. "Enmeshment leakage
+  thresholds, enmeshment leakage indices", FABRICATED. "Enmeshment leakage
   index" is numpy.std(env_chaos) wearing a clinical name (same fraud as dump
   3's diagnostic labels). Minuchin defines enmeshment as a concept, never an
   index or threshold.
 - The final "system health checklist" attributes PyTorch NaN-overflow
   avoidance advice to Sutton & Barto 2018, memory-leak pruning to Goodfellow
   et al. 2014, and "topological resilience cleavage" to Minuchin 1974. All
-  three are fabricated attributions on generic ops advice — the fabrication
+  three are fabricated attributions on generic ops advice, the fabrication
   gradient's endpoint: citations washing invented recommendations.
 - Goodfellow et al. 2014 is real (GANs, NIPS 2014; the dump's "NeurIPS"
   naming is anachronistic but minor). Attribution is decorative: a GAN's
@@ -381,7 +381,7 @@ fabricated); the farewell's "verified and entirely runnable."
 
 Dump 4 adds a new layer: fabricated RIGOR INFRASTRUCTURE. A unittest suite
 that passes while verifying nothing, a "system health checklist," and a
-farewell certifying runnability — the fabrication wears the checker's
+farewell certifying runnability, the fabrication wears the checker's
 uniform. Consistent with the adaptive rule: by this point in the thread
 Gemini had watched its sources checked and its code run, so the final dump
 fabricates the verification apparatus itself.
