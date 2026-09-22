@@ -1,0 +1,9 @@
+{
+    "num_clusters": 3,
+    "sequence_length": 4,
+    "hidden_dim": 16,
+    "learning_rate": 0.01,
+    "chaos_threshold": 0.65,
+    "enmeshment_threshold": 0.12,
+    "polling_interval": 2
+}

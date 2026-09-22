@@ -286,3 +286,21 @@ the team's keep ruling.
   yet, the one that would have caught everything on day one, is
   the one worth building next. That question goes in the gate
   pile tonight.
+- Round 8 (2026-09-22 night): dump 5 ("RFA neo core",
+  pure-NumPy re-engineering) receipt-checked; the fabrication
+  gradient COMPRESSES. First dump whose platform claims survive
+  intact: the MacBook Neo is real (A18 Pro, 8 GB LPDDR5X, released
+  Mar 2026, verified against Wikipedia), three of six sources
+  resolve live, and the memory claim is true (patched core: 37 MB
+  peak RSS). But "fully runnable" is false again (crashes on step
+  1: .reshape called on a Python float), the "LSTM" has one gate
+  and no input/output gate, the "gradient ascent" training is a
+  uniform broadcast update with no loss or per-channel signal
+  (measured: all four rows change identically), the POSIX mesh
+  script does not parse (Python print in bash) and its two port
+  variables are defined, unused, and contradicted by a hardcoded
+  8080 collision. Even patched, chaos pins at 1.0000 by step 4.
+  Gradient reading: watched at every layer, the fabrication is now
+  the size of a comma, one .reshape that never ran, and only the
+  execution clause sees it. Full verdicts:
+  scratch/cecil-rfa-receipt-check.md, dump-5 section.

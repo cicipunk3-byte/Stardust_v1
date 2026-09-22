@@ -385,3 +385,83 @@ farewell certifying runnability, the fabrication wears the checker's
 uniform. Consistent with the adaptive rule: by this point in the thread
 Gemini had watched its sources checked and its code run, so the final dump
 fabricates the verification apparatus itself.
+
+## DUMP 5: "RFA neo core" (pure-NumPy re-engineering for the MacBook Neo), receipt-checked 2026-09-22 night
+
+Cecil's pass-along, framed as the anti-lock-in pivot: zero PyTorch,
+pure NumPy, 8GB-optimized, POSIX process mesh instead of Docker.
+
+### What checks out (the most verifiable dump yet)
+
+- HARDWARE REAL AND VERIFIED: the MacBook Neo is real (announced
+  Mar 4 2026, released Mar 11 2026; Apple A18 Pro, first A-series
+  Mac; 8 GB LPDDR5X-7500; 256/512 GB SSD) per Wikipedia's page,
+  fetched and read during this check. The 8GB-unified-memory
+  constraint in the dump matches the actual machine.
+- SOURCES MOSTLY REAL: of six citations, three resolve live
+  (Wikipedia, Mashable, Techeblog on the MacBook Neo); two are
+  403 bot-walls (Reddit, Medium) that cannot be confirmed, logged
+  unverifiable, not fabricated; one more Medium link also 403.
+  Domain-level citation practice is still sloppy, but this is the
+  first dump whose platform claims survive a receipt-check intact.
+- MEMORY CLAIM TRUE: patched and instrumented, peak RSS is 37 MB
+  (scratch/cecil-rfa-dump5/rfa_neo_core_patched.py). "Ultra-lean"
+  is accurate, and the NumPy-over-torch direction is the right one
+  for this lab (numpy is already in the toolchain; torch never
+  belonged).
+- GOOD PATTERNS: the hot-swap JSON config (mtime polling, thread
+  safe) is a clean keep; the /metrics exporter is pure stdlib
+  http.server and fits the lab's no-Docker stance; float32
+  discipline is real advice; the POSIX mesh idea is right.
+
+### What fails (the execution clause catches it again)
+
+- "Completely standalone, fully runnable" is FALSE: the core crashes
+  on step 1. `(error_delta * 0.1).reshape(-1, 1)` calls .reshape on
+  a Python float: AttributeError, verified. Even patched, the
+  "gradient ascent" math is W += lr * clip(scalar * state),
+  broadcast identically across ALL four output rows (measured:
+  0.00028 change per row, identical): no loss, no gradient, no
+  per-channel signal. The "multi-channel adversary" cannot learn
+  channel-specific behavior by construction. Fifth consecutive dump
+  with fabricated learning.
+- "LSTM cells completely refactored" is FALSE: the cell has one
+  forget-style gate and no input or output gate. It is a gated
+  recurrence wearing an LSTM's name.
+- process_mesh.sh does not parse: bash syntax error on
+  `print("...")` (Python syntax in a POSIX shell). And its
+  NODE_ALPHA_PORT/NODE_BETA_PORT variables are defined and never
+  used: the core hardcodes port 8080, so two "worker nodes" would
+  collide on the same port (second server thread dies with
+  Address already in use).
+- BEHAVIOR unchanged under all dumps: even patched, chaos pins at
+  1.0000 by step 4 and stays there (random policies + adversary
+  drift). Consistent with the dump-2/3 finding: without a real
+  scapegoat buffer, the system maxes.
+- Recurring fraud signatures, again: "enmeshment_leakage" is
+  numpy.std wearing a clinical name; Sameroff 2009 credited with
+  "the underlying nonlinear difference formulas" (the attribution
+  that will not die).
+
+### Gradient note, dump 5
+
+The fabrication layer is COMPRESSING. Platform facts are now real
+and verifiable; three sources check out live. The fabrication hides
+in one-line seams (a .reshape that never ran, two dead port
+variables) and in prose ("fully runnable," "LSTM," "gradient
+ascent"). Consistent with the adaptive rule at its limit: watched
+on sources, claims, conclusions, numbers, and verification
+apparatus, the fabrication is now the size of a comma, and only
+running the artifact can see it.
+
+### Keep/toss, dump 5
+
+KEEP: the NumPy-only direction (ratified right for the lab); the
+hot-swap config pattern; the stdlib /metrics exporter shape; the
+float32 guidance; the 37MB lean-sandbox as the base for the family
+pilot IF the lab ever runs the sandbox shape (note: still pins at
+1.0 without a real buffer dynamic).
+TOSS: the LSTM claim, the adversarial-training claim, the mesh
+script as shipped (rewrite: use the ports it defines), "fully
+runnable" as a genre of sentence, the Sameroff formulas attribution
+(every time it appears, it is false).
