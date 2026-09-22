@@ -1,7 +1,6 @@
 # Brief 006: awaiting Cat, the cohesive approval queue (v2)
 
-**Status: living document. Updated Sep 21 2026 ~5:10 PM ET, pushed at Cat's
-request ("it's growing quickly but I move when I move"). No nudging on this
+**Status: living document. Updated Sep 22 2026 ~1:45 PM ET. No nudging on this
 file: the queue waits for her pace, by rule.**
 
 Format change since v1: three lists now. What moved, what needs her
@@ -26,6 +25,18 @@ does, so review is one pass.
    active research status. All three wait.
 5. **Brief 003, the Receipt Method.** Now in briefs/ at her direction.
    A yes confirms it as a published brief rather than a review draft.
+6. **Brief 014, the family kernel proposal** (Sep 22). Ceec's design:
+   a portable-context kernel structured as a family narrative, 3 to 4
+   local instances in one sandbox, observation first, single-agent
+   ablations LAST. Pushed at Cat's direction with a scaffold at
+   `portable-context/family-kernel/`. A yes starts the observer
+   extension and a 3-agent local pilot.
+7. **License decision: MADE.** Sep 22, Cat on the record:
+   **CC BY-NC-ND 4.0** for the repo's research record. This unblocks the
+   List 3 gating item. One flag awaiting her call: CC licenses are
+   discouraged for software, and the repo contains code (the harness,
+   the tools). A short code-license note (or an explicit "written record
+   only" scope statement) would make the license clean to apply.
 
 ## List 2: In motion, no action needed (logged for completeness)
 
@@ -42,8 +53,10 @@ does, so review is one pass.
 
 ## List 3: Parked, team calls (public-facing, waiting)
 
-1. **License decision** for the repo. Still the gating one for open-source
-   steps. Cici/Cecil's call.
+1. ~~**License decision** for the repo.~~ **DECIDED Sep 22: CC BY-NC-ND 4.0**
+   (Cat, on the record). Moved to List 1 item 7 for the code-scope flag.
+   The LICENSE file itself is not yet committed; it lands with her go on
+   scope.
 2. **USPTO quick-check** on the ThreadCat name.
 3. **No-personal-names rule as formal repo policy.** Draft ready when
    wanted; needs a decision to file it in GOVERNANCE or CONTRIBUTING.
@@ -58,7 +71,20 @@ does, so review is one pass.
 
 ## Queue state
 
-Remote is synced with the record as of the rainbow9cat move and this brief.
+Remote is synced with the record as of rainbow9cat move and this brief.
 The queue's only hard ordering: nothing in List 1 ships further without a
 yes, and List 3 stays parked until someone picks it up. She moves when she
 moves; this file will be here.
+
+## Notes (Sep 22)
+
+- Cat reported an EIN and an Apple business account, obtained so lab and
+  tech infrastructure can be secured. Logged here for the record; cost
+  and receipt details belong in the cost ledger when the receipts land.
+  House rule reminder already on file from the site case study: an EIN
+  is free direct from the IRS, any third-party charge is worth a receipt
+  check.
+- Briefs 014 + family-kernel scaffold pushed for remote review at her
+  direction. Pushed-but-unpublished: review push is not publication.
+  Git state at push: this brief, brief 014, and the scaffold, stacked on
+  a clean tree.
