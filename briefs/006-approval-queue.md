@@ -89,3 +89,12 @@ moves; this file will be here.
   direction. Pushed-but-unpublished: review push is not publication.
   Git state at push: this brief, brief 014, and the scaffold, stacked on
   a clean tree.
+
+### Authority note (Sep 22, Cat on record, /cat)
+
+Ethan has standing clearance to work with the maintainer-assistant and
+push what he makes to this gate directly: "no need to wait for my
+clearance. it is granted." Review pushes only; public push and
+publication still wait on Cat. Gated briefs accumulating behind this
+queue get reviewed together with Cat the evening of Sep 22 in a
+dedicated thread.
