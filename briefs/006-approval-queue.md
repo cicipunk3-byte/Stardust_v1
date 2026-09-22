@@ -120,3 +120,11 @@ dedicated thread.
   subclasses mapped by name with own-words mechanics (Inquisitive
   rogue confirmed non-SRD: Xanathar's pp. 45-46). Ethan reviews the
   recommendation, then it waits for Cat. PROPOSAL.
+- **Brief 019, CCS terms and abilities definitions pass (Phase E
+  output).** Full inventory at tools/rainbow9cat/terms-and-abilities.md
+  with per-item status (SRD-NATIVE / BUILDABLE / CUSTOM / INSPIRED /
+  FLAVOR). Catches: Black Cat save mismatch, Artificer in neither
+  SRD 5.1 nor 5.2, two traits stronger than their real anchors,
+  Elixir Ripening contradicts the manual's own DC ladder, two traits
+  are creed not mechanics. Seven-item v2 change-list produced; Phase D
+  builds on it. PROPOSAL.
