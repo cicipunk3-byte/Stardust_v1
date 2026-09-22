@@ -36,7 +36,8 @@ does, so review is one pass.
    Implemented same day: `LICENSE` (MIT, scope note inside),
    `LICENSE-DOCS.md` (CC BY-NC-ND 4.0 with deed link), README License
    section. Copyright line: "The ThreadCat builders," consistent with the
-   no-personal-names rule.
+   no-personal-names rule. Site-wide statement published and verified
+   (rounds 12-13); governance page contradiction fixed and verified.
 
 ## List 2: In motion, no action needed (logged for completeness)
 
