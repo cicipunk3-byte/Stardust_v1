@@ -181,3 +181,37 @@ Minor: /changelog stamp line still reads "Record read 21 September
 prompt. Source index approved by the principal same day; prompt wrapped
 at scratch/ethan-source-index-prompt.md, copy from
 scratch/ethan-source-index-draft.md.
+
+## Round 14: source index + ledger link verified (Sep 22 ~3 PM)
+
+Both published changes audited live, cache-busted
+(audit=20260922-1455 and -1500c):
+
+**Sources page rebuild: PASS.** Preamble and all nine sections verbatim
+against the approved draft; all tables render with correct canonical
+links (repo paths, Zenodo record, deed); statuses and last-verified
+dates match the draft exactly; section 09 failures record stays named
+without links; closing footer line verbatim; no em-dashes; no personal
+names; no added content.
+
+**/local-model ledger link: PASS, verbatim**, placed after the
+full-guide line with the correct target.
+
+**/changelog: PASS.** Both new entries present; the stamp line now
+reads "Record read 22 September 2026."
+
+Method note, logged as a lesson: a cache-busted fetch of /local-model
+returned the pre-change render even with a fresh query string; only a
+second fetch with a different query surfaced the update (page bytes
+7498 then 7724, the delta being exactly the new line). Publish-state
+caching bit twice now; the audit method should treat a single stale
+fetch as inconclusive, not as evidence of absence.
+
+Minor, expected: the index says "audit rounds 1-12" / "verified through
+round 12"; round 13 was filed minutes after the draft froze. The index
+lags the log by design between updates; next content pass catches it.
+
+Staging note: the whole-site receipts pass was partially absorbed by
+this index (every record item now links its canonical location with a
+last-verified date). What remains of it: spot-checking non-index pages
+(/tools, /mission) carry no unlinked figures.
