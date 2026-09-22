@@ -249,3 +249,18 @@ last-verified date). What remains of it: spot-checking non-index pages
   mirrored). Consistent with the established finding: the site
   trails the record in proportion to record velocity; audits catch
   the gap.
+- Round 16 (2026-09-22 ~9 PM, closing audit): Cat pointed at the
+  live site; re-fetched all pages. ALL FOUR findings from round 15
+  flip to PASS: (1) /sources Lovable row now reads audit rounds
+  1-14; (2) the fabrication-gradient case study row is present, and
+  the home page now carries the new Case studies section with the
+  drafted one-liner, linked to the repo; (3) the dead anchor is
+  gone, the section exists; (4) $94.47 and $3.60 now link to the
+  canonical cost ledger in the repo (notes/cost-ledger.md), which
+  is one link better than requested: figures point at the record
+  itself, not a page describing it. Staleness curve: 4 -> 0 in one
+  publish cycle. Mirror prompts performed as written; the LA
+  executed all three without drift. Record-to-site mirror time
+  after the gate night's burst of growth: under 90 minutes. Case
+  study standing finding re-confirmed: publish-first + prompt-
+  driven mirror + post-publish audit closes staleness cleanly.
