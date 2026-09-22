@@ -128,3 +128,9 @@ dedicated thread.
   Elixir Ripening contradicts the manual's own DC ladder, two traits
   are creed not mechanics. Seven-item v2 change-list produced; Phase D
   builds on it. PROPOSAL.
+- **Brief 020, nine-cats v2 (Phase D output).** Saves corrected
+  (Black Cat), Orange Cat re-coined (Vesselwright pending Ethan's
+  pick), mythic traits on attunement rolls (11+, logged), Elixir
+  Ripening rolled against DC 20, two traits marked CREED, CC BY
+  attribution block, provenance lines. v1 canonical until Cat adopts.
+  PROPOSAL.
