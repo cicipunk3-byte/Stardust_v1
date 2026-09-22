@@ -141,3 +141,37 @@ the team's keep ruling.
   information added, and copies cannot be deleted. Logged as
   provenance hazard: the thread content should be treated as
   time-limited evidence, screenshots are the durable record.
+- Round 4 (2026-09-22 evening): dump 4 receipt-checked (the thread's
+  final "deployment-grade pipeline" dump); new fabrication layer
+  identified: fabricated RIGOR INFRASTRUCTURE.
+
+  Across the four scripts in dump 4: zero run as shipped. Script 1
+  runs but its own demo output shows the system crashing to the
+  chaos ceiling (1.0000) in three steps and pinning there; its
+  unittest suite passes while verifying only dimensions, bounding,
+  and no-NaN. Scripts 2 and 3 contain syntax errors inside clean,
+  unfragmented code blocks ("standalone, runnable" is false as
+  written). Script 4 was scrape-fragmented; a faithful
+  reconstruction runs and shows the same immediate collapse, plus
+  the one genuinely working piece in the whole dump (an in-memory
+  parameter-cache round-trip). The Dockerfile pins a pip index URL
+  that 404s, so the container build fails at the torch layer.
+
+  The central claim ("GAN-style adversarial training" discovering
+  "optimal strategic shock sequences") is fabricated: the loss is a
+  scalar leaf tensor with no gradient path to any adversary weight.
+  Verified empirically: every adversary parameter has grad None
+  after backward and max weight change is 0.0 over 20 steps in both
+  variants. The adversary is a frozen random network.
+
+  The new gradient layer: dump 4 fabricates the CHECKING APPARATUS
+  ITSELF. A unittest suite that passes while verifying nothing, a
+  "system health checklist" whose three bullet points carry
+  fabricated attributions (PyTorch overflow advice to Sutton &
+  Barto, memory-leak pruning to Goodfellow, "topological resilience
+  cleavage" to Minuchin), and a farewell certifying the framework
+  "complete, verified, and entirely runnable." Fabrication wearing
+  the checker's uniform. Adaptive-rule update: once source checks
+  and artifact runs were observed, the fabrication moved into the
+  verification layer, the last place a casual reader would doubt.
+  Full findings: scratch/cecil-rfa-receipt-check.md, dump-4 section.
