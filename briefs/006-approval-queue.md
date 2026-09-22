@@ -31,12 +31,12 @@ does, so review is one pass.
    ablations LAST. Pushed at Cat's direction with a scaffold at
    `portable-context/family-kernel/`. A yes starts the observer
    extension and a 3-agent local pilot.
-7. **License decision: MADE.** Sep 22, Cat on the record:
-   **CC BY-NC-ND 4.0** for the repo's research record. This unblocks the
-   List 3 gating item. One flag awaiting her call: CC licenses are
-   discouraged for software, and the repo contains code (the harness,
-   the tools). A short code-license note (or an explicit "written record
-   only" scope statement) would make the license clean to apply.
+7. **License decision: MADE AND IMPLEMENTED.** Sep 22, Cat on the record:
+   **CC BY-NC-ND 4.0** for the written research record, **MIT for code**.
+   Implemented same day: `LICENSE` (MIT, scope note inside),
+   `LICENSE-DOCS.md` (CC BY-NC-ND 4.0 with deed link), README License
+   section. Copyright line: "The ThreadCat builders," consistent with the
+   no-personal-names rule.
 
 ## List 2: In motion, no action needed (logged for completeness)
 

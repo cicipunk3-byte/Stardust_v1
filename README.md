@@ -39,3 +39,8 @@ One cycle = one small batch. Repeat until the project is done or the grant lands
 - Everything is markdown. Everything is in git. If it isn't committed, it doesn't exist.
 - Briefs are written for a 4B model: lede first, no buried context.
 - Notes are raw material, not truth. Ziggy verifies before filing into memory.
+
+## License
+
+- **Code** (harness, tools, scripts): MIT. See [LICENSE](LICENSE).
+- **Written research record** (briefs, case studies, memory-export, prose): CC BY-NC-ND 4.0. See [LICENSE-DOCS.md](LICENSE-DOCS.md).
