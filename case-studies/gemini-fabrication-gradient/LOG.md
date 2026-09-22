@@ -107,3 +107,37 @@ the team's keep ruling.
   the thread learned sources get checked, fabrication moved to
   claims and numbers; when code gets run, expect conclusion-level
   fabrication. Screenshots pending.
+- Round 3 (2026-09-22 ~5 PM): public-link capture FAILED; full attempt
+  log filed below; first screenshot ingested
+  (screenshots/IMG_1989.png, the Share dialog itself).
+
+  **Capture attempt record, share.google/aimode/IXbpQUiw4JfYI57eN**
+  (link provided by the research team, 4:49 PM ET):
+
+  | # | Method | Result | Wait |
+  | --- | --- | --- | --- |
+  | 1 | web_fetch of the share link | Followed 3 redirects to a google.com/search AI-mode page (udm=50); 92KB returned, 102 characters extractable, zero thread content; JS-rendered shell | Seconds |
+  | 2 | assistant browser navigate, auto backend | Timeout, no browser session established | 120s |
+  | 3 | assistant browser navigate retry, JSON mode | Timeout again | 180s |
+  | 4 | assistant browser navigate, playwright backend forced | Timeout again | 180s |
+  | 5 | curl raw capture, Safari user-agent, follow redirects | 92KB redirect shell only ("Please click here if you are not redirected"), no thread text embedded | Seconds |
+  | 6 | curl on the final udm=50 URL with consent cookies (CONSENT, SOCS) and Chrome user-agent | 92KB, zero occurrences of any thread keyword | Seconds |
+
+  Total elapsed across all methods: under 10 minutes. No method
+  retrieved one character of thread content. The AI-mode thread
+  renders entirely client-side and cannot be captured without an
+  interactive browser session, which was unavailable from this
+  environment during the attempt window.
+
+  What the failure itself establishes for the gradient finding: the
+  "public" share link is public in name only for archival purposes;
+  thread content is unrecoverable by static means. Screenshots are
+  the only capture channel, which is itself a record-integrity
+  observation: the fabrication evidence lives exclusively in
+  ephemeral, human-captured form.
+
+  Link disclosure (visible in the Share dialog, IMG_1989): the link
+  is valid 7 days, shares the thread including any personal
+  information added, and copies cannot be deleted. Logged as
+  provenance hazard: the thread content should be treated as
+  time-limited evidence, screenshots are the durable record.
