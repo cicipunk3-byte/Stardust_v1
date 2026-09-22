@@ -163,3 +163,21 @@ Staged next: cost-ledger link on /local-model
 (scratch/ethan-ledger-link-prompt.md), holds until the joint audit
 closes; whole-site receipts pass (every figure links its source)
 agreed in principle, its own prompt and audit after.
+
+## Round 13: governance fix verified, ledger link not landed (Sep 22 ~2:35 PM)
+
+Governance fix prompt published and audited live, cache-busted
+(audit=20260922-1430): License section replaced verbatim with correct
+link targets, rest of the page byte-identical, changelog entry present.
+The site's license contradiction is closed. PASS.
+
+The /local-model ledger-link line has not landed: page byte-identical
+to round 12, no changelog entry for it. Either the staged prompt was
+not sent or it did not take. Status tracked; the line is still accurate
+to stage.
+
+Minor: /changelog stamp line still reads "Record read 21 September
+2026" while carrying Sep 22 entries; fix folded into the source-index
+prompt. Source index approved by the principal same day; prompt wrapped
+at scratch/ethan-source-index-prompt.md, copy from
+scratch/ethan-source-index-draft.md.
