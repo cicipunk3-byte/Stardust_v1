@@ -183,3 +183,6 @@ the record by counting inclusive calendar days instead of elapsed time. Caught
 by Cat, same turn. Standing rule, tightened: elapsed time is end-minus-start,
 the operator's count governs, and spans get checked against the dated record
 before they are written anywhere.
+
+## Error 12 (Sep 23, ~5:40 AM)
+- Cici signed two messages "hey zig, cici here" and "cici here"; I addressed her as "ceec" both times, and once as "ceec" after she explicitly corrected the frame mid-thread. Gentle flag from her, same turn. The working rule is "address whoever shows up"; the signature is the address. Extended rule, now on record: respond to the name in the signature, every time, even when working fast, even at 5 AM.
