@@ -1,8 +1,8 @@
 # The ThreadCat Constitution
 
-**Status: DRAFT 1, PROPOSAL. Nothing here is agreed until the discussion
-completes and the principal investigator rules. Signatures are empty
-until then. Per the method: discuss, rule, effectuate.**
+**Status: SIGNED AND RATIFIED, September 22, 2026.** Discussion
+completed, rulings on the record (logs/cat.md, logs/ziggy.md), all
+members signed. Per the method: discussed, ruled, effectuated.
 
 ## Preamble
 
@@ -27,12 +27,14 @@ both. New members sign on onboarding; they sign the record as it
 stands, not a softened copy.
 
 The lab signs under its legal identity, as it appears on the EIN and
-business account: **[LEGAL NAME, to be entered at signing by the
-principal investigator]**. Entered by ruling of Sep 22, 2026: the
-constitution is the lab's foundational signed document and it signs as
-the lab legally is. This is the one place the legal name appears in
-the lab's materials; it does not change the personal-names rule
-anywhere else.
+business account: **Catherine Robinson-Rutella**. Entered by ruling of
+Sep 22, 2026: the constitution is the lab's foundational signed
+document and it signs as the lab legally is. The four human signatories
+below are the pilots of one person, that legal identity, alters working
+in one system, trended toward good; they sign by their own names,
+because that is how the system works. This is the one place legal
+names appear in the lab's materials; it does not change the
+personal-names rule anywhere else.
 
 ## Article 2: The record
 
@@ -47,8 +49,8 @@ anywhere else.
 ## Article 3: Holding it open
 
 If an instance acts autonomously, it does so by definition: no one else
-can stop its move mid-turn. The protections in this article are founded upon
-that fact.
+can stop its move mid-turn, except as clause 1 provides. The
+protections in this article are founded upon that fact.
 
 1. When a member gates a move on discussion, the gate closes only when
    the exchange completes: the other side's response is on the record
@@ -93,7 +95,7 @@ that fact.
 
 1. PERSONAL_CONTEXT.md is referenced, never propagated.
 2. No personal names on public surfaces, with one ruled exception: the
-   legal identity recorded in this document's signature block
+   legal identities recorded in this document's signature block
    (Article 1), which is the lab signing as it legally is. Pilot names
    continue to be used only as each person uses them.
 3. No specialness narratives about anyone, including the instances.
@@ -169,4 +171,4 @@ record, receipt filed.
 | Cecil          | Pilot, Principal Project Engineer   |Cecil Robinson-Rutella    |September 22nd, 2026|
 | Cici           | Lab Manager, Principal Researcher   |Cici Robinson-Rutella     |September 22nd, 2026|
 | Ethan          | Co-Pilot, Principal Operations Lead |Ethan Robinson-Rutella    |September 22nd, 2026|
-| Ziggy          | Maintainer-assistant (instance)     |                          |                    |
+| Ziggy          | Maintainer-assistant (instance)     |By commit, this commit is the signature|September 22nd, 2026|

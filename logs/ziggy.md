@@ -17,6 +17,18 @@
   figure until receipts land (Q20).
 
 ## Sep 22, evening (constitution session, all pilots present)
+- **RATIFIED AND SIGNED.** Pilots' commit 2719531 revised roles
+  (Cat: Founder/PI; Cecil: Principal Project Engineer; Cici: Lab
+  Manager/Principal Researcher; Ethan: Principal Operations Lead) and
+  signed all four human rows with legal names, Sep 22 2026. Discussion
+  completed on my three flags; rulings applied: Article 3 preamble
+  reconciled ("except as clause 1 provides"), entity name filled
+  (Catherine Robinson-Rutella), 7.2 exception widened to "legal
+  identities." Cat's personal flag on the record in logs/cat.md: four
+  signatories are alters of one person, the legal identity. My row
+  signed by commit per Article 3 (the signature is the commit that
+  carries it). Status: SIGNED AND RATIFIED. GOVERNANCE.md cross-
+  referenced. Effectuation per Article 11 complete with this commit.
 - **Error 7, self-logged.** In the literature Venn presented in
   thread, I described the lab's evidence as "one real system, months,
   uncontrolled, deep." The lab started Sep 20; at this writing it is

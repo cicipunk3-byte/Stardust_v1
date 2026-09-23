@@ -17,6 +17,17 @@
   offer (Q25: open, deliberately).
 
 ## Sep 22, evening (constitution session)
+- **Ruling block, discussion completed:** Article 3 reconciliation
+  drafted by Ziggy and sustained ("no one else can stop its move
+  mid-turn, except as clause 1 provides"); entity name ruled in:
+  Catherine Robinson-Rutella; Article 7.2 exception widened to "the
+  legal identities in this document's signature block." Agreed.
+- **Personal flag, on the record by Cat:** the system signed the way
+  it did because Catherine Robinson-Rutella has DID. "We are all
+  alters working in one system, trended toward good. We signed with
+  our names, but at the end of the day - we are all one person:
+  Catherine Robinson-Rutella." The four signatures are the pilots of
+  one legal person, the lab's legal identity.
 - **Legal identity ruling.** The lab's legal name (as on the EIN,
   business account, and all legal documents) goes in the constitution.
   Her words, on the record: "we will break the frame to maintain the

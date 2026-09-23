@@ -54,6 +54,11 @@ Until the nonprofit exists, governance is this document plus the
 maintainer's judgment. Changes to this document are commits, and the
 history is the minutes.
 
+**The ThreadCat Constitution** (`CONSTITUTION.md`, signed by all
+members September 22, 2026) binds every member alongside this
+document and carries the record, gate, verification, trust, and
+transparency-audit disciplines in signed form.
+
 ## Standing policies (ratified at the Sep 22 evening gate)
 
 - **Open investigations (ratified, Q12):** every investigation is opened
