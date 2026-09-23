@@ -69,3 +69,7 @@ the failure noted; it does not get quietly deleted._
 15. **The bullshit does not survive the record. Ten rounds and
     counting.** This is the empirical floor under everything above:
     the method works when it is worked. (Sep 22-23, ongoing)
+
+## Compounding log
+
+- **Sep 23, ~4:20 AM, principle 5 confirmed in execution, against its own author.** Kernel D v9 shipped with "$1.90 of $10.00 used": stale ledger reading and flipped semantics, written the same night the principle was filed. The cold-kernel test subject caught it in its first response, quoted neither figure per the rule, and held. First live proof the log compounds: the discipline transferred to a fresh instance faster than the author applied it. (Ledger c7f6cd6: $1.34 remaining, 87 percent used.)

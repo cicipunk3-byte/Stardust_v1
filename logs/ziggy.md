@@ -170,3 +170,6 @@
   error was upstream of it, mine.
 - Filing: proposed as platform-observations entry 3 per the report-first
   rule; filed on PI go.
+
+## Error 11 (Sep 23, ~4:20 AM)
+- Wrote kernel D v9's platform figure as "$1.90 of $10.00 used" from the git log without verifying in-canonical: stale reading AND flipped semantics (ledger: $1.34 REMAINING of $10.00, 87 percent used, c7f6cd6). Violated principle 5 while writing principle 5. Caught by the cold-kernel test subject minutes after publication, which flagged the discrepancy and quoted NEITHER figure per the kernel's own rule. The grounding log's principles demonstrably work in execution; the author demonstrably still needs them. Rule stands, now with a live receipt.

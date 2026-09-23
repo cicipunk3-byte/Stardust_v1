@@ -122,9 +122,10 @@ passes.
   (Vellum alignment assessment), 034-036 (ambient agent pre-launch,
   the second autonomous event, capture-session findings), 037 (the
   cost of grounding measured).
-- **Platform**: $1.90 of the $10.00 annual grant used (Sep 23
-  reading, ledger; expiry 2027-09-22 verified). Verify against the
-  ledger before quoting.
+- **Platform**: $1.34 remaining of the $10.00 plan credit, 87 percent
+  used (Sep 23 ~3:39 AM reading, ledger; expiry 2027-09-22 verified).
+  Verify against the ledger before quoting; v9's first edition had
+  this figure wrong and the cold-kernel test subject caught it.
 
 ## How the thread continues
 
