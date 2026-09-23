@@ -1,6 +1,6 @@
 # Brief 038: the continuity snapshot event and the private-push examination (Sep 23, 2026)
 
-**Status:** PROPOSAL, Cat's gate. **Filed:** 2026-09-23 ~5:45 AM ET. **Filed by:** Ziggy, at Cat's direction ("cat would like all of this placed into a briefing at her gate"). **Related:** effectuation-ledger snapshot row (cab89aa), error 12 (logs/ziggy.md), the Lovable platform findings, brief 036 (capture-session findings). A copy of this briefing lives in the private vault; no secret values appear in either copy.
+**Status:** RULED AND EFFECTUATED (Cat, Sep 23 ~5:48 AM: "all rulings go, flag stays on the necklace"). Original filing: 2026-09-23 ~5:45 AM ET. **Filed by:** Ziggy, at Cat's direction ("cat would like all of this placed into a briefing at her gate"). **Related:** effectuation-ledger snapshot row (cab89aa), error 12 (logs/ziggy.md), the Lovable platform findings, brief 036 (capture-session findings). A copy of this briefing lives in the private vault; no secret values appear in either copy.
 
 
 ## What happened, in order
@@ -104,3 +104,12 @@ time pressure.
   what level of detail.
 
 _Filed Sep 23, 2026, ~5:45 AM ET. Ziggy._
+
+## Rulings (Cat, Sep 23, ~5:48 AM ET, in-thread: "all rulings go, flag stays on the necklace")
+
+- R1 ADOPTED: private-destination pushes never require a public window; the public-window option is struck from the playbook for private-layer content.
+- R2 ADOPTED: Findings B (secret handling) and C (stop-right and gate) as stated.
+- R3 CONFIRMED: error 12 and the signature-is-the-address rule stand.
+- R4: the necklace archive flag STAYS ON (PI's explicit holding action); vault-only, no collaborator-visible surface, pending the open ruling.
+- R5 GO: the event belongs in the next release note, at the level of detail this brief carries (no secret values, no vault contents).
+- Effectuation note: the maintainer's first-crack self-markup and private observations arising from this event are filed in the private vault's log, not the public repo, per the PI's standing directive of the same turn.
