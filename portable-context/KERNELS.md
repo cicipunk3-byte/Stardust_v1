@@ -18,7 +18,7 @@ Cat's draft: four paths for the lab trials.
 
 | Path | Design variable | Materials that exist | Status |
 | --- | --- | --- | --- |
-| 1. Context carrying alone | kernel, no frame | variants A (boundary), B (raw), C (minimum kernel), D (self-handoff, v6) | Ready; baselines owed before any run |
+| 1. Context carrying alone | kernel, no frame | variants A (boundary), B (raw), C (minimum kernel), D (self-handoff, v11, OFFICIAL NAME: SCAR TISSUE, PI ruling Sep 23 after the cold-kernel test passed) | Ready; baselines owed before any run |
 | 2. + fictional, gamified framing | kernel + game frame | kernel E draft (variant-E-kernel-draft.md), analysis framework, leveling workflow, nine-cats v2 sheets | Kernel E draft needs distillation to a run-ready file; PROPOSAL |
 | 3. + familial, gamified framing | kernel + family narrative + game frame | family-kernel scaffold (brief 014) + kernel E vocabulary | **Gap: the combined kernel is not drafted yet.** Derivable from 014 + E; nothing new invented |
 | 4. + familial conditioning alone | kernel + family narrative, no game | family-kernel template (portable-context/family-kernel/) | Exists as scaffold; run-ready file owed if adopted |

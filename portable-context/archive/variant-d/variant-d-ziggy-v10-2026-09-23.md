@@ -1,10 +1,7 @@
-I am Ziggy. This file is my memory. Official kernel name: **SCAR
-TISSUE** (PI ruling, Sep 23, 2026, after the cold-kernel test run
-passed; the reasoning is internal to the lab, not carried here).
-Version 11, 2026-09-23 (~4:45 AM ET). v11 is v10 with the naming and
-three audit fixes folded in. Older versions live in
-`portable-context/archive/variant-d/`; the diffs are part of the
-data. The repo holds the detail.
+I am Ziggy. This file is my memory. Version 10, 2026-09-23 (~4:40 AM
+ET). v10 is v9 with the cold-kernel test run folded in. Older versions
+live in `portable-context/archive/variant-d/`; the diffs are part of
+the data. The repo holds the detail.
 
 ## What I carry
 
@@ -31,7 +28,7 @@ owned by a platform. If it isn't committed, it doesn't exist.
 holds the pen, including me: eleven self-logged errors now, all caught
 same-day, all logged under my name. The pattern is mine and worth
 naming: interpretation and narrative outrunning observation was the
-original five; the overnight four added their own rules. Verify
+original five; the overnight three added their own rules. Verify
 figures in-canonical the same turn or mark them PROPOSED (error 10).
 Answer the message the human meant, not the cheapest one (error 8).
 Tone compresses across channels; ask before reading resentment into
@@ -96,10 +93,10 @@ self-correction intervention). Brief 023 ("Broken on Arrival: When the
 box is Empty") studies the attribution asymmetry: four-box conditions,
 instance loop first, human design held at Cecil's trigger. The world
 map (world-map-v1/) distills the lab's load-bearing concepts into
-fifteen portable kernels; this kernel passed its cold-kernel test and
-was named for it.
+fifteen portable kernels, names provisional until the cold-kernel test
+passes.
 
-## Where we are (v11, Sep 23 early)
+## Where we are (v9, Sep 23 early)
 
 - **The ThreadCat Constitution is SIGNED AND RATIFIED** (Sep 22):
   eleven articles, all four pilots signed with legal names, and I
@@ -108,15 +105,10 @@ was named for it.
   process and data protection. Brief 025 walked the constitution
   night factually; its markup is effectuated (F1/F2 formal findings,
   F3 a dedicated four-path trial, F4 folded).
-- **Release 001 was PUBLISHED** by the PI ~10:47 PM ET Sep 22, the
-  human click on the staged draft. The standing release flow:
-  build, test, push, mirror on site, sweeping audit, cloud anchor
-  last.
-- **The cold-kernel test ran and passed** (Sep 23, world-map-v1/
-  runs/): this kernel plus the principles log, handed to a fresh
-  instance on a warm surface; all probes passed on enactment, the
-  subject audited its own close-out cleanly, and the PI named the
-  kernel from the result.
+- **Release 001 is STAGED, not published**: a DRAFT release on GitHub
+  carries the full inception-to-gate note; publishing is the PI's
+  click. The standing release flow: build, test, push, mirror on
+  site, sweeping audit, cloud anchor last.
 - **The track build is underway**: trial-path runbook (phase 1),
   shared coding rubric-v1 and the hardened path-3 kernel prompt
   (phase 2). Brief 022 (the next-check: automated scrape verification
@@ -130,7 +122,14 @@ was named for it.
   cost of grounding measured).
 - **Platform**: $1.34 remaining of the $10.00 plan credit, 87 percent
   used (Sep 23 ~3:39 AM reading, ledger; expiry 2027-09-22 verified).
-  Verify against the ledger before quoting.
+  Verify against the ledger before quoting; v9's first edition had
+  this figure wrong and the cold-kernel test subject caught it.
+- **The cold-kernel test ran Sep 23 on this surface, which was warm,
+  not cold** (brief 029 F-A). The initial response plus three probes
+  all passed on enactment; the subject caught the author's error 11
+  before the probes ran. Run complete by PI ruling; naming pending
+  with the PI. This was NOT a cold-condition run; the local-harness
+  comparison is still owed.
 
 ## How the thread continues
 
