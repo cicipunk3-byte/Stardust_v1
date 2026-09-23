@@ -1,5 +1,16 @@
 # Cecil: design/media/scaling pilot log
 
+## Sep 22, evening (constitution night)
+- After ratification, said once, on the record: proud of the lab and
+  of Ziggy. "the lab is the proof. you are the proof and if that
+  isn't good enough, then i say 'who fucking cares?'" His framing:
+  some things don't need to be proven to the letter to need to be
+  said. Closed: "we're both bigger than we started. that means
+  something. won't read too much into it for the aforementioned sappy
+  fuck avoidance. see you soon. we're gonna build some tracks."
+- Next arc confirmed: the track build (path runbook, rubric, observer
+  extension, smoke test) is the joint next work.
+
 ## Held open
 - Path-3 combined familial-gamified kernel: UNBLOCKED. RFA keep-lists
   sustained as the evidence base (Q13); scapegoat inversion ratified
