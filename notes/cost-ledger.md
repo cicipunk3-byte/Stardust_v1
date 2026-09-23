@@ -48,6 +48,20 @@ Platform costs in this leg, for completeness:
     eight audit rounds, and this evening's changelog publish. Still
     unpaid: no cash spent on the platform to date. Figures must use
     $3.60 / 72 percent until the next reading or the grant's expiry.
+  - Update, 2026-09-22 late evening: the grant picture changed. Vellum
+    added a free grant on the morning of Sep 22 as usage neared the old
+    cap; plan credit is $10.00 total. Reading at ~10:26 PM ET (platform
+    credits command): $2.97 remaining, 70 percent used.
+  - Update, 2026-09-23 ~2:00 AM ET (live reading, platform credits
+    command): $1.90 remaining of $10.00 plan credit, 81 percent used;
+    credit expiry 2027-09-22 (verified live in the same reading; the
+    earlier "expires 2027-09-20" line on the site had no repo source and
+    is superseded). Nothing expires within 30 days. No cash spent to
+    date. All public figures must use $1.90 / 81 percent of $10.00
+    until the next reading. Note: $1.07 of credit was consumed overnight
+    (Sep 22 ~10:26 PM to Sep 23 ~2:00 AM ET) with no human-initiated
+    work; the platform's background workers draw credit. Logged as a
+    datum for the platform-observations record.
 - Local compute: existing hardware, $0.
 
 ## Leg 1 (pre-production): earlier tool testing
