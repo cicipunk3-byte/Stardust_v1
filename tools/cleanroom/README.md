@@ -2,7 +2,9 @@
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 
-## Status: SCAFFOLD, PENDING TESTING
+## Status: PENDING PI ADOPTION; fixture tests pass
+
+Fixture tests pass (3/3); arithmetic exact against known input. Token figures remain labeled estimates.
 
 Sizes the carried text of runs in a lab `timeline.jsonl` and reports
 per-run event counts and rough token estimates (~4 chars/token, an

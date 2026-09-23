@@ -2,7 +2,9 @@
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 
-## Status: SCAFFOLD, PENDING TESTING
+## Status: PENDING PI ADOPTION; fixture tests pass
+
+Fixture tests pass (3/3). Still owes one human-scored end-to-end session before findings cite it.
 
 Scaffolded Sep 23. The probe-spec format and scoring tally work; the
 rubric is applied by a human, never by the tool. Not yet tested against

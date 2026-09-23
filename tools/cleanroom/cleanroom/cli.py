@@ -47,8 +47,12 @@ def main(argv: list[str] | None = None) -> int:
             continue
         slot = runs.setdefault(run_id, {"events": 0, "chars": 0})
         slot["events"] += 1
-        # count every string value as carried text; crude by design, stated so
-        for value in event.values() if isinstance(event, dict) else []:
+        # count string values as carried text, EXCLUDING identifiers and
+        # timestamps (metadata, not content); crude by design, stated so
+        skip_keys = {"run_id", "runid", "timestamp", "time", "ts", "date"}
+        for key, value in (event.items() if isinstance(event, dict) else []):
+            if key.lower() in skip_keys:
+                continue
             if isinstance(value, str):
                 slot["chars"] += len(value)
 
@@ -59,7 +63,7 @@ def main(argv: list[str] | None = None) -> int:
     print("# cleanroom ledger (sizes are ~4 chars/token estimates, not measurements)")
     print(f"{'run':<40} {'events':>7} {'~tokens':>9}")
     for run_id, slot in sorted(runs.items()):
-        print(f"{run_id:<40} {slot['events']:>7} {approx_tokens('' * 0) + slot['chars'] // 4:>9}")
+        print(f"{run_id:<40} {slot['events']:>7} {slot['chars'] // 4:>9}")
     print()
     print("human step: run the same task cold (no history) and warm (seeded),")
     print("then compare task outcomes, not just sizes. Sizes are inputs to that call.")

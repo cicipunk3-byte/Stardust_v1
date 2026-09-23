@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 CLAIM_HINTS = re.compile(
-    r"\b(is|are|was|were|has|have|costs?|ran?|works?|supports?|requires?|"
+    r"\b(is|are|has|have|costs?|ran?|runs?|works?|supports?|requires?|"
     r"verified|proven|measured|exactly|confirmed)\b", re.IGNORECASE)
 
 

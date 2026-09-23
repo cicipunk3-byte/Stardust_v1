@@ -32,6 +32,7 @@ def main(argv: list[str] | None = None) -> int:
         sections = re.split(r"(?=^#{1,3} )", text, flags=re.MULTILINE)
     else:
         sections = [p for p in text.split("\n\n") if p.strip()]
+    sections = [s for s in sections if s.strip()]  # re.split leaves a leading empty chunk
 
     per_section = max(1, budget // max(1, len(sections)))
 

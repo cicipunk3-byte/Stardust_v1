@@ -2,7 +2,9 @@
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 
-## Status: SCAFFOLD, PENDING TESTING
+## Status: PENDING PI ADOPTION; fixture tests pass
+
+Fixture tests pass (3/3) including a synthetic error-11 reproduction. A run against the live kernel archive pair is still owed.
 
 Built for the error-11 class (a stale credit figure written from memory
 into a kernel, Sep 23). Extracts money, percent, and multi-digit figures

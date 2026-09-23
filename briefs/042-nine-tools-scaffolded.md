@@ -33,12 +33,21 @@ Nine free, stdlib-only Python tools were scaffolded under `tools/`, one per glas
 - The staleness tool was smoke-run against the error-11 fixture pair (kernel v9 archive vs brief 037); full fixture tests are still owed.
 - No test suites exist yet for any of the nine. The READMEs say so in the same words: SCAFFOLD, PENDING TESTING.
 
-## Owed before any tool is cited in a finding
+## Test results (same-day comprehensive pass, Sep 23, PI-directed)
 
-1. Fixture tests per tool: real failures as positive controls, a verified-clean negative control each (the fabcheck method).
-2. The staleness fixture must reproduce the error-11 catch (kernel v9's stale figure vs the cost ledger).
-3. driftprobe needs one recorded session scored end to end by a human.
-4. minibeat needs a run on the Mac Mini, not just the sandbox.
+Fixture tests were written for all nine per the fabcheck method (real failures as positive controls, verified-clean negative controls, direct invocation) and **all nine suites pass**. The test pass caught and fixed three real tool bugs and one detector miscalibration before they could ship as silent wrong answers:
+
+1. cleanroom counted identifier fields as carried text and carried a phantom +1 token artifact; both fixed, arithmetic now exact against known input.
+2. kernelpress counted re.split's leading empty chunk as a section; fixed.
+3. nextcheck queued chat filler ("the weather was pleasant") via past-tense hints; hints tightened, queue now demands work-product claim shapes.
+4. exportcoroner's hand-cleaned-manual regression and real-fabrication positive controls both pass (the fix landed during the original smoke run).
+
+Remaining owed (unchanged, narrowed by results):
+
+1. The staleness fixture reproduces the error-11 class synthetically; a run against the live kernel archive pair is still owed.
+2. driftprobe needs one recorded session scored end to end by a human.
+3. minibeat needs a run on the Mac Mini, not just the sandbox.
+4. Naming ruled by the PI in-thread Sep 23: cat names stay.
 
 ## Open questions
 

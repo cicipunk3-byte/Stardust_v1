@@ -2,7 +2,9 @@
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 
-## Status: SCAFFOLD, PENDING TESTING
+## Status: PENDING PI ADOPTION; fixture tests pass
+
+Fixture tests pass (4/4); budget math exact. Prose stays human; retention scoring is the owed next step.
 
 Splits a transcript into sections, applies a word retention budget
 (default 20 percent), and emits a draft skeleton with per-section

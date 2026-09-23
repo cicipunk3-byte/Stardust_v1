@@ -2,7 +2,9 @@
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 
-## Status: SCAFFOLD, PENDING TESTING
+## Status: PENDING PI ADOPTION; fixture tests pass
+
+Fixture tests pass (3/3) against a throwaway git repo. Needs a run on the Mac Mini, not just the sandbox.
 
 One pulse: repo sync state, uncommitted file count, and an optional
 HEARTBEAT.md stamp. Designed for the Mac Mini self-host loop. Nudge

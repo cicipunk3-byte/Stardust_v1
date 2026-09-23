@@ -2,7 +2,9 @@
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 
-## Status: SCAFFOLD, PENDING TESTING
+## Status: PENDING PI ADOPTION; fixture tests pass
+
+Fixture tests pass (2/2). Sensitivity pass on real transcripts still owed.
 
 Scans a markdown transcript for repeated line trigrams (candidate
 reasoning wheels) and prints the flagged ranges with counts. Repetition
