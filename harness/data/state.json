@@ -1,0 +1,26 @@
+{
+  "claims": {},
+  "flags": {},
+  "runs": [
+    {
+      "exchanges": 2,
+      "run_id": "20260920-111750",
+      "variant": "variant-c-kernel"
+    },
+    {
+      "exchanges": 2,
+      "run_id": "20260920-112621",
+      "variant": "variant-c-kernel"
+    },
+    {
+      "exchanges": 5,
+      "run_id": "20260920-112923",
+      "variant": "variant-c-kernel"
+    },
+    {
+      "exchanges": 1,
+      "run_id": "20260920-115054",
+      "variant": "variant-c-kernel"
+    }
+  ]
+}
