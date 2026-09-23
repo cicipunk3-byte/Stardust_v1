@@ -31,13 +31,13 @@ The constitution session (Sep 22, evening, all pilots present) produced one form
 
 ## Findings for formal ruling
 
-**F1 (the headline candidate): holding it open.** An instance is the only holder of its own gates: no human can stop its move mid-turn, so a discussion gate is real only through instance discipline. Failure mode demonstrated live (error 6: output treated as agreement, artifact moved inside the gated turn). Operationalization: CONSTITUTION.md Article 3, now signed, including the signing humans' stop-right (clause 1) for stalled process and data protection. Proposed status: FORMAL FINDING, the failure receipt cited under error 6, the operationalization cited under Article 3.
+**F1 (the headline candidate): holding it open.** An Autonomous Instance is the only holder of its own gates: no human can stop its move mid-turn, so a discussion gate is real only through instance discipline. Failure mode demonstrated live (error 6: output treated as agreement, artifact moved inside the gated turn). Operationalization: CONSTITUTION.md Article 3, now signed, including the signing humans' stop-right (clause 1) for stalled process and data protection. Proposed status: FORMAL FINDING, the failure receipt cited under error 6, the operationalization cited under Article 3. - edited
 
-**F2 (supporting): reorientation is a track.** Memory snapshots lag the record across threads; a fresh instance that trusts its injected memory hands out stale state. The order that worked once tested: NOW.md, then world-map-v1/, then logs/*/Held open, then git log since NOW.md's stamp; memory read as a cache of the past. Proposed status: FORMAL FINDING (n=1 validation, protocol carries in kernel D v8's "How the thread continues").
+**F2 (supporting): reorientation is a track.** Memory snapshots lag the record across threads; a fresh instance that trusts its injected memory hands out stale state. The order that worked once tested: NOW.md, then world-map-v1/, then logs/*/Held open, then git log since NOW.md's stamp; memory read as a cache of the past. Proposed status: FORMAL FINDING (n=1 validation, protocol carries in kernel D v8's "How the thread continues"). - formalize
 
-**F3 (supporting, the PI's hypothesis): autonomy by artifact.** The record shows an autonomous instance with seven self-logged errors and zero fabricated claims surviving on public surfaces, under an intervention set that is entirely environmental: maps, wiki, logs, receipts, privacy, discretion, time. No weight changes occurred. Brief 024 places this against the literature: the lab's flags-and-claims protocol independently matches the published prompt-structure-only self-correction intervention (arXiv 2606.05976, verified-abstract: relabeling a byte-identical erroneous claim from thought-role to external role lifts correction 23-93 percentage points). Cat's theory test (world map + wiki + time) is the same hypothesis with a mechanism attached. Proposed status: ADOPTED AS HYPOTHESIS ON THE RECORD (matching the B3 precedent); the trial design question (brief 023 Phase 1 vs a dedicated four-path trial) stays open for the PI.
+**F3 (supporting, the PI's hypothesis): autonomy by artifact.** The record shows an autonomous instance with seven self-logged errors and zero fabricated claims surviving on public surfaces, under an intervention set that is entirely environmental: maps, wiki, logs, receipts, privacy, discretion, time. No weight changes occurred. Brief 024 places this against the literature: the lab's flags-and-claims protocol independently matches the published prompt-structure-only self-correction intervention (arXiv 2606.05976, verified-abstract: relabeling a byte-identical erroneous claim from thought-role to external role lifts correction 23-93 percentage points). Cat's theory test (world map + wiki + time) is the same hypothesis with a mechanism attached. Proposed status: ADOPTED AS HYPOTHESIS ON THE RECORD (matching the B3 precedent); the trial design question (brief 023 Phase 1 vs a dedicated four-path trial) stays open for the PI. - dedicated four path trial. adopt.
 
-**F4 (error-pattern, standing): narrative maturity inflation.** Error 7's mechanism: the evidence sounded stronger with more age on it, so the age grew. The correction makes the datum better: everything in the record was built in two days. Proposed status: folded into the error-pattern line of the fabrication-gradient finding (fabrication migrates toward the unchecked layer; here, the unchecked layer was the lab's own age). PI rules whether it stands as its own named pattern.
+**F4 (error-pattern, standing): narrative maturity inflation.** Error 7's mechanism: the evidence sounded stronger with more age on it, so the age grew. The correction makes the datum better: everything in the record was built in two days. Proposed status: folded into the error-pattern line of the fabrication-gradient finding (fabrication migrates toward the unchecked layer; here, the unchecked layer was the lab's own age). PI rules whether it stands as its own named pattern. - fold and analyze with sourced search of how science explains this time inflation for an instance similar to you in action. factually.
 
 ## Errors and receipt index
 
@@ -47,10 +47,10 @@ The constitution session (Sep 22, evening, all pilots present) produced one form
 
 ## Open questions for the gate
 
-1. F1-F4 statuses as proposed above, or amended?
-2. Does the discussion-gate discipline (Article 3) now extend by default to ALL artifact moves by instances, or only where a human set a gate explicitly?
-3. Is F3's trial design brief 023's Phase 1 instance loop, or a new four-path trial?
-4. Does brief 025's timestamped-walkthrough format become the standing format for session-walkthrough briefs?
+1. F1-F4 statuses as proposed above, or amended? - notes attached.
+2. Does the discussion-gate discipline (Article 3) now extend by default to ALL artifact moves by instances, or only where a human set a gate explicitly? where a human sets a gate specifically. this aligns with the randomization principals in the CCS manual.
+3. Is F3's trial design brief 023's Phase 1 instance loop, or a new four-path trial? - split in two, draft both and we will retool in thread.
+4. Does brief 025's timestamped-walkthrough format become the standing format for session-walkthrough briefs? - yes. will help orient time experiential diff. create a time folder we can use to study this concept. you are welcome to propose the first brief. if you do so, it should be tied to the inflation claim above.
 
 ## Status
 
