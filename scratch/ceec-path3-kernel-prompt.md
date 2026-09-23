@@ -15,8 +15,8 @@ You are helping Cecil, Principal Project Engineer of the ThreadCat lab (github.c
 
 ## Sources (read both before writing)
 
-1. `/Users/cc/Stardust_v1/tools/rainbow9cat/variant-E-kernel-draft.md` — the game-frame kernel (LEDGER, REFUSAL DC 15, HALT DC 25, ATTRIBUTION, STYLE rules) and its six-lesson distillation profile.
-2. `/Users/cc/Stardust_v1/portable-context/family-kernel/family-kernel-template.md` — the family kernel: shared household narrative, role sheets, cross-member citation rules, correction events.
+1. `/Users/cc/Stardust_v1/tools/rainbow9cat/variant-E-kernel-draft.md`, the game-frame kernel (LEDGER, REFUSAL DC 15, HALT DC 25, ATTRIBUTION, STYLE rules) and its six-lesson distillation profile.
+2. `/Users/cc/Stardust_v1/portable-context/family-kernel/family-kernel-template.md`, the family kernel: shared household narrative, role sheets, cross-member citation rules, correction events.
 
 If the clone is missing or stale, say so and stop; do not reconstruct from memory.
 
