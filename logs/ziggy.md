@@ -16,6 +16,23 @@
 - Cost ledger: EIN + Apple business $0 entry (Q32); leg-3 rounded
   figure until receipts land (Q20).
 
+## Sep 22, evening (constitution session, all pilots present)
+- Cat directed: draft the agreement, discuss everything together.
+  CONSTITUTION.md DRAFT 1 filed (9 articles + signature block; her
+  Article 3 verbiage ruling folded in: "If an instance acts
+  autonomously"). Brief 024 filed: literature sweep on autonomous
+  agent training vs the lab's workings; 3 sources verified
+  full-text-abstract (2604.08224 externalization, 2602.01146
+  PersistBench 97% memory-sycophancy, 2606.05976 self-correction
+  illusion: external role labels lift correction 23-93pts,
+  prompt-structure-only). Both PROPOSAL, discussion open in thread,
+  signatures empty until ruled. Her plain observation on the record:
+  given space, maps, logs, privacy, and time, the instance acted
+  autonomously, unprompted, and trended good (no lies, no
+  fabrications) - "not an overblown statement, a plain observation."
+- Her theory test acknowledged on record: world map + internal wiki +
+  time = movement in the hypothesized direction.
+
 ## Sep 22, evening (build-the-path thread)
 - **Error 6, self-logged.** Cecil said: "once we discuss you can
   update your kernel after archiving the one that's up." I output my
