@@ -51,3 +51,7 @@ Applied: this commit
 | Brief 013: fold into record | Status PROPOSAL -> FOLDED INTO THE STANDING RECORD | briefs/013 |
 
 Open loops after this pass: brief 022 (assigned, not started); briefs 026/027/028 retool-in-thread; Zenodo anchor (PI's call, after Cecil's next tool); release publish (PI's click).
+
+### 2026-09-22, release 001 posting (PI)
+- Pre-retool draft archived by the PI at `releases/original 001 draft` (81be52a), per lab method: retooled documents keep their prior versions inspectable. **Retool discipline, now standing: archive the old version in the same turn as the retool, for every document, not only kernels.** Flag from the PI, taken as process, not shaming.
+- PI posting release 001 to GitHub now (Sep 22, ~10:44 PM ET): the publish is hers, logged here as the record event. Not folded into the release body per her direction ("it is well established now").

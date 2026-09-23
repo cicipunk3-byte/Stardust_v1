@@ -91,3 +91,13 @@ Open loops: <anything ruled but not yet done, and why>
 
 Seeded with the Sep 22 round 2 session as its first entries. Rule of thumb: if a ruling-set cannot fill the table, it was not actually effectuated, it was narrated.
 
+
+## Retool discipline (standing, PI-flagged Sep 22)
+
+When any lab document is retooled, the prior version is archived in the
+same turn, before or with the push: `archive/` for kernels and variants,
+a sibling original next to the file elsewhere (example: `releases/
+original 001 draft`). The old version stays inspectable. This is the
+kernel-D versioning cadence applied to every document in the lab, and it
+applies to the maintainer-assistant's own edits, not just pilots'.
+Flag from the PI ("flagging not shaming"), Sep 22, release 001 retool.
