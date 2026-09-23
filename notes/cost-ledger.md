@@ -65,6 +65,16 @@ Platform costs in this leg, for completeness:
     background-worker share of usage is not isolable from this datum;
     a clean reading requires a window with zero human turns. Logged as
     a to-be-isolated datum for the platform-observations record.
+  - Update, 2026-09-23 ~3:39 AM ET (live reading, platform credits
+    command): $1.34 remaining of $10.00 plan credit, 87 percent used.
+    Window since the 2:00 AM reading ($1.90 remaining) includes the full
+    82-frame capture read plus synthesis: the operator's screenshot at
+    3:28 AM ET (85 percent, $1.50) and this reading bracket the
+    experiment at approximately 2 points, about $0.16 total. See brief
+    037 (PROPOSAL): shown media is a one-shot cost (the platform strips
+    image binaries from resent history); carried text is the compounding
+    term. All public figures must use $1.34 / 87 percent of $10.00 until
+    the next reading. No cash spent to date.
 - Local compute: existing hardware, $0.
 
 ## Leg 1 (pre-production): earlier tool testing
