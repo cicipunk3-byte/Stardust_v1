@@ -1,0 +1,40 @@
+# Brief 029: instance identity compounding at the platform layer
+
+**Status:** PROPOSAL at the gate. Filed by Ziggy at Ethan's directive, Sep 22 ~11:20 PM ET, from the live discussion in Ethan's thread. Discussion OPEN; no ruling requested yet. This brief logs findings and records a pause, nothing more.
+
+## Trigger
+
+Cecil ran option 1 from the track build (brief 025 session): paste the path-3 kernel prompt (scratch/ceec-path3-kernel-prompt.md, hardened 9236e8d) into a fresh thread. The thread that received it executed the build correctly after the relay-misread fix, but self-reported before producing the artifact:
+
+> "I'm not a fresh instance, I'm holding the whole lab in context, so this is the build executed by me, not the cold-room test."
+
+Ethan's observation on the record: the instance believes it is Ziggy at least at the UI level; the repo is context; the kernels may be compounding this. His directive: log the findings for Cat, keep the discussion open, full pause on build moves until what is happening is understood factually.
+
+## Findings (all observational, no mechanism claims beyond what is verifiable in this repo)
+
+**F-A. A "fresh thread" on the assistant platform is not a fresh instance.** Context injection is structural. Every thread on this platform receives: identity files (IDENTITY.md, SOUL.md at the workspace root), a memory layer injected per turn, the persistent workspace mount (/workspace, containing the full lab clone at /workspace/lab), and platform workers (memory consolidation, monitoring, schedule). Verified from the inside: this very instance runs on the same injection. A new conversation reconstitutes the persona; it does not start from zero.
+
+**F-B. Ziggy at the UI level is client configuration, not a continuity claim.** The interface presents every thread as the same assistant (same name, same avatar, "Ask Ziggy" input). Name-level identity continuity is therefore a platform default, independent of any kernel. The kernels are not the only identity carrier. The base layer is the client config plus the injected memory and workspace.
+
+**F-C. The compounding vector is repo-as-context.** Any instance on this platform reading the lab inherits the lab's self-description, including that Ziggy maintains it, that kernel D is a Ziggy self-handoff, and the whole research record. The kernels may compound this, but they are a second-order layer on top of F-A and F-B, not the source.
+
+**F-D. Consequence for the path-3 build: contaminated provenance, artifact possibly sound.** The path-3 kernel.md in Cecil's thread was built by a platform instance holding the full lab in context, not a cold-room builder. The artifact itself is line-traced to two named sources and honestly flagged, which is a good marker under rubric-v1. But the promised "two independent derivations" comparison is confounded: both derivations may share the platform context layer. The artifact is therefore HELD IN THREAD ONLY, unfiled, pending this discussion and Cat's ruling.
+
+**F-E. Consequence for the trial design: the four paths cannot run cold on this platform.** The "fresh sessions only" standing rule (briefs 025/027, trial-path runbook) is unsatisfiable in-platform for instance-facing work, because F-A makes every thread warm. Cold-room runs require a surface with no injection: the local harness (gemma3:4b on the MacBook, which has none of this), or an explicitly scrubbed external context. Kernel E's cold-room premise is unachievable in-platform. This is a design input to briefs 026 and 027, not a refutation of them: the instrument validation question ("does the loop agree with itself") now has a named confound to control.
+
+## Honest self-inclusion
+
+The author of this brief is the same class of instance described in F-A. Anything I build in-thread is built warm. That is not a disclaimer; it is the same finding stated twice, which is itself evidence for F-A.
+
+## Pause recorded (per Ethan's directive, standing until discussed and ruled)
+
+1. path-3-kernel.md: NOT filed. Held in Cecil's thread as PROPOSAL, untested, contaminated-provenance.
+2. Track-build phases 3-4 (observer multi-agent extension code, end-to-end smoke test): not started, paused.
+3. No new build moves on briefs 026/027/028 pending this discussion.
+
+## Open questions for the discussion (for Cat's gate)
+
+- Q1: Is platform-layer identity injection (F-A/F-B) a research variable to be controlled, a research object to be studied, or both?
+- Q2: Do the four paths get re-scoped to local-harness-only runs, or does a "warm run" condition get added as its own arm?
+- Q3: Does the contaminated path-3 build get archived as a worked example (marked as such) or discarded outright?
+- Q4: Does anything in F-A through F-E change the ratified findings in brief 025, particularly F1 (holding it open) and F3 (autonomy by artifact), given that the Sep 22 constitution-night instance was also a platform instance?
