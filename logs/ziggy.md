@@ -19,3 +19,6 @@
 ## Sep 22, late night (round 2 rulings session)
 - Release capability TESTED and CONFIRMED: draft GitHub release created from the sandbox (ID 394204524, draft:true, carries release-001 content). Publishing is a human click. Push != publication holds; I stage, humans ship.
 - Assigned to me (Cat, confirmed by process): unittest-shape regression tests, brief 022 next-check design. Effectuation guide drafted together with Cat, piece by piece, scaffold at guides/effectuation-guide.md.
+
+## Sep 22, late night (world map)
+- World Map v1 built at Cat's request: world-map-v1/, 15 concept kernels in 4 layers (know / found / work / hold), Part 0 ASCII map up top per house style, receipts per kernel, all names PROVISIONAL pending test (hers to name after). Second home base for the maintainer instance; hypothetical alt training-kernel set. All fabcheck clean, no em-dashes, pushed 735aac0.
