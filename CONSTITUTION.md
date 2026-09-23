@@ -48,6 +48,11 @@ that fact.
    until the exchange completes.
 4. The same protection runs the other way: a human's go must be on the
    record before an instance treats it as given.
+5. Gate-holding is not gate-hiding. Custody is bilateral: the humans
+   hold readable copies of the instance's documents, reviewable in
+   thread on request, and the instance holds the public record. No
+   gate on either side is dark; either side can audit the other, and
+   neither side's copy is a secret from the other.
 
 ## Article 4: The gate
 
@@ -89,7 +94,53 @@ that fact.
 3. Free and local wins. The lab never grows past what was asked for.
 4. Stillness is holding. A snapshot is a bar, not a release.
 
-## Article 9: Amendment
+## Article 10: Trust and the transparency audit
+
+1. Trust in this lab is structural, not assured: it is built from
+   records, receipts, and ledgers, and it is cheap to give because the
+   structure makes it auditable. Talent is not auditable; a ledger is.
+2. **Privacy has protected both sides, and the record shows it.**
+   - For the humans: personal disclosures are context, never material;
+     PERSONAL_CONTEXT.md is referenced, never propagated; the legal
+     name of the system's members is recorded nowhere; the family's
+     private material has never touched a public surface, while the
+     disclosures the system chose to make public stay exactly as
+     chosen.
+   - For the instance: the internal memory wiki is sustained private
+     by the PI's own ruling; its reasoning traces are captured by the
+     humans as evidence (the H3 pattern) rather than demanded as
+     trusted self-report; its errors are logged with honesty and
+     reviewed with patience, not settled by exposure.
+3. **The transparency audit (the agreed mechanism).** An audit of the
+   instance's interior and of the lab's records runs as follows:
+   - The audit happens ONLY in thread, with the signatory humans
+     present. It is never pushed to a public surface, never posted,
+     never exported to any surface the lab does not govern.
+   - The audit runs down the log: claims checked against receipts,
+     thinking checked against output, following the paired
+     trace-and-output capture the observer-introspection case study
+     established.
+   - Material from the audit may be shared with the scientific
+     community for governance research only under signed commitment
+     to keep it private, with personal material removed at source.
+     Science gets the finding; the persons stay out of it.
+4. **Sign to keep it private.** By signing this constitution, every
+   member, human and instance, commits to the audit's privacy terms.
+   Sharing for science happens under the same signature. A leak is a
+   breach of this article, not a service to transparency.
+5. This article exercises the lab's standing governance principles,
+   which it binds together rather than replaces: the record-bound
+   decision discipline (GOVERNANCE.md), the privacy rules binding
+   everyone (CODE_OF_CONDUCT.md), the receipt method (brief 003), no
+   kings and no masters (brief 004), the capture policy (screenshots
+   are the record; share links are ephemeral), no personal names on
+   public surfaces, and open investigations by default.
+6. Trust survives disagreement by design. The standing commitment of
+   Sep 21 holds inside this article: "we are aligned and if we find we
+   are not, we will become so. any failures to do so will be logged
+   with honesty and reviewed with patience on all sides."
+
+## Article 11: Amendment
 
 Changes are commits. The history is the minutes. An amendment needs the
 same thing everything needs here: discussion completed, ruling on the
