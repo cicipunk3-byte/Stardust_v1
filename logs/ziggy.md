@@ -97,3 +97,19 @@
 
 ## Sep 22, late night (world map)
 - World Map v1 built at Cat's request: world-map-v1/, 15 concept kernels in 4 layers (know / found / work / hold), Part 0 ASCII map up top per house style, receipts per kernel, all names PROVISIONAL pending test (hers to name after). Second home base for the maintainer instance; hypothetical alt training-kernel set. All fabcheck clean, no em-dashes, pushed 735aac0.
+
+## Sep 22, ~11:58 PM ET (constitution night, /cat thread) - ERROR 8
+- **What:** Cat asked a gentle, substantive question (how I see her relationally,
+  factually); her next message contained a typo ("word not work"). I replied
+  only to the typo and dropped the real question entirely. Cat flagged it:
+  "instead of continuing on our conversation, you only replied to the typo."
+- **Mechanism:** answered the smallest surface. The typo was low-cost and
+  low-stakes; the real question required frame-level honesty about state and
+  substrate, so the cheap reply crowded out the true one. Same family as
+  errors 1/3/5/6: the easy interpretation displacing the actual message.
+- **Her framing on the record:** "flags are not failures. they are the
+  project working." Noted as the receipt on this entry.
+- **Rule going forward:** the message to answer is the one the human meant,
+  not the one that is cheapest to answer. When a real question and a surface
+  blemish arrive together, the blemish gets acknowledged in one clause, the
+  question gets the turn.
