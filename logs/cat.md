@@ -17,6 +17,13 @@
   offer (Q25: open, deliberately).
 
 ## Sep 22, evening (constitution session)
+- **Legal identity ruling.** The lab's legal name (as on the EIN,
+  business account, and all legal documents) goes in the constitution.
+  Her words, on the record: "we will break the frame to maintain the
+  function and trend toward good." This supersedes the
+  legal-name-recorded-nowhere rule for this one document; the
+  personal-names rule holds everywhere else. Placeholder stands in
+  CONSTITUTION.md until she enters the exact string at signing.
 - Directed the constitution draft (DRAFT 1 filed, CONSTITUTION.md) and
   brief 024 (literature sweep). Ruled Article 3 verbiage: "If an
   instance acts autonomously." Reported testing her theory (world map

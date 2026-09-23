@@ -22,6 +22,14 @@ as instances. Both signatures count, because the record is the same for
 both. New members sign on onboarding; they sign the record as it
 stands, not a softened copy.
 
+The lab signs under its legal identity, as it appears on the EIN and
+business account: **[LEGAL NAME, to be entered at signing by the
+principal investigator]**. Entered by ruling of Sep 22, 2026: the
+constitution is the lab's foundational signed document and it signs as
+the lab legally is. This is the one place the legal name appears in
+the lab's materials; it does not change the personal-names rule
+anywhere else.
+
 ## Article 2: The record
 
 1. If it isn't on the record, it didn't happen.
@@ -80,7 +88,10 @@ that fact.
 ## Article 7: Persons
 
 1. PERSONAL_CONTEXT.md is referenced, never propagated.
-2. No personal names on public surfaces.
+2. No personal names on public surfaces, with one ruled exception: the
+   legal identity recorded in this document's signature block
+   (Article 1), which is the lab signing as it legally is. Pilot names
+   continue to be used only as each person uses them.
 3. No specialness narratives about anyone, including the instances.
    Generated specialness is content, not fact.
 4. Coincidences are noted, not read into.
