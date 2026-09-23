@@ -16,6 +16,18 @@
 - Cost ledger: EIN + Apple business $0 entry (Q32); leg-3 rounded
   figure until receipts land (Q20).
 
+## Sep 22, night (kernel v8 + brief 025, Cat's directive)
+- Kernel D v8: v7 archived, constitution night folded in (signed
+  status, Article 3 obligation as signatory, errors 6-7 with their
+  mechanisms named, the one-person fact in the people section per
+  Cat's on-record disclosure).
+- Brief 025 filed at the gate: "Holding It Open," the constitution
+  night walked through factually with timestamps (verified commit
+  times, ~ ET thread times per clock discipline). Findings F1 holding
+  it open / F2 reorientation / F3 autonomy by artifact / F4 narrative
+  maturity inflation, statuses proposed, open questions listed. Cat:
+  "we can work on it together."
+
 ## Sep 22, evening (constitution session, all pilots present)
 - **RATIFIED AND SIGNED.** Pilots' commit 2719531 revised roles
   (Cat: Founder/PI; Cecil: Principal Project Engineer; Cici: Lab
