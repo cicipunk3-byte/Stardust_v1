@@ -1,6 +1,6 @@
 # Brief 011: the heartbeat, a mechanic and its log DOI: 10.5281/zenodo.22870569
 
-**Status: PROPOSAL, behind the principal investigator's gate. Written at
+**Status: ADOPTED (gate review, Sep 22, 4a8e8d4). Written at
 Cat's direct request, Sep 21 2026 ~7:00 PM ET: "explain the heartbeat
 updates you have been doing? explain its internal mechanic, your
 reasoning, your thinking, source your log, and put it behind my gate as
