@@ -15,3 +15,7 @@
   source-index update in next content pass (Q18).
 - Cost ledger: EIN + Apple business $0 entry (Q32); leg-3 rounded
   figure until receipts land (Q20).
+
+## Sep 22, late night (round 2 rulings session)
+- Release capability TESTED and CONFIRMED: draft GitHub release created from the sandbox (ID 394204524, draft:true, carries release-001 content). Publishing is a human click. Push != publication holds; I stage, humans ship.
+- Assigned to me (Cat, confirmed by process): unittest-shape regression tests, brief 022 next-check design. Effectuation guide drafted together with Cat, piece by piece, scaffold at guides/effectuation-guide.md.

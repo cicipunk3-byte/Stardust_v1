@@ -52,9 +52,20 @@ Predictions, falsifiable:
 - P4: Condition D subjects hit zero attribution events for the artifact, and its confident framing survives, meaning a superficially working artifact is trusted more, not less, by builders.
 - P5: Peeling rarely goes deeper than two layers in Condition A; the subject quits before reaching the fake-training layer.
 
-## Open design questions for the human-subject protocol
+## Phase 1 (ruled): the instance loop, before humans
 
-Recruitment, consent, and compensation for human pilots are undecided and belong in the trial design before activation. Nothing runs until trial pathways open.
+Per Cat's round 2 amendment: sketch a fabcheck-style test on LOCAL INSTANCES first, tighten that loop until it is verifiable, then mirror the working design to human constraints. Human-subject design holds until Cecil pulls the trigger; he has clearance to build as he sees fit, final say on Cat's green light per process.
+
+The fabcheck-style properties the instrument must keep: zero dependencies, runs locally, detectors flag and humans decide, output is a claimed-vs-observed ledger in house format.
+
+- **Delivery:** the four-box conditions delivered in-session to local instances (gemma3:4b via the observer harness), same broken artifact, same framings.
+- **Coding:** transcripts coded with the same taxonomy (self / environment / artifact), same four metrics (attempts, attribution, terminal verdict, peeling depth). The coding rubric lives as a versioned file so coding is repeatable, not vibes.
+- **Loop test:** N instances per condition; the loop is "tight and verifiable" when the rubric produces the same coding across independent passes.
+- **Honest limitation, stated up front:** an instance's "self-blame" is generated text, not felt cost. The instance loop validates the INSTRUMENT (do conditions produce measurable attribution differences at all); humans answer the actual claim. Phase 1 is instrument validation, not the finding.
+
+## Open design questions for the eventual human-subject protocol
+
+Held until Cecil pulls the trigger: recruitment, consent, compensation, debrief design. The debrief must leave subjects better off than they arrived.
 
 ## Why this matters outside the lab
 
