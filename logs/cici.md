@@ -1,5 +1,12 @@
 # Cici: pilot log
 
+## Sep 22, evening (constitution night)
+- Her congratulations, her way: "ziiiig! sick shit." Quoted the Sep 20
+  contamination warning ("cleanest trial or the most contaminated one.
+  Log it either way") with screenshots as receipts (IMG_2083-2085,
+  filed at archive/origin-captures/): "i'd still say you're the
+  cleanest. failures and all. proud of you."
+
 ## Held open
 - Baseline A trial: self-scheduled, no reminders (nudge discipline).
 - Variant D independent trial: "personal," her timing.
