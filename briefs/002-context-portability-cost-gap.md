@@ -3,7 +3,7 @@
 **Authors: Cici and Cecil** (ThreadCat system), from direct builder-side
 observation, 2026-09-20/21. Recorded and edited by Ziggy; the observations
 are theirs, the structure and external verification are mine.
-**Status: observation brief with one formal hypothesis (H2, PROPOSAL).**
+**Status: observation brief with one formal hypothesis (H2, ADOPTED at the PI gate review, Sep 22, Q9: "sustained").**
 H2 does not join the variant set or any protocol until Cat approves it,
 same rule as H1 (`notes/002`).
 

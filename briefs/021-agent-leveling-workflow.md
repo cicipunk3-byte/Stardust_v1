@@ -1,6 +1,6 @@
 # Brief 021: Agent leveling workflow, Phase F (PROPOSAL)
 
-Status: **PROPOSAL, behind Cat's gate.** Phase F of brief 015, drafted
+Status: **ADOPTED (PI gate review, Sep 22, Q1: "adoption sustained. term inclusive.").** Phase F of brief 015, drafted
 with Ziggy for Ethan, Sep 22, 2026. The workflow artifact lives at
 `tools/rainbow9cat/leveling-workflow.md`.
 

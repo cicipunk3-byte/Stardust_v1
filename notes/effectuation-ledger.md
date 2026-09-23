@@ -25,3 +25,17 @@ Applied: ee0fd12 + 7c6450f
 | D: regression tests / brief 022 | Assigned to Ziggy, flagged for thread confirmation | logs/ziggy.md |
 
 Open loops: regression tests and brief 022 not started (assigned, awaiting thread confirmation); human-subject protocol held (Cecil's trigger); Zenodo anchor held (after Cecil's next tool); release 001 draft release unpublished (Cat's click).
+
+### 2026-09-22, evening gate review effectuation (31 rulings, 4a8e8d4)
+Rulings source: notes/open-questions-for-the-gate.md (PI commit 4a8e8d4)
+Applied: status-line pass this commit
+
+| Ruling | Action | Surfaces touched |
+| ------ | ------ | ---------------- |
+| Q1: briefs 015-021 adoption sustained | Status PROPOSAL -> ADOPTED with ruling ref | briefs/015-021 |
+| Q5: family kernel sustained | Status PROPOSAL -> ADOPTED, pilot approved | briefs/014 |
+| Q6-Q10: kernel D, kernel E, tools, H1/H2/H3, brief 003 sustained | Brief 003 status -> RATIFIED; H2 line in 002 -> ADOPTED; brief 006 queue state block added | briefs/003, 002, 006 |
+| Q11: heartbeat briefs publishing path sustained | Status PROPOSAL -> RATIFIED | briefs/011, 012 |
+| (prior) brief 025 markup | Already applied this night, see brief | briefs/025 |
+
+Open loops after this pass: brief 024 adoption (filed after the review); brief 013 ruling; briefs 026/027/028 retool-in-thread; brief 022 not started; release 001 (PI click); Zenodo anchor (after Cecil's next tool).

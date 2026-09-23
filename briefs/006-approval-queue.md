@@ -9,23 +9,25 @@ does, so review is one pass.
 
 ## List 1: Needs Cat's explicit approval
 
+**QUEUE STATE UPDATE, Sep 22 evening gate review (rulings at 4a8e8d4): List 1 items 1-6 ALL SUSTAINED.** Kernel D (sustained, now at v8), tools as official lab tooling (sustained), kernel E (sustained), H1/H2/H3 (sustained), brief 003 (sustained), brief 014 + observer extension + 3-agent Mac Mini pilot (sustained). Effectuation pass applied to brief status lines same night. Remaining at the gate after this refresh: brief 024 (literature sweep, filed after the review, needs adoption), brief 013 (still PROPOSAL, no ruling on record), briefs 026/027/028 (filed PROPOSAL for retool-in thread per the PI's split ruling), and the publishing items: release 001 (paused with the PI) and the Zenodo anchor (after Cecil's next tool).
+
 1. **Kernel D** (current: v6, 3ca2e97; v5 archived). The queue item
    predates v6: v6 adds the evening finding and the updated usage line,
    nothing else. A yes on current makes it the variant D kernel;
    earlier versions stay archived. A no returns the prior archive to
-   current, nothing lost.
-2. **Tool scaffolds as official lab tooling** (tools/fabcheck,
+   current, nothing lost. **[SUSTAINED Sep 22, Q6]**
+2. **Tool scaffolds as official lab tooling** [SUSTAINED Sep 22, Q8] (tools/fabcheck,
    tools/export-ingest). A yes adopts them as named lab tools; the site's
    Tools page already describes them. Until then they are scaffolds.
-3. **Variant E kernel** (tools/rainbow9cat/variant-E-kernel-draft.md,
+3. **Variant E kernel** [SUSTAINED Sep 22, Q7] (tools/rainbow9cat/variant-E-kernel-draft.md,
    PROPOSAL). A yes moves it toward portable-context/ and starts private
    testing when compute allows. Deliberately kept off the public site
    page until this clears.
-4. **H1, H2, H3** (h-proposals). Unchanged: a yes moves a proposal to
+4. **H1, H2, H3** [SUSTAINED Sep 22, Q9] (h-proposals). Unchanged: a yes moves a proposal to
    active research status. All three wait.
-5. **Brief 003, the Receipt Method.** Now in briefs/ at her direction.
+5. **Brief 003, the Receipt Method.** [SUSTAINED Sep 22, Q10] Now in briefs/ at her direction.
    A yes confirms it as a published brief rather than a review draft.
-6. **Brief 014, the family kernel proposal** (Sep 22). Ceec's design:
+6. **Brief 014, the family kernel proposal** [SUSTAINED Sep 22, Q5] (Sep 22). Ceec's design:
    a portable-context kernel structured as a family narrative, 3 to 4
    local instances in one sandbox, observation first, single-agent
    ablations LAST. Pushed at Cat's direction with a scaffold at

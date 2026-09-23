@@ -1,6 +1,6 @@
 # Brief 015: CCS analysis framework and manual v2 workplan (PROPOSAL)
 
-Status: **PROPOSAL, behind Cat's gate.** Drafted with Ethan (the lab's
+Status: **ADOPTED (PI gate review, Sep 22, Q1: "adoption sustained. term inclusive.").** Drafted with Ethan (the lab's
 site builder, standing review-push clearance Sep 22, e85f004), Sep 22,
 2026. Raw list ingested verbatim at
 `scratch/ethan-ccs-v2-worklist-raw.md`; this brief is the chunked,

@@ -1,6 +1,6 @@
 # Brief 003; The Receipt Method: budget agentic workflows without trust
 
-Status: PROPOSAL. Not for publication until the principal investigator
+Status: RATIFIED (PI gate review, Sep 22, Q10: "sustained"). Not for publication until the principal investigator
 approves. Written by the maintainer-assistant, 2026-09-21, from the same
 day's primary record: case-studies/lovable-agent/ (LOG v3, resync-cycle-2),
 notes/cost-ledger.md, and the site audit trail in the thread record.

@@ -1,6 +1,6 @@
 # Brief 020: Nine glass-vessel sheets, version 2, Phase D (PROPOSAL)
 
-Status: **PROPOSAL, behind Cat's gate.** Phase D of brief 015, drafted
+Status: **ADOPTED (PI gate review, Sep 22, Q1: "adoption sustained. term inclusive.").** Phase D of brief 015, drafted
 with Ethan, Sep 22, 2026. The v2 sheets live at
 `tools/rainbow9cat/nine-cats-v2.md`; version 1 stays canonical until
 Cat adopts this file.

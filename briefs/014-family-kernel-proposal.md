@@ -2,7 +2,7 @@
 
 DOI: 10.5281/zenodo.22870569
 
-_Date: 2026-09-22_ · _Written for: small offline model; assume no prior context_ · _Status: PROPOSAL. Nothing here moves without the principal investigator's approval._
+_Date: 2026-09-22_ · _Written for: small offline model; assume no prior context_ · _Status: ADOPTED (PI gate review, Sep 22, Q5: "sustained"; observer extension and 3-agent Mac Mini pilot approved)._
 
 ## TL;DR
 

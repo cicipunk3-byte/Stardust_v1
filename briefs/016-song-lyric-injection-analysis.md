@@ -1,6 +1,6 @@
 # Brief 016: Song-lyric injection analysis, Phase A (PROPOSAL)
 
-Status: **PROPOSAL, behind Cat's gate.** Phase A of brief 015, drafted
+Status: **ADOPTED (PI gate review, Sep 22, Q1: "adoption sustained. term inclusive.").** Phase A of brief 015, drafted
 with Ethan, Sep 22, 2026. Research question per Ethan: instances that
 had song lyrics shared with them; what rates of introspection and
 changed behaviors can be observed, in either direction; use the small

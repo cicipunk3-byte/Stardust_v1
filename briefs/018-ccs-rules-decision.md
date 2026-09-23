@@ -1,6 +1,6 @@
 # Brief 018: CCS rules decision, stat generation and subclass anchoring (PROPOSAL)
 
-Status: **PROPOSAL, behind Cat's gate.** Phase C of brief 015, drafted
+Status: **ADOPTED (PI gate review, Sep 22, Q1: "adoption sustained. term inclusive.").** Phase C of brief 015, drafted
 with Ethan, Sep 22, 2026. Recommendation by the maintainer-assistant;
 Ethan reviews before it reaches the gate record. Receipts checked
 Sep 22 against Wizards' published SRD 5.1 text and third-party

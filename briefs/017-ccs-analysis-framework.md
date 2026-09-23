@@ -1,6 +1,6 @@
 # Brief 017: CCS human-side analysis framework, Phase B (PROPOSAL)
 
-Status: **PROPOSAL, behind Cat's gate.** Phase B of brief 015, drafted
+Status: **ADOPTED (PI gate review, Sep 22, Q1: "adoption sustained. term inclusive.").** Phase B of brief 015, drafted
 with Ethan, Sep 22, 2026. The framework artifact lives at
 `tools/rainbow9cat/analysis-framework.md`; this brief records what it
 is, why its rules exist, and what testing it needs before it counts as

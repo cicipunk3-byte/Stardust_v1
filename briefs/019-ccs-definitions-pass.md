@@ -1,6 +1,6 @@
 # Brief 019: CCS terms and abilities definitions pass, Phase E (PROPOSAL)
 
-Status: **PROPOSAL, behind Cat's gate.** Phase E of brief 015, drafted
+Status: **ADOPTED (PI gate review, Sep 22, Q1: "adoption sustained. term inclusive.").** Phase E of brief 015, drafted
 with Ethan, Sep 22, 2026. The full definitions file lives at
 `tools/rainbow9cat/terms-and-abilities.md`. This brief records the
 method, the findings, and the v2 change-list the pass produces.
