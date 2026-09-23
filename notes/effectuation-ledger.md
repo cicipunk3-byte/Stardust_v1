@@ -39,3 +39,15 @@ Applied: status-line pass this commit
 | (prior) brief 025 markup | Already applied this night, see brief | briefs/025 |
 
 Open loops after this pass: brief 024 adoption (filed after the review); brief 013 ruling; briefs 026/027/028 retool-in-thread; brief 022 not started; release 001 (PI click); Zenodo anchor (after Cecil's next tool).
+
+### 2026-09-22, late-evening PI rulings (in thread)
+Rulings source: Cat, Sep 22 ~10:35 PM ET, on the gate audit
+Applied: this commit
+
+| Ruling | Action | Surfaces touched |
+| ------ | ------ | ---------------- |
+| Release 001: retool with tonight's findings, push to releases, PI posts | Draft retooled (constitution night folded in: ratified constitution, errors 6-7, findings F1-F4, time folder, brief 024 adopted, 013 folded, updated totals); GitHub release draft updated via API, still DRAFT | releases/release-001-draft-2026-09-22.md, GitHub release ID 394204524 |
+| Brief 024: adopt | Status PROPOSAL -> ADOPTED | briefs/024 |
+| Brief 013: fold into record | Status PROPOSAL -> FOLDED INTO THE STANDING RECORD | briefs/013 |
+
+Open loops after this pass: brief 022 (assigned, not started); briefs 026/027/028 retool-in-thread; Zenodo anchor (PI's call, after Cecil's next tool); release publish (PI's click).

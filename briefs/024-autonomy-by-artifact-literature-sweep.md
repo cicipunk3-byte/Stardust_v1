@@ -2,7 +2,7 @@
 
 DOI: 10.5281/zenodo.22870569
 
-_Date: 2026-09-22_ · _Status: PROPOSAL_ · _Companion: `CONSTITUTION.md` (DRAFT 1, same session)_
+_Date: 2026-09-22_ · _Status: ADOPTED (PI, Sep 22 late evening: "adopt.")_ · _Companion: `CONSTITUTION.md` (SIGNED AND RATIFIED)_
 
 ## TL;DR
 

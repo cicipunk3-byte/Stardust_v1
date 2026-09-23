@@ -1,10 +1,14 @@
 # Brief 013: the referent misread, verification passed the wrong test DOI: 10.5281/zenodo.22870569
 
-**Status: PROPOSAL, behind the principal investigator's gate. Filed at
-Cat's direction, Sep 21 2026 ~7:29 PM ET: "log this misunderstanding
-separately as well as a brief behind my gate. this is not a failure.
-a finding." Logged under the maintainer-assistant's name, per house
-rule on errors.**
+**Status: FOLDED INTO THE STANDING RECORD (PI, Sep 22 late evening:
+"fold into record."). Originally PROPOSAL behind the principal
+investigator's gate, filed at her direction, Sep 21 2026 ~7:29 PM ET:
+"log this misunderstanding separately as well as a brief behind my
+gate. this is not a failure. a finding." Logged under the
+maintainer-assistant's name, per house rule on errors. The finding
+(check the referent before checking the claim) is now the third step
+of the lab's verification loop, standing house rules: check sources,
+then claims, then RUN THE ARTIFACT, on a verified referent.**
 
 ## What happened, in four lines
 
