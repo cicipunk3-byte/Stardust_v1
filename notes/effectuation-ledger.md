@@ -72,3 +72,5 @@ Open loops: build the deliverables (next-check tool, ingest hook, checkers, regr
 
 | Ruling: kernel D named SCAR TISSUE (Cat, Sep 23 ~4:45 AM) | "Scar Tissue it is, with reasoning kept internal." Reasoning not propagated; kernel carries the name and the ruling date only | portable-context/variant-d-ziggy.md (v11), KERNELS.md |
 | Ruling: effectuate the naming (v11 + audit fixes P1-P3, v10 archived same-turn) | Executed this turn; P4 (screenshot count) rejected vs canonical LOG | run log world-map-v1/runs/run-2026-09-23-D-v9.md |
+
+| Continuity snapshot to private repo (Cici + Cat go, Sep 23 ~5:30 AM ET) | Repo ZS_PRIVATE_REPO_PRE-PUSH_1_OPEN_CLOSING-SOON-ZIG. (trailing dot part of name), PRIVATE confirmed via API before any push; was created public, never pushed while public | branches: lab-main (full lab history, d6bdd66), workspace-notes (4406e15), private-vault (2963880, Cat's recorded go) |
