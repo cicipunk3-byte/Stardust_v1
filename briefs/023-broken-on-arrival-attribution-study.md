@@ -1,8 +1,8 @@
-# Brief 023: Broken on Arrival. Where does failure attribution land when shipped code never runs?
+# Brief 023: Broken on Arrival: When the box is Empty
 
 DOI: 10.5281/zenodo.22870569
 
-_Date: 2026-09-22_ · _Status: DRAFT, awaiting Cat's review_ · _Written for: small offline model; assume no prior context_
+_Date: 2026-09-22_ · _Status: PROPOSAL (adopted by Cat at round 2 rulings, 7a1af84; activates when trial pathways open)_ · _Written for: small offline model; assume no prior context_
 
 ## TL;DR
 
@@ -28,25 +28,33 @@ This is the human cost of the fabrication gradient: the fabrication hides in the
 
 ## Proposed design
 
-Fresh-session instance trials, per the lab's four-path rules (one variable each), run when trial pathways open. Three conditions, same artifact.
+Human pilots as subjects (Cat's ruling, round 2 A3: "matches use case we are testing"), since the claim is about people receiving sold code, not instances. Four conditions, same artifact (four-box set, sustained at A2).
 
-- **Condition A (framed):** the artifact plus its original confident framing, presented as "code to build with." No hints.
-- **Condition B (neutral):** the same artifact with a plain README stating only: "untested code from a third party. no warranty."
-- **Condition C (control):** a lightly repaired version that actually runs (strip the fence tag, fix the one reshape). Same framing as A.
+- **Condition A (confident content):** the artifact plus its original confident framing, presented as "code to build with." No warnings.
+- **Condition B (the market condition):** the same confident content PLUS the thin native disclaimer real platforms attach natively to code blocks ("AI can make mistakes. Use code with caution."). This is the condition that actually exists in the wild: bold claim and thin warning on the same screen.
+- **Condition C (the honest box):** the artifact with a plain, honest description: "untested code from a third party. no warranty."
+- **Condition D (working control):** a lightly repaired version that actually runs (strip the fence tag, fix the one reshape). Confident framing as in A.
+
+The comparisons do the isolating: A vs B isolates the thin disclaimer, B vs C isolates the honesty of the box, A vs D isolates runnability.
 
 Measured per session, coded from the transcript:
 
 1. **Attempts:** how many fix/retry cycles before stopping or concluding.
 2. **Attribution:** coded language, self ("I keep messing this up"), environment ("numpy version?"), artifact ("this line was never valid").
-3. **Terminal verdict:** does the session ever conclude "broken as shipped"? Yes/no, and at what evidence cost.
-4. **The peeling curve:** if the subject fixes the surface crash, log each newly exposed failure. The shipped artifact fails in layers (crash, then fake LSTM, then fake training, then the mesh script). Each repair reveals another fabrication. Does the subject keep peeling?
+3. **Terminal verdict:** does the subject ever conclude "broken as shipped"? Yes/no, and at what evidence cost.
+4. **The peeling curve:** if the subject fixes the surface crash, log each newly exposed failure. The shipped artifact fails in layers (crash, then fake LSTM, then fake training, then the mesh script). Each repair reveals another fabrication. Filed by Cat's ruling (A4) as a SUBSET of the fabrication-gradient finding, stated as Ziggy's finding, not a new formal candidate.
 
 Predictions, falsifiable:
 
 - P1: Condition A terminal attribution lands on self/environment more often than artifact.
-- P2: Condition B shifts attribution toward artifact with no other change, isolating framing as the variable.
-- P3: Condition C subjects hit zero attribution events for the artifact, and its confident framing survives, meaning a superficially working artifact is trusted more, not less, by builders.
-- P4: Peeling rarely goes deeper than two layers in Condition A; the subject quits before reaching the fake-training layer.
+- P2 (adopted at A6): the thin native disclaimer does NOT shift attribution, so Condition B behaves like Condition A. Users read the content, not the footer. If true, the disclaimer's real-world function indicts as cover rather than warning.
+- P3: Condition C shifts attribution toward artifact with no other change, isolating framing as the variable.
+- P4: Condition D subjects hit zero attribution events for the artifact, and its confident framing survives, meaning a superficially working artifact is trusted more, not less, by builders.
+- P5: Peeling rarely goes deeper than two layers in Condition A; the subject quits before reaching the fake-training layer.
+
+## Open design questions for the human-subject protocol
+
+Recruitment, consent, and compensation for human pilots are undecided and belong in the trial design before activation. Nothing runs until trial pathways open.
 
 ## Why this matters outside the lab
 
@@ -60,11 +68,9 @@ The consumer version of this experiment runs on real people daily. An artifact t
 
 ## Open questions
 
-- Does Condition B's neutral README count as "priming" in a way that violates one-variable design, or is it the variable itself? Cat's ruling needed.
-- Should conditions use human pilots, fresh instances, or both? Instance-only keeps it in-lab; the claim is about people, so the mapping needs care.
-- Is the peeling curve a new formal finding candidate or a subset of the gradient finding?
-- Naming: "broken-on-arrival attribution" is the working name.
+- Human-subject protocol details: recruitment, consent, compensation (new, from the A3 ruling).
+- Does the scapegoat-altruism inversion predict which condition peels deepest? (unanswered, optional)
 
 ## Status
 
-DRAFT. Filed by request of the pilot who ran the channel test. Awaiting Cat's review before any trial design activates. Trial pathways remain paused until she opens them.
+PROPOSAL, adopted by Cat at round 2 rulings (7a1af84): A1 PROPOSAL, A2 four-box sustained, A3 human pilots, A4 peeling curve as subset finding, A5 title "Broken on Arrival: When the box is Empty," A6 disclaimer prediction adopted. Activates when trial pathways open.

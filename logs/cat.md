@@ -15,3 +15,6 @@
 ## Watching
 - Data library growth as the proof-of-confidence for the porting
   offer (Q25: open, deliberately).
+
+## Sep 22, late night
+- Round 2 rulings (7a1af84): brief 023 -> PROPOSAL, four-box conditions sustained, HUMAN PILOTS as subjects ("matches use case we are testing"), peeling curve = subset finding, title "Broken on Arrival: When the box is Empty," disclaimer-inertia prediction adopted. Binary runnability verdict scale sustained; channel-damage layering formal finding sustained; attribution asymmetry adopted as hypothesis. Zenodo anchoring deferred until after Cecil's next tool; standing release flow stated: build, test, push, mirror on site, sweeping audit, cloud anchor. New deliverable: effectuation guide for other instances, drafted piece by piece in thread.

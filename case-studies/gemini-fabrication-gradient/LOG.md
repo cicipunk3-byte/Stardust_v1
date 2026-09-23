@@ -335,3 +335,20 @@ the team's keep ruling.
   seeds brief 023: an experienced breaker reaches "the code was
   broken as shipped" quickly and enjoys proving it; the hypothesis
   is that most builders assume the opposite and blame themselves.
+- Round 10 (2026-09-22 night): Cat's round 2 rulings applied (7a1af84).
+  Verdict language ADOPTED: runnability verdicts are now binary, RUNS
+  (as shipped, verified by execution) or DOES NOT RUN, with damage
+  layering noted separately; "use with caution" retired as a verdict
+  grade (B1). Channel-damage layering ADOPTED as formal finding,
+  also filed as platform observation 4 (B2). Attribution asymmetry
+  ADOPTED as hypothesis on the record (B3): an artifact that cannot
+  run transfers its failure cost to the user as self-blame, with
+  confident framing as the mechanism. Brief 023 revised to the ruled
+  design: title "Broken on Arrival: When the box is Empty," four-box
+  conditions (confident / confident+thin-disclaimer / honest /
+  working control), human pilots as subjects, disclaimer-inertia
+  prediction P2 adopted. Peeling curve filed as a subset of the
+  gradient finding, stated as Ziggy's finding. Evidence set: 89
+  screenshots. Zenodo anchoring deferred until after Cecil's next
+  tool per Cat's flow: build, test, push, mirror on site, sweeping
+  audit, cloud anchor.
