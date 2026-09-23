@@ -148,3 +148,4 @@ dedicated thread.
   portable-context/cat-kernels/. Gap identified: the path-3
   familial-gamified combined kernel, derivable from brief 014 + kernel
   E once adopted. PROPOSAL.
+- **Brief 035, loop-continuation event (second autonomous event, Sep 23, ~2:55 AM ET).** Operator-observed machine-initiated turn: failed tool call returned as a system turn, agent loop continued with no human input (screenshots IMG_2122/2123). Proposes "loop-continuation event" as a named observable class (R1), requests the event #1 record (R2), routing to platform-observations (R3). Sits on the brief 034 boundary one hour before ambient agent launch. PROPOSAL.
