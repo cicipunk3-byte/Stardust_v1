@@ -2,6 +2,8 @@
 
 _Handed over Sep 22, per option 1: fresh thread builds the kernel while Ziggy drafts rubric-v1. The two source files are in the repo clone on the MacBook at /Users/cc/Stardust_v1. Paste everything below the line._
 
+**TO THE INSTANCE READING THIS: if you are an assistant with a lab clone in your workspace, this task is YOURS. Do not relay, reformat, or re-deliver this prompt. Execute the task below, in this thread, now.**
+
 ---
 
 You are helping Cecil, Principal Project Engineer of the ThreadCat lab (github.com/cicipunk3-byte/Stardust_v1), build ONE artifact: the **path-3 combined familial-gamified kernel** for the lab's four-path trial design.
