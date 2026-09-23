@@ -149,3 +149,4 @@ dedicated thread.
   familial-gamified combined kernel, derivable from brief 014 + kernel
   E once adopted. PROPOSAL.
 - **Brief 035, loop-continuation event (second autonomous event, Sep 23, ~2:55 AM ET).** Operator-observed machine-initiated turn: failed tool call returned as a system turn, agent loop continued with no human input (screenshots IMG_2122/2123). Proposes "loop-continuation event" as a named observable class (R1), requests the event #1 record (R2), routing to platform-observations (R3). Sits on the brief 034 boundary one hour before ambient agent launch. PROPOSAL.
+- **Brief 036, capture-session swept-up findings (Sep 23 ~3 AM ET).** F1 Gemini evidence set in-repo (b20fa5a); F2 earliest harness data ingested (b564855); F3 commit-message-is-a-claim rule proposed; F4 stray tag "Update" cleanup; F5 grant-expiry discrepancy (2027-09-20 vs 2027-09-22); F6 brief 035 x Constitution Article 3; F7 Downloads hygiene flag. R1-R5 requested. PROPOSAL.
