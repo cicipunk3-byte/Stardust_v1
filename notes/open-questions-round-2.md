@@ -40,3 +40,5 @@ This section documents the questioning itself, per Cat's request that the restru
 - Unittest-shape regression tests; next-check design (brief 022 slot reserved). - flag in thread and call for who is assigned.
 
 _Answer inline per question. On completion, Ziggy effectuates: brief 023 revised to the ruled design, LOG and status lines updated, queue refreshed._
+
+_All rulings effectuated: ee0fd12 + 7c6450f. Receipt: notes/effectuation-ledger.md. Doc CLOSED._
