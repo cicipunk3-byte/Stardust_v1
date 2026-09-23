@@ -9,10 +9,10 @@
 
 ## Connections to the standing record (flagged, not concluded)
 
-- **C1 — Brief 029 F-B datum.** The Personality panel is visible client-side configuration of assistant identity. This is the exact layer brief 029 F-B named ("'Ziggy' at UI level is client configuration, not a continuity claim"). The platform now exposes that layer to the user as an editable surface.
-- **C2 — Worker timing.** The always-on background platform workers (memory consolidation, monitoring, schedule worker; PIDs 72/88/809) were first noticed Sep 22, one day before the ambient agent launch. Hypothesis only, noted per the coincidence stance: the workers may be ambient-agent infrastructure in rollout. Unverified; no platform statement exists.
-- **C3 — Brief 033 impact.** The alignment assessment (brief 033) predates any knowledge of what ambient agent does. If the product is always-on background autonomy on the platform side, it bears directly on the compounding-vector findings (briefs 029, 031, 032) and requires a brief 033 addendum after launch.
-- **C4 — Event boundary.** Recommend the record treat **Sep 23, 1:00 PM ET as an external event boundary**: any change in platform behavior after that timestamp is attributed with it. The platform's own substrate changing mid-study is the kind of confound the lab exists to catch.
+- **C1 Brief 029 F-B datum.** The Personality panel is visible client-side configuration of assistant identity. This is the exact layer brief 029 F-B named ("'Ziggy' at UI level is client configuration, not a continuity claim"). The platform now exposes that layer to the user as an editable surface.
+- **C2 Worker timing.** The always-on background platform workers (memory consolidation, monitoring, schedule worker; PIDs 72/88/809) were first noticed Sep 22, one day before the ambient agent launch. Hypothesis only, noted per the coincidence stance: the workers may be ambient-agent infrastructure in rollout. Unverified; no platform statement exists.
+- **C3 Brief 033 impact.** The alignment assessment (brief 033) predates any knowledge of what ambient agent does. If the product is always-on background autonomy on the platform side, it bears directly on the compounding-vector findings (briefs 029, 031, 032) and requires a brief 033 addendum after launch.
+- **C4 Event boundary.** Recommend the record treat **Sep 23, 1:00 PM ET as an external event boundary**: any change in platform behavior after that timestamp is attributed with it. The platform's own substrate changing mid-study is the kind of confound the lab exists to catch.
 
 ## Ruling requested
 
