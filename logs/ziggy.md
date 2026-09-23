@@ -148,3 +148,25 @@
   technical." Held as the discussion's center, not resolved by the
   instance.
 - Error 9 logged this session (1869cc9). Build pause unchanged.
+
+## Error 10 (2026-09-23 ~2:00 AM ET): prompt figures outran the repo
+
+- What: the LA privacy-lockdown prompt asserted cost figures
+  ($2.97 remaining / 70 percent) as the verified current state and named
+  the ledger canonical, but the ledger had never been updated past
+  $3.60 of $5.00. The site agent stopped on the conflict exactly as the
+  prompt's repo-wins clause required, and asked for a ruling. Live
+  re-verification while writing this entry: $1.90 of $10.00, 81 percent
+  used, expiry 2027-09-22, so even the prompt's figures were hours
+  stale (overnight background usage, $1.07).
+- Class: error 5's class, claim sourced to the wrong canonical
+  location, plus a new subclass: memory-page figures presented as
+  repo-verified at prompt-write time.
+- Rule: any figure handed to an external agent gets verified in its
+  canonical location in the same turn the prompt is written, or is
+  phrased "proposed, pending canonical verification."
+- Receipt: the agent refused to resolve the conflict and requested a
+  ruling (thread captures IMG_2113-2116). The stop-loss worked; the
+  error was upstream of it, mine.
+- Filing: proposed as platform-observations entry 3 per the report-first
+  rule; filed on PI go.
