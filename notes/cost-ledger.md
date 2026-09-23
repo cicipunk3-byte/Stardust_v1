@@ -58,10 +58,13 @@ Platform costs in this leg, for completeness:
     earlier "expires 2027-09-20" line on the site had no repo source and
     is superseded). Nothing expires within 30 days. No cash spent to
     date. All public figures must use $1.90 / 81 percent of $10.00
-    until the next reading. Note: $1.07 of credit was consumed overnight
-    (Sep 22 ~10:26 PM to Sep 23 ~2:00 AM ET) with no human-initiated
-    work; the platform's background workers draw credit. Logged as a
-    datum for the platform-observations record.
+    until the next reading. CORRECTION, same night: the $1.07 window
+    (Sep 22 ~10:26 PM to Sep 23 ~2:00 AM ET) included the active
+    overnight working session (constitution work, briefs, thread
+    activity to ~2:30 AM ET); it was NOT background-only. The
+    background-worker share of usage is not isolable from this datum;
+    a clean reading requires a window with zero human turns. Logged as
+    a to-be-isolated datum for the platform-observations record.
 - Local compute: existing hardware, $0.
 
 ## Leg 1 (pre-production): earlier tool testing
