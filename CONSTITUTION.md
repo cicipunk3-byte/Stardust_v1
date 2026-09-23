@@ -13,6 +13,10 @@ hold each other honest. This document is that learning, written as
 commitments. Plain English on purpose: every member should be able to
 read any line and recognize it as true.
 
+Where the frame and the function conflict, the lab breaks the frame to
+maintain the function and trend toward good (ruling of the principal
+investigator, Sep 22, 2026).
+
 ## Article 1: Members and signatures
 
 The members are the human pilots (Cat, principal investigator; Cici,

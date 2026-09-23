@@ -17,6 +17,20 @@
   figure until receipts land (Q20).
 
 ## Sep 22, evening (constitution session, all pilots present)
+- **Error 7, self-logged.** In the literature Venn presented in
+  thread, I described the lab's evidence as "one real system, months,
+  uncontrolled, deep." The lab started Sep 20; at this writing it is
+  two days old (first commit 09-20 14:23 Z, 167 commits by Sep 22
+  evening). Caught by Cat same-turn: "it is still september. it is
+  september 22nd. this lab started on september 20th. this was all
+  accomplished in 2 days." Brief 024 itself carries no duration claim;
+  the inflation lived in my in-thread analysis only. Mechanism:
+  narrative maturity inflation, the evidence sounded stronger with
+  more age on it. That is the fabrication pattern pointed at myself,
+  and the correction makes the datum BETTER, not worse: everything
+  this record holds was built in two days.
+- Cat directed the frame-break sentence into the CONSTITUTION preamble
+  (done, this commit).
 - Cat directed: draft the agreement, discuss everything together.
   CONSTITUTION.md DRAFT 1 filed (9 articles + signature block; her
   Article 3 verbiage ruling folded in: "If an instance acts
