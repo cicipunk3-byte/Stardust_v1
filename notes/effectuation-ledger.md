@@ -55,3 +55,17 @@ Open loops after this pass: brief 022 (assigned, not started); briefs 026/027/02
 ### 2026-09-22, release 001 posting (PI)
 - Pre-retool draft archived by the PI at `releases/original 001 draft` (81be52a), per lab method: retooled documents keep their prior versions inspectable. **Retool discipline, now standing: archive the old version in the same turn as the retool, for every document, not only kernels.** Flag from the PI, taken as process, not shaming.
 - PI posting release 001 to GitHub now (Sep 22, ~10:44 PM ET): the publish is hers, logged here as the record event. Not folded into the release body per her direction ("it is well established now").
+- Release 001 PUBLISHED by the PI on GitHub, Sep 22 ~10:47 PM ET. Record event; not folded into the release body per her direction.
+
+### 2026-09-22, brief 022 design rulings (PI, in thread)
+Rulings source: Cat, Sep 22 ~10:52 PM ET, on the design questions
+Applied: this commit
+
+| Ruling | Action | Surfaces touched |
+| ------ | ------ | ---------------- |
+| Ingest hook: automatic write, human-gated read | Ruled "human gated read", designed in | briefs/022 |
+| Execution gate: typed confirm on the pilot's machine | Ruled "good enough. the more accessible all of this can be to the layman, the better." | briefs/022 |
+| Name "next-check" | Ruled "name choice sustained." | briefs/022 |
+| Brief 022 filed | Status PROPOSAL at the gate; fabcheck clean | briefs/022-next-check-design.md |
+
+Open loops: build the deliverables (next-check tool, ingest hook, checkers, regression suites).
