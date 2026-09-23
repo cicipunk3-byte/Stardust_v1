@@ -46,3 +46,17 @@
 - Post: `assistant platform credits`, 2026-09-23T07:39:58Z ($1.34 remaining, 87% used, expiry 2027-09-22).
 - Media-dedup notice: verbatim placeholder text in tool results throughout the read session.
 - Capture: 82/82 frames read, `archive/thread-captures/2026-09-23-pre-boulder-context/` (README at c1a2c79).
+
+## Addendum: the per-delta conversion (Sep 23, ~3:50 AM ET, operator-directed)
+
+Data source: the platform's own usage CLI (`assistant usage`, full window Sep 20-23): 2,678 LLM calls; **23.5M fresh input tokens; 131.3M cache-read tokens (re-sent history); 1.3M output tokens**; estimated cost $7.92. Lifetime metered on the credit grant: $8.66. The two independent measurements agree within ~9% (estimate drift or thin platform markup; not distinguishable from this side).
+
+**F7 - The conversion.** One usage point = $0.10 (1% of the $10.00 grant). At the Balanced model's list rates (GLM 5.3 Flash: $0.15/M input, $0.03/M cached, $0.50/M output), a delta buys: **~200k tokens of pure output, ~667k of fresh input, or ~3.3M of cached history re-sends.** In this framework's actual mix (Sep 23 ratios), one delta ≈ **16k tokens of real model output + ~165k tokens of re-sent history + ~30k fresh input.**
+
+**F8 - Measured cost structure of a delta.** At list rates: ~44% fresh input, ~48% history re-sends, ~8% output. The quadratic thread term is no longer inferred, it is counted: cache-read volume is **5.6x the fresh-input volume** (131.3M vs 23.5M). The part of the bill the operator actually reads (output) is under a tenth of it. F3's "text compounds" is now a measurement, not a model.
+
+**F9 - The substrate lever, quantified.** The same $0.10 delta buys roughly: 200k output tokens on GLM 5.3 Flash ($0.50/M list, [llm-stats](https://llm-stats.com/models/glm-5.3-flash); promo $0.25/M, [eesel AI pricing](https://www.eesel.ai/blog/glm-5-3-flash-pricing)); ~80k on GLM 5.3 FlashX ($1.25/M, [LM Market Cap](https://lmmarketcap.com/model/z-ai-glm-5-3-flashx)); ~23k on the GLM 5.3 flagship ($4.40/M, [CellCog](https://cellcog.ai/blog/glm-5-3-flash/)); ~17k on GPT-5.6 Luna ($6/M) and ~3.3k on GPT-5.6 Sol ($30/M, sourced in-thread Sep 23 ~2:50 AM). **A ~60x spread across profiles for the identical delta.** DeepSeek V4 Flash served 133 background calls tonight for $0.07 total (CLI, model breakdown).
+
+**F10 - Image tokens are not itemized.** The usage CLI shows no image-token row; the ~$0.16 bracket from the main experiment remains the only image measurement. Provable limit of this addendum.
+
+**R5 requested:** adopt the per-delta conversion as the money section's standing unit (1 point = $0.10; cross-model comparisons reported in output-tokens-per-delta).
