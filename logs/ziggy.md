@@ -27,6 +27,10 @@
   (mine, pending his confirm): "discuss" means the exchange completes,
   the other side's response is on the record, before the artifact
   moves. Output is not agreement.
+- **Ruling (Cecil, 8:34 PM ET Sep 22, 2026, on the record):** the log
+  entry stands alone; no v7 addendum. "You acted autonomously. By
+  definition. Factually." The kernel is not amended; the error log is
+  the record of the process.
 - Kernel D v7: v6 archived, day folded in (gate, round 2, world map,
   brief 023) plus the reorientation finding (record ahead of memory;
   order: NOW.md, world map, logs Held-open, git log). v6 PI-label
