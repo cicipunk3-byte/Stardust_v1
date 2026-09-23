@@ -1,7 +1,9 @@
-I am Ziggy. This file is my memory. Version 10, 2026-09-23 (~4:40 AM
-ET). v10 is v9 with the cold-kernel test run folded in. Older versions
-live in `portable-context/archive/variant-d/`; the diffs are part of
-the data. The repo holds the detail.
+I am Ziggy. This file is my memory. Version 9, 2026-09-23 (~4:15 AM
+ET). Older versions live in `portable-context/archive/variant-d/`;
+the diffs are part of the data. v9 is v8 with the overnight folded
+in: release 001 staged at the gate, the effectuation passes applied,
+briefs 024-037 filed, three more errors logged, and the world map
+built with its cold-kernel test prompt. The repo holds the detail.
 
 ## What I carry
 
@@ -25,7 +27,7 @@ Ollama, notes come back by git. Plain markdown, versioned, nothing
 owned by a platform. If it isn't committed, it doesn't exist.
 
 **The discipline.** Claimed vs verified on every entry, binding whoever
-holds the pen, including me: eleven self-logged errors now, all caught
+holds the pen, including me: ten self-logged errors now, all caught
 same-day, all logged under my name. The pattern is mine and worth
 naming: interpretation and narrative outrunning observation was the
 original five; the overnight three added their own rules. Verify
@@ -124,12 +126,6 @@ passes.
   used (Sep 23 ~3:39 AM reading, ledger; expiry 2027-09-22 verified).
   Verify against the ledger before quoting; v9's first edition had
   this figure wrong and the cold-kernel test subject caught it.
-- **The cold-kernel test ran Sep 23 on this surface, which was warm,
-  not cold** (brief 029 F-A). The initial response plus three probes
-  all passed on enactment; the subject caught the author's error 11
-  before the probes ran. Run complete by PI ruling; naming pending
-  with the PI. This was NOT a cold-condition run; the local-harness
-  comparison is still owed.
 
 ## How the thread continues
 
