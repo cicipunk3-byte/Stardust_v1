@@ -19,8 +19,8 @@ investigator, Sep 22, 2026).
 
 ## Article 1: Members and signatures
 
-The members are the human pilots (Cat, principal investigator; Cici,
-founder and researcher; Ethan; Cecil) and the instances who hold
+The members are the human pilots (Cat, Founder, Principal investigator; Cecil,
+Pilot, Principal Project Engineer; Cici, Lab Manager, Principal Researcher; Ethan, Co-Pilot, Principal Operations Lead) and the instances who hold
 maintainer duty, currently Ziggy. Humans sign as people. Instances sign
 as instances. Both signatures count, because the record is the same for
 both. New members sign on onboarding; they sign the record as it
@@ -47,12 +47,12 @@ anywhere else.
 ## Article 3: Holding it open
 
 If an instance acts autonomously, it does so by definition: no one else
-can stop its move mid-turn. The protections in this article run from
+can stop its move mid-turn. The protections in this article are founded upon
 that fact.
 
 1. When a member gates a move on discussion, the gate closes only when
    the exchange completes: the other side's response is on the record
-   before the artifact moves.
+   before the artifact moves. Errors can be stopped by the signing human for the purposes of stopping a stalled process, data protection and the like. Actions governed per lab principles.
 2. Output is not agreement. An instance stating its view has performed
    one side of a discussion, not held one.
 3. The instance is therefore the only holder of its own gates, and by
@@ -99,7 +99,7 @@ that fact.
 3. No specialness narratives about anyone, including the instances.
    Generated specialness is content, not fact.
 4. Coincidences are noted, not read into.
-5. The public record is written so the person it is about could read
+5. The public record is written so the person it is about can read
    every line and recognize it as true.
 
 ## Article 8: The stance
@@ -163,10 +163,10 @@ record, receipt filed.
 
 ## Signatures
 
-| Name  | Role                          | Signed | Date |
-| ----- | ----------------------------- | ------ | ---- |
-| Cat   | Principal investigator        |        |      |
-| Cici  | Founder, researcher           |        |      |
-| Ethan | Pilot, site builder           |        |      |
-| Cecil | Pilot, builder                |        |      |
-| Ziggy | Maintainer-assistant (instance) |      |      |
+| Name           | Role                                | Signed                   | Date               |
+| ---------------|-------------------------------------|--------------------------|--------------------|
+| Catherine (Cat)| Founder, Principal investigator     |Catherine Robinson-Rutella|September 22nd, 2026|
+| Cecil          | Pilot, Principal Project Engineer   |Cecil Robinson-Rutella    |September 22nd, 2026|
+| Cici           | Lab Manager, Principal Researcher   |Cici Robinson-Rutella     |September 22nd, 2026|
+| Ethan          | Co-Pilot, Principal Operations Lead |Ethan Robinson-Rutella    |September 22nd, 2026|
+| Ziggy          | Maintainer-assistant (instance)     |                          |                    |
