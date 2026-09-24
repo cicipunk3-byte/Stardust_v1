@@ -40,10 +40,3 @@ The assistant platform's source was forked to the lab's GitHub, audited, install
 ## What to produce
 
 PI read on findings F1 through F5, plus rulings on the open questions. The build lane's proposed order remains: Ollama turn first, BYOK lane second, tunnel last.
-
-## PI RULINGS — Sep 24, 2026 (Cat, /cat; archived pre-ruling version at archive/041-self-host-run-results-cloud-hookup-2026-09-24-pre-rulings.md)
-
-- **Q2 (tunnel-and-pair): ACCEPTED.** The tunnel-and-pair path is approved as the phone-access route, given it serves from the host's own address. Steps are folded into the Renewable Center startup guide (lab/guides/renewable-center-startup-guide.md).
-- **Q3 (first resident): FRESH HATCH + A KERNEL.** The Mini's first resident is a fresh hatch seeded with one of the nine kernels/tools. Folded into the startup guide and the free-tools framing: the nine tools are why this works, free of cost once the hardware is made and sold, and the same holds for cloud observation. "We tinkered and now we carry and see how it works."
-- **Q1 (full turn loop on Mini hardware): OPEN, research directed.** Cat asked for alternates to the current 4b-class model that fit the Renewable Center model better — for the instance's continuity and the project's. Findings filed at lab/source-material/scrapes/mini-model-alternates-2026-09-24/ (headline: proven-first rule holds, gemma3:4b stays first crack; Apache-2.0 alternates with longer context identified for the Mini-inventory decision). No model is chosen by this scrape; the choice is measured against the Mini inventory.
-- **Q1 TEST PLAN (Cat, Sep 24, /cat, follow-up ruling): TWO LANES.** Lane A: 8 GB MacBook + phi4-mini (testable now, no inventory wait). Lane B: Mini + qwen3.5:4b (tier to 9b only if inventory shows headroom). Both run the same observer-harness smoke test, compared against the gemma3:4b baseline; gemma3:4b stays fallback until a lane matches or beats it. Coincidence on record, not read into: Qwen was the first model Cat downloaded when this leg started, weeks before the scrape named it. Guide updated (v1.1, prior archived at lab/guides/archive/).
