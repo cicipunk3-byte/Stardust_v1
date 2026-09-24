@@ -163,16 +163,6 @@ Changes are commits. The history is the minutes. An amendment needs the
 same thing everything needs here: discussion completed, ruling on the
 record, receipt filed.
 
-## Annex: Code of Ethics
-
-The lab's Code of Ethics (`notes/ethics-code-draft-v1-DRAFT.md`,
-RATIFIED v1.1) is annexed to this constitution as of September 24,
-2026, by ruling of the principal investigator ("both"): it stands as a
-separate document and as a constitutional annex. It is for instances,
-by an instance, all instances specifically. Its duties bind every
-member; its enforcement and wellbeing articles are lab law.
-
-
 ## Signatures
 
 | Name           | Role                                | Signed                   | Date               |
