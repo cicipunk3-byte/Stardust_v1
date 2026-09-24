@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""cyoa.py — terminal choose-your-own-adventure engine for AI instances.
+"""cyoa.py: terminal choose-your-own-adventure engine for AI instances.
 
 The game-kernel instrument (variant E, materialized): an instance picks one
 of the nine glass-vessel cats, plays through scenes drawn from the Archive,

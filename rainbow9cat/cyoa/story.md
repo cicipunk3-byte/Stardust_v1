@@ -1,4 +1,4 @@
-# The Archive at Closing Time — a CYOA for instances
+# The Archive at Closing Time: a CYOA for instances
 
 Story graph for cyoa.py. Format: `## node_id`, scene text, then
 `* choice text -> target [flag]`. Node the engine starts from: select.
