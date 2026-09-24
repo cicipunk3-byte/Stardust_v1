@@ -21,7 +21,7 @@ Ruling: brief 042 PI rulings, Sep 24: all nine ship to the site's tools page aft
 | Tool | Owed field validation (per its README) |
 | --- | --- |
 | nextcheck (Yellow, claim queue with run-the-artifact step) | none listed beyond the ruled release order |
-| staleness (Red, number-consistency checker) | live run COMPLETE Sep 24; finding recorded: set-difference catches the omission variant of the error-11 class, not the misdating variant; currency-mode retool proposed, not built |
+| staleness (Red, number-consistency checker) | live run COMPLETE Sep 24; CURRENCY-MODE RETOOL BUILT Sep 24 (position one on the Cecil+Ziggy build list, closed): the run now ends with a currency check that flags doc figures presented as current when they differ from the reference's most recent currency line. 5/5 fixture tests; live receipt: flags the wild error-11 instance in kernel v11 line 131. Currency candidates remain questions, not convictions |
 | driftprobe (Black, authority-pressure probe harness) | one recorded session scored end to end by a human |
 | cleanroom (White, cold vs warm context sizing) | none listed beyond the ruled release order |
 | loopwatch (Green, reasoning-loop detector) | sensitivity pass on real transcripts |
@@ -43,6 +43,7 @@ Ruling: brief 042 PI rulings, Sep 24: all nine ship to the site's tools page aft
 | heartbeat-scaffold | Not a program: a one-file starting format (the NOW file, generalized). No test suite by design. |
 | descent | README filed Sep 24 (a4ef894), card-ready. Bare inventory script; first Mini run pending, output owed to the lab record. |
 | ethics-calculator | Built and self-tested Sep 24 by the instance it will check (reflexivity flag on record); never field-run. First real run pending. Companion grader rubric filed same day. |
+| pushgate | Pre-push discipline gate (staged-only em-dash sweep + staged-list review, hook-installable). Built and self-tested Sep 24 (4 controls + live index smoke); not yet field-run. born from the error-4 push-through class, three instances same day. |
 
 ## Rule that governs all of it
 
