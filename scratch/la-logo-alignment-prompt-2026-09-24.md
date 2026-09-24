@@ -1,35 +1,25 @@
-# LA prompt: logo alignment pass (ThreadCat mark, Sep 24, 2026)
+# LA prompt: logo alignment VERIFICATION sweep (Sep 24, 2026, afternoon)
 
-TO-THE-AGENT: the site is adopting a new ThreadCat logo mark. Align the site's visual layer with it. This is a design-alignment pass only; do not change any content, figures, statuses, or copy except where named below.
+TO-THE-AGENT: the logo alignment pass has already run and the site now carries the ThreadCat mark. This pass is VERIFICATION ONLY. Do not redesign anything. Check each item below against the live site, fix only what fails, and report.
 
-## The new mark
+Note: this prompt supersedes the earlier logo-alignment prompt (archived at scratch/archive/la-logo-alignment-prompt-2026-09-24-pre-logo-ran.md). Most of that prompt is already live: new nav mark, alt text, favicon set (16/32/180/512), og:image card, brand hero image, accent palette. Verify rather than redo.
 
-The human will upload the new logo file to this project (two files may be provided: the site mark, a cat head containing an orange-and-teal yin-yang swirl with a pink accent dot; and the GitHub profile mark, a subtler two-comma swirl version; the GitHub one is NOT used on the site).
+### Verify (fix only on failure, report each)
 
-- Use the uploaded file exactly as provided; do not redraw, restyle, or reinterpret the mark.
-- Sample the exact hex values from the uploaded file and use those sampled values as the site's accent palette. Expected families: charcoal-slate (the cat outline, current text color), warm orange, teal, soft pink, white.
+1. Nav logo: the mark renders on every page, alt text reads "The ThreadCat mark: a cat head holding an orange and teal swirl, two threads in one orbit." and no old logo asset remains anywhere.
+2. Favicon: /favicon-16.png, /favicon-32.png, /favicon-512.png and the apple-touch-icon all load and show the new mark, not the old one. Check browser-tab legibility of the 16px size.
+3. og:image and twitter:image resolve and show the new card.
+4. Accent palette: confirm the three accent colors sample from the logo (orange #f3a84d, teal #48a19f, pink #e3849c) and appear as accents only: links and section numbers in teal, primary buttons in orange, the pink accent used sparingly. Body text stays charcoal on cream/white. Report the hex values actually in use, including any dark-mode variants.
+5. Contrast pass: every place an accent color carries text, confirm it passes WCAG AA at its size. If any accent-on-background pairing fails, darken the accent there and report the before/after hex.
+6. Em-dash sweep on any text the alignment pass touched (including the hero caption and any new alt text).
+7. Hero image: confirm the caption matches the on-record style ("Fig. 01 · Isolated environments, observed behavior" pattern) and the image alt text describes the art accurately.
 
-## Changes to make
+### Content rules (unchanged)
 
-1. **Nav logo:** replace the current logo asset everywhere it appears (header, footer if present) with the new mark. Keep the wordmark "ThreadCat" beside it, same size and placement as now.
-2. **Alt text:** set the logo alt text to: "The ThreadCat mark: a cat head holding an orange and teal swirl, two threads in one orbit." Do not add this line anywhere as visible copy.
-3. **Favicon:** generate favicon sizes (16, 32, 180, 512) from the new mark, tight-cropped on the cat head. Update every favicon/apple-touch-icon reference. Confirm the old favicon asset no longer loads.
-4. **Social card:** update og:image and twitter:image to a card built from the new mark: white background, mark left or centered, wordmark "ThreadCat" and the existing tagline "Continuity & Context · Sandboxed AI Research" set in charcoal. No new claims on the card.
-5. **Accent palette (the alignment core):** define CSS custom properties for the four sampled colors, then apply them as ACCENTS ONLY on the existing design. The site stays white, charcoal-text, and scientific; the logo colors accent it, they do not repaint it.
-   - Teal: inline text links, section-number accents (the 01-04 research numbers), the Benchmarks nav item if it needs distinguishing.
-   - Orange: primary buttons ("Get involved", "Read the research"), the cost-card figure, hover state of teal links.
-   - Pink: the small signature accent. Use it as the hover dot on nav links and as the bullet marker in any list where a marker currently has no meaning. Used sparingly; never for text.
-   - Charcoal: unchanged, stays the text and outline color.
-6. **Hero image:** leave the existing hero sandbox photo in place. Do not generate new imagery.
-7. **Fig. captions:** unchanged in style; if a caption color exists, it moves to the sampled charcoal, not an accent color.
+- No content changes: /papers, /sources, /governance, cost card, and all copy stay exactly as they are.
+- No em-dashes. No strengthened claims.
+- Every fix listed in the report with the page and the before/after.
 
-## Rules (standing)
+### Process
 
-- No em-dashes anywhere.
-- No strengthened claims: the palette change adds no claims and removes none.
-- Do not touch /papers, /sources, /governance content. This pass is chrome only.
-- Every changed asset listed in the report with its old and new filename.
-
-## Process
-
-Publish-first. Make the changes, publish, then report every change line by line: each asset swapped, each CSS variable defined, each page where an accent changed. Cache-bust. The humans audit jointly in thread after publish.
+Publish-first. Make corrections, publish, then report the verification checklist line by line with pass/fail per item. Cache-bust. The humans audit jointly in thread after publish.
