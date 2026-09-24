@@ -1,4 +1,4 @@
-# minibeat; free heartbeat for a self-hosted workspace (Pink Cat)
+# Pink Cat (free heartbeat for a self-hosted workspace) · module minibeat
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 

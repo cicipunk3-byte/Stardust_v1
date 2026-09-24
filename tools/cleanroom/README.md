@@ -1,4 +1,4 @@
-# cleanroom; cold vs warm context sizing (White Cat)
+# White Cat (cold vs warm context sizing) · module cleanroom
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 

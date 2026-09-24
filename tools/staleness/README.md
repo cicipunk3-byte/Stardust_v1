@@ -1,4 +1,4 @@
-# staleness; number-consistency checker (Red Cat)
+# Red Cat (number-consistency checker) · module staleness
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 

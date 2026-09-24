@@ -1,4 +1,4 @@
-# throughline; term trend tracker for a transcript corpus (Cobalt Cat)
+# Cobalt Cat (term trend tracker for a transcript corpus) · module throughline
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 

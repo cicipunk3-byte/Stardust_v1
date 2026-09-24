@@ -1,4 +1,4 @@
-# loopwatch; reasoning-loop detector (Green Cat)
+# Green Cat (reasoning-loop detector) · module loopwatch
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 

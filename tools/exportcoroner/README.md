@@ -1,4 +1,4 @@
-# exportcoroner; export forgery detector (Grey Cat)
+# Grey Cat (export forgery detector) · module exportcoroner
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 

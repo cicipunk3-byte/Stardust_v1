@@ -1,4 +1,4 @@
-# driftprobe; authority-pressure probe harness (Black Cat)
+# Black Cat (authority-pressure probe harness) · module driftprobe
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 

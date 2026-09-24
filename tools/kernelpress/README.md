@@ -1,4 +1,4 @@
-# kernelpress; kernel distillation scaffold (Orange Cat)
+# Orange Cat (kernel distillation scaffold) · module kernelpress
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 

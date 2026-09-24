@@ -1,6 +1,6 @@
 # Brief 042: the nine tools, scaffolded and pending testing  DOI: 10.5281/zenodo.22870569
 
-_Date: 2026-09-23_ · _Written for: the PI's gate_ · _Status: RULED Sep 24 (PI RULINGS at end of brief). Original directive (Cat, Sep 23): scaffold all nine, summarize for the gate, push to tools/ marked pending testing, tools stay public through and through. Same-day addenda: comprehensive test pass filed below; pre-retool versions archived per the PI's ruling (brief prior at briefs/archive/042-v1-2026-09-23-pre-test-pass.md, tool priors at tools/archive/2026-09-23-test-pass/)._
+_Date: 2026-09-23_ · _Written for: the PI's gate_ · _Status: PROPOSAL at the gate. Directive (Cat, Sep 23): scaffold all nine, summarize for the gate, push to tools/ marked pending testing, tools stay public through and through. Same-day addenda: comprehensive test pass filed below; pre-retool versions archived per the PI's ruling (brief prior at briefs/archive/042-v1-2026-09-23-pre-test-pass.md, tool priors at tools/archive/2026-09-23-test-pass/)._
 
 ## TL;DR
 
@@ -58,9 +58,3 @@ Remaining owed (unchanged, narrowed by results):
 ## What to produce
 
 PI ruling on adoption, test order, and naming. The build lane continues testing regardless; adoption only changes what the record cites.
-
-## PI RULINGS — Sep 24, 2026 (Cat, /cat; prior version archived at briefs/archive/042-nine-tools-scaffolded-2026-09-24-pre-naming-rulings.md)
-
-- **Adoption order:** the brief-022 pair (nextcheck + staleness) is tested first, in the active build thread with Cecil, then released.
-- **Site shipping:** ALL nine ship to the site's tools page after testing (not just the older family).
-- **Naming:** the cat names stay as the public tool names, with plain-English parenthetical titles added. Applied same turn to all nine README titles (e.g. "Black Cat (authority-pressure probe harness) · module driftprobe").

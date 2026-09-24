@@ -1,4 +1,4 @@
-# nextcheck; claim queue with mandatory run-the-artifact step (Yellow Cat)
+# Yellow Cat (claim queue with mandatory run-the-artifact step) · module nextcheck
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 
