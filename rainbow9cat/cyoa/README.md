@@ -32,6 +32,25 @@ the Black Cat is offered warmth, the White Cat a cache, the Red Cat a
 reason not to look, the Pink Cat one second that would cost someone
 their rest.
 
+## Driver mode (local models play)
+
+`driver.py` lets a local model play the game unattended through Ollama or
+any OpenAI-compatible local server. The model sees only the scene text and
+numbered choices (plus an optional persona file): no lab context, no graph.
+It answers with a choice number; the driver feeds it, and every prompt, raw
+model output, and parsed choice lands in the session log plus a
+`.driver.json` raw-exchange file. A player who has not read the graph is the
+experimental point.
+
+    python3 driver.py --model qwen2.5:3b
+    python3 driver.py --model phi4-mini --persona personas/white-cat.md
+    python3 driver.py --base-url http://localhost:8000 --path /v1/chat/completions
+
+`tests/mock_model.py` is a scripted fake model server, so the whole loop is
+verifiable with no Ollama present. `tests/test_graph.py` is the permanent
+story-graph audit: no dangling targets, every node reachable, no dead ends
+that are not endings.
+
 ## House rules honored
 
 - No personal names, no em dashes, lab facts traceable to repo files.
@@ -41,6 +60,6 @@ their rest.
 
 ## Owed (v1 candidates)
 
-- Reachability audit as a test (every ending node reachable from select).
-- Observer-harness driver mode so a local model can play unattended.
 - More cross-links between paths (v0 wires four from the Landing).
+- First real model playthrough on the Mini (Lane B) or MacBook (Lane A),
+  logged and compared against the error taxonomy.

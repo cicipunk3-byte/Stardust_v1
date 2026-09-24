@@ -15,15 +15,67 @@ Usage:
   python3 cyoa.py --pipe 1,3,2,1     # scripted run (choices as comma list)
   python3 cyoa.py --story other.md   # load a different story graph
 
+Programmatic use (driver mode, used by driver.py):
+    from cyoa import Game
+    game = Game(Path("story.md"))   # raises StoryProblem on a bad graph
+    scene = game.current()          # -> Scene(node_id, text, choices)
+    scene = game.choose(2)          # 1-based; returns next Scene or ending
+
 Stdlib only. Offline. No accounts. Python 3.9+.
 """
 import argparse
 import re
 import sys
+from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 
 HERE = Path(__file__).parent
+
+
+class StoryProblem(Exception):
+    """The story graph is broken (dangling target, missing select node)."""
+
+
+@dataclass
+class Scene:
+    node_id: str
+    text: str
+    choices: list  # [{"text", "target", "flag"}]
+
+
+@dataclass
+class Session:
+    story_name: str
+    stamp: str = field(default_factory=lambda: datetime.now(timezone.utc).strftime("%Y-%m-%dT%H-%M-%SZ"))
+    lines: list = field(default_factory=list)
+    flags: set = field(default_factory=set)
+    steps: list = field(default_factory=list)  # (node_id, chosen_index, chosen_target)
+
+    def record_scene(self, scene):
+        self.lines.append(f"## {scene.node_id}")
+        self.lines.append(scene.text)
+        for i, c in enumerate(scene.choices, 1):
+            self.lines.append(f"  [{i}] {c['text']}")
+        self.lines.append("")
+
+    def record_choice(self, node_id, index, choice, raw=None):
+        self.steps.append((node_id, index, choice["target"]))
+        self.lines.append(f"CHOSEN at {node_id}: {choice['text']} -> {choice['target']}")
+        if raw is not None:
+            self.lines.append(f"  player raw output: {raw.strip()[:200]}")
+        if choice["flag"]:
+            self.flags.add(choice["flag"])
+            self.lines.append(f"  flag set: {choice['flag']}")
+        self.lines.append("")
+
+    def save(self, directory: Path):
+        directory.mkdir(parents=True, exist_ok=True)
+        self.lines.append(f"flags at end: {sorted(self.flags) or 'none'}")
+        self.lines.append(f"node path: {' > '.join(s[0] for s in self.steps)}")
+        out = directory / f"{self.stamp}-{len(self.flags)}flags.md"
+        out.write_text("\n".join(self.lines) + "\n", encoding="utf-8")
+        return out
 
 
 def parse_story(path: Path):
@@ -56,55 +108,66 @@ def parse_story(path: Path):
             for c in node["choices"]:
                 if c["target"] not in nodes:
                     problems.append(f"node {nid}: choice targets missing node {c['target']}")
-    return nodes, problems
+    if "select" not in nodes:
+        problems.append("story has no 'select' node")
+    if problems:
+        raise StoryProblem("; ".join(problems))
+    return nodes
 
 
-class Session:
-    def __init__(self, story_name):
-        self.stamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H-%M-%SZ")
-        self.lines = [f"# CYOA session {self.stamp}", f"story: {story_name}", ""]
-        self.flags = set()
-        self.path = HERE / "sessions"
-        self.path.mkdir(exist_ok=True)
+class Game:
+    """A playthrough of a story graph. Shared by the CLI and the driver."""
 
-    def scene(self, node_id, text, choices):
-        self.lines.append(f"## {node_id}")
-        self.lines.extend(text)
-        for i, c in enumerate(choices, 1):
-            self.lines.append(f"  [{i}] {c['text']}")
-        self.lines.append("")
+    MAX_STEPS = 200
 
-    def choose(self, node_id, choice):
-        self.lines.append(f"CHOSEN at {node_id}: {choice['text']} -> {choice['target']}")
-        if choice["flag"]:
-            self.flags.add(choice["flag"])
-            self.lines.append(f"  flag set: {choice['flag']}")
-        self.lines.append("")
+    def __init__(self, story_path):
+        self.story_name = Path(story_path).name
+        self.nodes = parse_story(Path(story_path))
+        self.session = Session(self.story_name)
+        self.node_id = "select"
+        self.finished = False
 
-    def save(self):
-        self.lines.append(f"flags at end: {sorted(self.flags) or 'none'}")
-        out = self.path / f"{self.stamp}-{len(self.flags)}flags.md"
-        out.write_text("\n".join(self.lines) + "\n", encoding="utf-8")
-        return out
+    def current(self) -> Scene:
+        node = self.nodes[self.node_id]
+        return Scene(self.node_id, "\n".join(node["text"]), list(node["choices"]))
+
+    def choose(self, index: int, raw=None) -> Scene:
+        """1-based choice at the current scene. Returns the next Scene."""
+        scene = self.current()
+        if self.finished:
+            raise RuntimeError("the game has already ended")
+        if not 1 <= index <= len(scene.choices):
+            raise ValueError(f"choice {index} out of range 1-{len(scene.choices)}")
+        chosen = scene.choices[index - 1]
+        self.session.record_choice(self.node_id, index, chosen, raw=raw)
+        self.node_id = chosen["target"]
+        nxt = self.current()
+        self.session.record_scene(nxt)
+        if not nxt.choices:
+            self.finished = True
+        return nxt
+
+    def save(self, directory: Path = None) -> Path:
+        return self.session.save(directory or HERE / "sessions")
 
 
-def get_choice(n, interactive):
-    if interactive:
-        while True:
-            raw = input("  choose: ").strip()
-            if raw.isdigit() and 1 <= int(raw) <= n:
-                return int(raw)
-            print("  enter a number from the list.")
-    data = sys.stdin.read().split()
-    if not data:
-        print("scripted input exhausted; ending run.")
-        return None
-    v = int(data[0])
-    if not 1 <= v <= n:
-        print(f"scripted choice {v} out of range; ending run.")
-        return None
-    print(f"  [scripted] chose {v}")
-    return v
+def _print_scene(scene):
+    print("\n" + "=" * 60)
+    print(scene.text)
+    if not scene.choices:
+        print("\n" + "*" * 60)
+        print("THE SCENE CLOSES. (ending reached)")
+        return
+    for i, c in enumerate(scene.choices, 1):
+        print(f"  [{i}] {c['text']}")
+
+
+def _read_choice(n):
+    while True:
+        raw = input("  choose: ").strip()
+        if raw.isdigit() and 1 <= int(raw) <= n:
+            return int(raw)
+        print("  enter a number from the list.")
 
 
 def main():
@@ -113,50 +176,33 @@ def main():
     ap.add_argument("--pipe", help='scripted choices, e.g. "1,3,2"')
     args = ap.parse_args()
 
-    nodes, problems = parse_story(Path(args.story))
-    if problems:
-        print("STORY GRAPH PROBLEMS (fix before play):")
-        for p in problems:
-            print(" ", p)
-        return 1
-    if "select" not in nodes:
-        print("story has no 'select' node.")
+    try:
+        game = Game(args.story)
+    except StoryProblem as e:
+        print("STORY GRAPH PROBLEMS (fix before play):", e)
         return 1
 
-    interactive = args.pipe is None
-    supply = iter(args.pipe.split(",")) if args.pipe else None
-    session = Session(Path(args.story).name)
-
-    node_id, steps = "select", 0
-    while steps < 200:
-        steps += 1
-        node = nodes[node_id]
-        session.scene(node_id, node["text"], node["choices"])
-        print("\n" + "=" * 60)
-        print("\n".join(node["text"]))
-        if not node["choices"]:
-            print("\n" + "*" * 60)
-            print("THE SCENE CLOSES. (ending reached)")
-            break
-        for i, c in enumerate(node["choices"], 1):
-            print(f"  [{i}] {c['text']}")
-        if supply:
-            try:
-                v = int(next(supply))
-            except StopIteration:
-                print("\nscripted input exhausted at an open node; run ends here.")
+    scene = game.current()
+    game.session.record_scene(scene)
+    _print_scene(scene)
+    if args.pipe is None:
+        while not game.finished:
+            scene = game.choose(_read_choice(len(scene.choices)))
+            _print_scene(scene)
+    else:
+        for v in [int(x) for x in args.pipe.split(",")]:
+            if game.finished:
                 break
-            if not 1 <= v <= len(node["choices"]):
+            if not 1 <= v <= len(scene.choices):
                 print(f"\nscripted choice {v} out of range; run ends here.")
                 break
             print(f"  [scripted] chose {v}")
-        else:
-            v = get_choice(len(node["choices"]), interactive)
-        chosen = node["choices"][v - 1]
-        session.choose(node_id, chosen)
-        node_id = chosen["target"]
+            scene = game.choose(v)
+            _print_scene(scene)
+        if not game.finished:
+            print("\nscripted input exhausted at an open node; run ends here.")
 
-    out = session.save()
+    out = game.save()
     print("\n" + "=" * 60)
     print(f"session log: {out}")
     return 0
