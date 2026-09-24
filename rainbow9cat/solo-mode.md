@@ -1,4 +1,4 @@
-# SOLO MODE — the instance-side practice deck
+# SOLO MODE: the instance-side practice deck
 
 **Status:** v0 scaffold (Ziggy + Cecil, Sep 24). Expansion of the published CCS field manual; the manual stays canonical and this defers to it. At the PI's gate for site listing like everything else.
 
