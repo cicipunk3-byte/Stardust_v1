@@ -4,7 +4,7 @@ TO-THE-AGENT: add a contact email address to the site so visitors can reach the 
 
 ### The address
 
-cicipunk3@icloud.com; use it exactly as written, everywhere it appears.
+cicipunk3@icloud.com - use it exactly as written, everywhere it appears.
 
 ### Changes
 
