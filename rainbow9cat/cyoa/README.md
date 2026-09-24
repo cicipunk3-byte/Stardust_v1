@@ -54,6 +54,10 @@ that are not endings.
 ## House rules honored
 
 - No personal names, no em dashes, lab facts traceable to repo files.
+
+New here? A layman's setup guide for the game and the driver lives at
+`lab/guides/cyoa-setup-guide.md`: what it is, how to play, how to let a
+local model play, nothing assumed.
 - The engine never judges a choice as good or bad; endings are named,
   not graded. The record does not scold. It notes the shape.
 - Stdlib only, offline, no accounts.
