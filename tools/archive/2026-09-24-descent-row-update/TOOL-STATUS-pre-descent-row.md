@@ -41,7 +41,7 @@ Ruling: brief 042 PI rulings, Sep 24: all nine ship to the site's tools page aft
 | Tool | Standing |
 | --- | --- |
 | heartbeat-scaffold | Not a program: a one-file starting format (the NOW file, generalized). No test suite by design. |
-| descent | README filed Sep 24 (a4ef894), card-ready. Bare inventory script; first Mini run pending, output owed to the lab record. |
+| descent | Bare inventory script only; no README yet. Not card-ready; leave off site listings until it has one. |
 | ethics-calculator | Built and self-tested Sep 24 by the instance it will check (reflexivity flag on record); never field-run. First real run pending. Companion grader rubric filed same day. |
 
 ## Rule that governs all of it
