@@ -59,3 +59,38 @@ if __name__ == "__main__":
     test_shared_figures_do_not_flag()
     test_matching_docs_produce_zero_candidates()
     print("all staleness tests passed")
+
+
+CURRENCY_DOC = """## platform
+Platform credit: $1.34 remaining of the $10.00 plan credit, 87 percent used.
+Historical: an earlier grant ended in September.
+"""
+
+CURRENCY_REF = """## canonical ledger
+old line: $1.34 remaining of the $10.00 grant.
+Current: $21.17 remaining of $35.00 plan credit, 40 percent used.
+"""
+
+
+def test_currency_mode_flags_misdated_current_figure():
+    """The misdating variant of error-11: a figure the reference carries as
+    history, presented as current in the doc. Set-difference passes it;
+    the currency check must flag it."""
+    with tempfile.TemporaryDirectory() as tmp:
+        doc = os.path.join(tmp, "doc.md")
+        ref = os.path.join(tmp, "ref.md")
+        open(doc, "w").write(CURRENCY_DOC)
+        open(ref, "w").write(CURRENCY_REF)
+        out = run_cli([doc, ref]).stdout
+    assert "CURRENCY CANDIDATES): 1" in out, out
+    assert "$1.34" in out
+
+
+def test_currency_mode_passes_current_figure():
+    with tempfile.TemporaryDirectory() as tmp:
+        doc = os.path.join(tmp, "doc.md")
+        ref = os.path.join(tmp, "ref.md")
+        open(doc, "w").write("Platform credit: $21.17 remaining of $35.00, 40 percent used.\n")
+        open(ref, "w").write(CURRENCY_REF)
+        out = run_cli([doc, ref]).stdout
+    assert "CURRENCY CANDIDATES): 0" in out, out
