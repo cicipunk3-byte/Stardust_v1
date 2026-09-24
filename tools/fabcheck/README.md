@@ -39,6 +39,7 @@ claimed-vs-verified ledger in the house format.
 ## Usage
 
 ```
+python3 -m fabcheck path/to/doc.md                 # full ledger (short form, added Sep 24)
 python3 -m fabcheck.cli path/to/doc.md            # full ledger
 python3 -m fabcheck.cli --sources-only doc.md     # citation signals only
 python3 -m fabcheck.cli --ollama doc.md           # + local model opinion (ollama running)
