@@ -1,6 +1,6 @@
 # The Bundles
 
-Sixteen tools, four postures. Every tool in the lab belongs to one
+Seventeen tools, four postures. Every tool in the lab belongs to one
 of four families, grouped by what it is FOR, not by when it was
 built: **Watchers** protect the record, **Keepers** carry it,
 **Mirrors** read it back to its authors, **Bridge** keeps it standing
