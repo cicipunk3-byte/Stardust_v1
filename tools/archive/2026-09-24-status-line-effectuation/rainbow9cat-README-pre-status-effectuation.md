@@ -1,9 +1,10 @@
 # ThreadCat: The Contextual Continuity System (CCS)
 
-Status: **Ratified** as official lab tooling (gate review Sep 22, commit 4a8e8d4).
-Published as testable: anyone who finds it can test it as we do. This game lives in
-`tools/rainbow9cat/`. License decision deliberately not yet made (see GOVERNANCE.md).
-Publishing authority rests with the principal investigator.
+Status: **PARKED. Pre-open-source.** This game lives in `notes/` so the team
+can test and iterate on it before anything is published or licensed. When the
+team decides it is ready, it moves to its own public home and gets a license
+decision (deliberately not made yet; see GOVERNANCE.md). Publishing authority
+rests with the principal investigator.
 
 ## Provenance
 

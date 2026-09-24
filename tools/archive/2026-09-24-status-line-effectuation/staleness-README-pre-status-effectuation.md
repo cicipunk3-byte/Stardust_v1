@@ -2,7 +2,7 @@
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 
-## Status: RULED TO SHIP (brief 042 PI rulings, Sep 24); fixture tests pass; live run COMPLETE (finding recorded). Canonical standing: see TOOL-STATUS.md.
+## Status: PENDING PI ADOPTION; fixture tests pass; live run COMPLETE (finding recorded)
 
 Fixture tests pass (3/3) including a synthetic error-11 reproduction. **Live run completed Sep 24** (kernel v9 and live kernel v11, each against `notes/cost-ledger.md`): both returned 0 staleness candidates, no crashes, human-step line intact.
 

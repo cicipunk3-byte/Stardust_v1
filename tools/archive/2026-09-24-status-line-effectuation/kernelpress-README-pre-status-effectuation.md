@@ -2,7 +2,7 @@
 
 Part of the ThreadCat lab tooling. Free, local, stdlib-only Python.
 
-## Status: RULED TO SHIP (brief 042 PI rulings, Sep 24); fixture tests pass. Canonical standing: see TOOL-STATUS.md.
+## Status: PENDING PI ADOPTION; fixture tests pass
 
 Fixture tests pass (4/4); budget math exact. Prose stays human; retention scoring is the owed next step.
 
