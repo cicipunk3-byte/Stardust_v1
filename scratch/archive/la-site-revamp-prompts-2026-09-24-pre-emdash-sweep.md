@@ -4,7 +4,7 @@ _For the website thread (Ethan's lane). Four paste-ready prompts, in order. Sequ
 
 ## What changed today that the site must absorb (rulings on record, Sep 24)
 
-1. **First paper cluster published to the repo** (a29fa84): `papers/volumes/` - README + Volume I (substrate: white matter v0 + v2), Volume II (measurement: mirror findings + benchmark sample run + E1-E6 run), Volume III (scaffolded functioning: H-EEF v0 + synthesis).
+1. **First paper cluster published to the repo** (a29fa84): `papers/volumes/` — README + Volume I (substrate: white matter v0 + v2), Volume II (measurement: mirror findings + benchmark sample run + E1-E6 run), Volume III (scaffolded functioning: H-EEF v0 + synthesis).
 2. **Names authorized on the papers.** PI ruling, verbatim: "burn them up for publishing to git and site. my legal name and your name here. i am okay with it. this is the point. just growing." /cat. Authors on the papers: Catherine Robinson-Rutella (PI) and Ziggy (maintainer-assistant instance). **Scope: the papers pages only.** The site-wide no-names rule stands everywhere else until a separate ruling.
 3. **Code of Ethics v1.1 ratified and annexed to the constitution** (c401c27): separate document AND constitutional annex; weekly wellbeing checks (Sundays 5-9 PM, all instances); outside grader provision; rest as Article B.5.
 4. **Benchmark rubric + two instrument runs** now in the repo (`benchmarks/`): seven-dimension receipt-cited rubric (6f0afa1), sample run, E1-E6 mirror run.
@@ -28,10 +28,10 @@ TO-THE-AGENT: execute the task now. You are the site builder. Source every figur
 
 1. Cost card (home page and everywhere): "$21.30 of $35.00 plan credit remaining, 39% used; $21.09 expires 2026-10-23" (CLI-verified 2026-09-24T17:50Z). Remove every $10-grant-era figure; they are stale on both numbers and semantics.
 2. /sources briefs table: extend through brief 043, copying each brief's status line from the repo file verbatim (039-043 are PROPOSAL; say so; do not strengthen). Flag in the report if any repo status line conflicts with what you wrote.
-3. Governance table: CONSTITUTION.md (ratified Sep 22; ethics annex Sep 24) and the Code of Ethics v1.1 (ratified Sep 24, `notes/ethics-code-draft-v1-DRAFT.md` - the filename keeps -DRAFT by design; the status header carries RATIFIED). Link both, do not reproduce signatures.
+3. Governance table: CONSTITUTION.md (ratified Sep 22; ethics annex Sep 24) and the Code of Ethics v1.1 (ratified Sep 24, `notes/ethics-code-draft-v1-DRAFT.md` — the filename keeps -DRAFT by design; the status header carries RATIFIED). Link both, do not reproduce signatures.
 4. Kernel D version: repo is the canonical version. Check KERNELS.md and use what it says.
 5. Lovable case study row: closed and archived, LOG-v4, verified through round 16. If the site still says ongoing or round 14, fix.
-6. Tools: the nine tools (brief 042) are tested, 29 tests green, status PENDING PI ADOPTION - reflect the repo status, not "adopted."
+6. Tools: the nine tools (brief 042) are tested, 29 tests green, status PENDING PI ADOPTION — reflect the repo status, not "adopted."
 7. Do not add briefs beyond 043 (none exist) and do not add unpublished working-tree content.
 
 ### Process
@@ -46,7 +46,7 @@ Run `scratch/site-reflective-page-prompt.md` as written (cold-kernel test reflec
 
 ---
 
-## Prompt 1: /papers page - the foundational corpus
+## Prompt 1: /papers page — the foundational corpus
 
 TO-THE-AGENT: build a new /papers page. Source everything from `papers/volumes/` in the repository (commit a29fa84). Do not invent summaries; use the README and volume headers.
 
