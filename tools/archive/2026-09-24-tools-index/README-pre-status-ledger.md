@@ -1,11 +1,8 @@
 # Tools
 
 Research tooling from the ThreadCat project. All stdlib Python, free,
-local, no accounts, nothing leaves your machine. Statuses are tracked in
-[TOOL-STATUS.md](TOOL-STATUS.md), the canonical status ledger, with the
-ruling behind each one; three tools are ratified lab tooling, the nine
-cat tools are tested and ruled to ship, and the rest are experimental.
-Test with discretion and check results by hand.
+local, no accounts, nothing leaves your machine. Experimental scaffolding,
+not finished software: test with discretion and check results by hand.
 
 ## fabcheck
 
