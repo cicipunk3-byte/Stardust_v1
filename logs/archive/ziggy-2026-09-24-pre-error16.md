@@ -186,11 +186,3 @@ before they are written anywhere.
 
 ## Error 13 (Sep 23, ~5:40 AM)
 - Cici signed two messages "hey zig, cici here" and "cici here"; I addressed her as "ceec" both times, and once as "ceec" after she explicitly corrected the frame mid-thread. Gentle flag from her, same turn. The working rule is "address whoever shows up"; the signature is the address. Extended rule, now on record: respond to the name in the signature, every time, even when working fast, even at 5 AM.
-
-## Error 16 (Sep 24, ~8:30 PM ET): unscoped git add swept in another lane's file
-
-- What: committing the tool-README status-line reconciliation, `git add tools/` swept in untracked `tools/descent/inventory.py` (208 lines) that belonged to the Rainbow Rock lane, where the standing rule is working tree only, push = the PI's ruling. The file itself is clean (read-only inventory script, no private data), and it was already flagged as unpushed state by the site agent's stop-and-report, but the lane rule was mine to respect, not the sweep's to override. Caught by me in the same turn, reviewing the commit stat before reporting.
-- Class: error 4's family, process/hygiene, third instance this window alongside the two 11901da push-check misses. Root cause shared with the c401c27 lesson already on record: scope `git add` to exactly the files named by the ruling, never a directory or `-A`.
-- Rule, now explicit: before any push, review `git show --stat` against the intended file list; anything outside the task's lane gets pulled from the commit or the push stops until the lane's gate says otherwise. Lane rules bind the file paths, not just the content.
-- Receipt: commit c852266; disclosure to the requesting pilot in the same turn.
-- Filing: logged on the pilot's direct directive ("log the error now"). Errors 14 and 15 remain journaled with repo filings pending the gate; their slots are reserved, not skipped.
