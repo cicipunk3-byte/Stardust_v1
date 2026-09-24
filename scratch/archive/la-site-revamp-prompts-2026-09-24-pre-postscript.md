@@ -96,13 +96,3 @@ TO-THE-AGENT: final sweep before the site pauses. (1) Verify every page against 
 ---
 
 _After Prompt 3: the site iteration pause applies (standing guard from Sep 23). Joint audit notes land in the website thread; anything the audit surfaces comes back to this thread for rulings._
-
-## Postscript (Sep 24, evening): three known fixes, fold into the next prompt
-
-Send these after the current v4 build lands, not during it. All three source from the repo.
-
-1. **Homepage cost claim.** The "$1.07 consumed overnight with no human-initiated work" line was reversed by the ledger's same-night correction. Replace with the ledger's corrected current state, sourced from notes/cost-ledger.md. If homepage cost figures ever hardcode, change them to cite the ledger as the single source.
-2. **Case-study count.** The homepage says a hardcoded count; the repo at lab/case-studies/ is the source of truth (six directories as of Sep 24, some not site-ready). Render the count from the repo's card-ready list, not a literal.
-3. **sitemap.xml.** The site has none (404). Add a static sitemap matching the live pages only; keep it in sync whenever pages ship.
-
-House rules unchanged: no em-dashes, no personal names, no strengthened claims, stop and report on any conflict with the repo.
