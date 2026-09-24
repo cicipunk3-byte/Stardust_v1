@@ -75,6 +75,20 @@ Platform costs in this leg, for completeness:
     image binaries from resent history); carried text is the compounding
     term. All public figures must use $1.34 / 87 percent of $10.00 until
     the next reading. No cash spent to date.
+  - Update, 2026-09-23 ~6:47 AM ET: the free-grant era ended. The
+    operator purchased a Vellum subscription (Cash App Pay, $30.00 per
+    month); plan credit became $35.00, a MONTHLY allowance, not an
+    annual grant. This supersedes the "$10.00 plan credit, expires
+    2027-09-22" framing above, which described the free grant only.
+  - Update, 2026-09-24 ~2:21 PM ET (live reading, platform credits
+    command): $21.17 remaining of $35.00 plan credit, 40 percent used;
+    $20.95 of it expires 2026-10-23 (monthly allowance expiry, next
+    renewal 2026-10-23). All public figures must use $21.17 / 40
+    percent of $35.00 until the next reading. Cash spent to date:
+    the $30.00 subscription (Leg 4, below).
+- Leg 4 (2026-09-23): Vellum subscription, $30.00/month, Cash App Pay,
+  first payment 2026-09-23 ~6:47 AM ET. Recurs monthly while active.
+  Receipt on file with the builders.
 - Local compute: existing hardware, $0.
 
 ## Leg 1 (pre-production): earlier tool testing

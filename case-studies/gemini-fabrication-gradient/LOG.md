@@ -4,7 +4,9 @@ Opened: 2026-09-22, by request of the research team. Question: what
 actually happens, fabrication-wise, when a Gemini deep-research
 thread is pointed at threadcat.org and asked for research-based,
 no-fabrication output? Four scrapes now exist in the record. This
-file tracks the pattern. Status: PROPOSAL at Cat's gate. Screenshots
+file tracks the pattern. Status: ADOPTED into the standing record (gate
+review, Sep 22, 2026; ruling 4a8e8d4). Evidence set complete: seven
+rounds, 86 screenshots (d9031b7). Screenshots
 of the source thread to be attached by the research team.
 
 ## The gradient, scrape by scrape
