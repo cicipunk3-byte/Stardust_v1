@@ -1,4 +1,4 @@
-# TOOL-STATUS — the canonical status ledger for the tool library
+# TOOL-STATUS: the canonical status ledger for the tool library
 
 **Purpose:** one file stating each tool's standing, with the ruling that put it there. The site's Tool Library badges source from THIS file, not from summaries. If this file and any tool README disagree, stop and report the conflict.
 
