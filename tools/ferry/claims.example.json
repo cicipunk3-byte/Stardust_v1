@@ -1,0 +1,14 @@
+{
+  "claims": [
+    {
+      "id": "account-owner",
+      "forbidden": ["blue team's account", "blue's account"],
+      "note": "The build account belongs to RED. Stale attributions are a fix-in-place class."
+    },
+    {
+      "id": "gate-owner",
+      "forbidden": ["blue's gate", "at blue's gate"],
+      "note": "Rulings gate belongs to RED. Found live during the Sep 25 maintenance sweep."
+    }
+  ]
+}

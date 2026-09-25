@@ -3,16 +3,16 @@ DOI: 10.5281/zenodo.22870569
 
 _Date: 2026-09-25_ · _Written for: small offline model; assume no prior context_
 
-Status: PROPOSAL at the gate. Nothing spent, nothing built, nothing pointed at an agent until ruled.
+Status: PROPOSAL at the gate. Nothing spent, nothing built, nothing pointed at an agent until ruled. **Gate correction (Cecil, /c, Sep 25): this is CAT's gate, and the Replit account is CAT's (earlier drafts said Cici's; records fixed Sep 25).**
 
 ## TL;DR
 
-Cici recovered a dormant Replit account holding roughly $300 in credits, and proposed spending it on a playable web version of rainbow9cat solo mode. This doubles as the lab's first end-to-end delegation run: Ziggy picks the kernel, drafts the agent prompt (LA style), and supervises the build from nothing to playable. This brief sketches the plan for a ruling.
+Cat recovered a dormant Replit account holding roughly $300 in credits, and the proposal is to spend it on a playable web version of rainbow9cat solo mode. This doubles as the lab's first end-to-end delegation run: Ziggy picks the kernel, drafts the agent prompt (LA style), and supervises the build from nothing to playable. This brief sketches the plan for a ruling.
 
 ## Established facts
 
 - rainbow9cat solo mode is built and published (7d820d2 + 9568fbd); manual is canonical; Part 0 governs ("the game is scaffold; the record is the lab"). First session not yet played.
-- Replit credits: approximately $300, sitting on a recovered account. Spending existing credit; no new subscription.
+- Replit credits: approximately $300, sitting on Cat's recovered account. Spending existing credit; no new subscription.
 - Local-first conviction applies to OUTPUT, not to hosting choice: the repo owns all source, Replit is hosting only. Same lesson as the Lovable build, cheaper tuition.
 - Round-17 finding (stop-and-report case study, 61a8a1d): the instruction surface is a variable. A prompt that makes stopping the winning move produces honest agent behavior. The delegation prompt should be built on this directly.
 - Ethan's dev-push grant (Sep 24) covers pushes during development of site and tools. Content publication waits on Cat. push != publication.

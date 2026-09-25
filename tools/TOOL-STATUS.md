@@ -28,6 +28,14 @@ Ruling: brief 042 PI rulings, Sep 24: all nine ship to the site's tools page aft
 | kernelpress (Orange, kernel distillation scaffold) | retention scoring is the owed next step |
 | throughline (Cobalt, term trend tracker) | none listed beyond the ruled release order |
 | exportcoroner (Grey, export forgery detector) | none listed beyond the ruled release order |
+
+## BUILT AND PUSHED (infrastructure tool, not one of the nine)
+
+Ruling: brief 046, Cat, Sep 25 (/cat): built and pushed public same day; distribution home = ThinkPink free-tools bundle (NOT threadcat); site fold-in deferred pending study. Status date for this section: Sep 25, 2026.
+
+| Tool | Standing |
+| --- | --- |
+| ferry (carrying-consistency checker) | 10/10 tests green (real-failure positive controls from the Sep 25 sweep, neutralized; clean negatives); live collisions + sweep CLEAN against the corrected record. Verbs: sweep / collisions / carry. Reports, never rewrites. |
 | minibeat (Pink, workspace heartbeat) | a run on the Mac Mini, not just the sandbox |
 
 ## TESTED, PENDING GATE
