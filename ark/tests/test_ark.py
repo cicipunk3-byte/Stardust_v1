@@ -103,5 +103,52 @@ class TestList(unittest.TestCase):
         self.assertIn("no archive slots", out)  # empty-slot tools stated honestly
 
 
+class TestKernelPlug(unittest.TestCase):
+    def setUp(self):
+        self.base = Path(tempfile.mkdtemp(prefix="kernel-arc-test-"))
+
+    def tearDown(self):
+        shutil.rmtree(self.base)
+
+    def make_kernel_archive(self, root, kernel_text=None):
+        root.mkdir(parents=True, exist_ok=True)
+        text = kernel_text if kernel_text is not None else (
+            "kernel v12 -- I am the agent this orients. Dated 2026-09-25. "
+            "Acknowledge the record without claiming memory. Verify before "
+            "asserting. Append, never overwrite. Stop and report at the "
+            "edges. " * 4
+        )
+        (root / "kernel.md").write_text(text, encoding="utf-8")
+        (root / "archive").mkdir(exist_ok=True)
+        (root / "archive" / "kernel-v11.md").write_text("prior version\n")
+        (root / "BOOT.md").write_text("# boot\n", encoding="utf-8")
+        return root
+
+    def test_conforming_kernel_archive_fits(self):
+        """P4: kernel.md + archive/ + BOOT.md -> kernel plug FIT."""
+        archive = self.make_kernel_archive(self.base / "k-good")
+        code, out = run(["plug", "--archive", str(archive), "--kernel"])
+        self.assertEqual(code, 0)
+        self.assertIn("KERNEL layer", out)
+        self.assertIn("FIT", out)
+
+    def test_kernel_without_boot_instructions_does_not_fit(self):
+        """N4: a kernel with no BOOT.md is a costume, not a kernel."""
+        archive = self.make_kernel_archive(self.base / "k-noboot")
+        (archive / "BOOT.md").unlink()
+        code, out = run(["plug", "--archive", str(archive), "--kernel"])
+        self.assertEqual(code, 1)
+        self.assertIn("NOT FIT", out)
+        self.assertIn("BOOT.md", out)
+
+    def test_kernel_plug_does_not_demand_record_slots(self):
+        """N5: the layers are independent -- a kernel-only archive must not
+        be failed for lacking timeline.jsonl."""
+        archive = self.make_kernel_archive(self.base / "k-only")
+        code, out = run(["plug", "--archive", str(archive), "--kernel"])
+        self.assertEqual(code, 0)
+        self.assertNotIn("timeline.jsonl", out)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

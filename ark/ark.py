@@ -13,8 +13,10 @@ Verbs:
   plug --archive DIR
                  validate an archive against ARCHIVE-CONTRACT.md: required
                  slots present and well-formed, optional slots reported.
-                 Exit 0 = the archive fits the house; 1 = it does not (clean
-                 report, no partial verdicts)
+                 With --kernel, validates the KERNEL layer instead
+                 (kernel-arc/KERNEL-CONTRACT.md: kernel.md, archive/,
+                 BOOT.md). Exit 0 = FIT; 1 = NOT FIT (clean report, no
+                 partial verdicts)
 
 Stdlib only. Zero configuration beyond TOOLS.json (the inventory, with
 receipts). Companion brief: lab/briefs/047-ark-movable-tools-home.md
@@ -46,6 +48,22 @@ OPTIONAL_SLOTS = {
     "briefs": {"check": "dir_md", "note": "brief corpus (throughline, staleness)"},
     "kernels": {"check": "dir_md", "note": "kernel snapshots (kernelpress output)"},
     "record": {"check": "dir", "note": "the record home (NOW.md heartbeat et al.)"},
+}
+
+# Kernel-arc slots (see kernel-arc/KERNEL-CONTRACT.md). A --kernel plug
+# checks THIS layer: the agent's carried context, not the record.
+KERNEL_REQUIRED_SLOTS = {
+    "kernel.md": {
+        "check": "kernel_md",
+        "note": "first-person kernel, dated, version-marked",
+    },
+    "archive": {"check": "dir", "note": "prior kernel versions, retained, never deleted"},
+    "BOOT.md": {"check": "file", "note": "boot instructions: acknowledge-without-continuity, stop-and-report, probes"},
+}
+KERNEL_OPTIONAL_SLOTS = {
+    "principles-log.md": {"check": "file", "note": "provisional-until-tested principles log"},
+    "runs": {"check": "dir", "note": "kernel test run logs with warm/cold condition flags"},
+    "handoffs": {"check": "dir", "note": "task-scoped kernels for delegation (never personal kernels to strangers)"},
 }
 
 SKIP_TOOL_DIRS = {"archive", "__pycache__"}
@@ -151,26 +169,49 @@ def check_slot(archive: Path, name: str, spec: dict):
         return True, "ok"
     if kind == "dir":
         return (True, "ok") if target.is_dir() else (False, "missing")
+    if kind == "file":
+        if not target.is_file():
+            return False, "missing"
+        return (True, "ok") if target.stat().st_size > 0 else (False, "empty file")
+    if kind == "kernel_md":
+        if not target.is_file():
+            return False, "missing"
+        text = target.read_text(encoding="utf-8")
+        if len(text.strip()) < 200:
+            return False, "suspiciously small for a kernel (<200 chars)"
+        if not any(f"v{n}" in text.lower() for n in range(1, 100)) and not any(
+            c.isdigit() for c in text
+        ):
+            return False, "no version marker found (kernels are versioned)"
+        return True, "ok"
     return False, f"unknown check kind: {kind}"
 
 
 def cmd_plug(args) -> int:
     archive = Path(args.archive).resolve()
-    report = {"archive": str(archive), "when": datetime.now(timezone.utc).isoformat()}
+    kernel_mode = getattr(args, "kernel", False)
+    required = KERNEL_REQUIRED_SLOTS if kernel_mode else REQUIRED_SLOTS
+    optional = KERNEL_OPTIONAL_SLOTS if kernel_mode else OPTIONAL_SLOTS
+    contract = ("kernel-arc/KERNEL-CONTRACT.md" if kernel_mode
+                else "ARCHIVE-CONTRACT.md")
+    report = {"archive": str(archive), "kernel_mode": kernel_mode,
+              "when": datetime.now(timezone.utc).isoformat()}
     ok = True
 
     if not archive.is_dir():
-        print(f"ark plug: FAIL -- {archive} is not a directory. nothing to plug.")
+        verb = "kernel" if kernel_mode else "plug"
+        print(f"ark {verb}: FAIL -- {archive} is not a directory. nothing to plug.")
         return 1
 
-    print(f"ark plug -- checking {archive} against ARCHIVE-CONTRACT.md\n")
-    for name, spec in REQUIRED_SLOTS.items():
+    layer = "KERNEL layer" if kernel_mode else "record layer"
+    print(f"ark plug -- checking {archive} against {contract} ({layer})\n")
+    for name, spec in required.items():
         good, detail = check_slot(archive, name, spec)
         report[name] = {"required": True, "ok": good, "detail": detail}
         mark = "PRESENT" if good else f"MISSING/BAD ({detail})"
         print(f"  required: {name:16s} {mark}")
         ok = ok and good
-    for name, spec in OPTIONAL_SLOTS.items():
+    for name, spec in optional.items():
         good, detail = check_slot(archive, name, spec)
         report[name] = {"required": False, "ok": good, "detail": detail}
         print(f"  optional: {name:16s} {'present' if good else 'absent (fine)'}")
@@ -178,7 +219,8 @@ def cmd_plug(args) -> int:
     (HERE / "last-plug-report.json").write_text(
         json.dumps(report, indent=2) + "\n", encoding="utf-8")
 
-    print(f"\nark plug: {'FIT' if ok else 'NOT FIT'} -- "
+    verb = "kernel plug" if kernel_mode else "plug"
+    print(f"\nark {verb}: {'FIT' if ok else 'NOT FIT'} -- "
           f"{'the archive fits the house. tools may run against it.' if ok else 'fix the required slots above and re-plug.'}")
     print("report written to last-plug-report.json")
     return 0 if ok else 1
@@ -194,6 +236,8 @@ def main(argv=None) -> int:
     p_test.set_defaults(func=cmd_test)
     p_plug = sub.add_parser("plug", help="validate an archive against the contract")
     p_plug.add_argument("--archive", required=True)
+    p_plug.add_argument("--kernel", action="store_true",
+                        help="check the kernel layer (kernel-arc/KERNEL-CONTRACT.md) instead of the record layer")
     p_plug.set_defaults(func=cmd_plug)
     args = parser.parse_args(argv)
     return args.func(args)

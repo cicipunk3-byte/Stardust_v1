@@ -36,7 +36,7 @@ Ruling: brief 046, Cat, Sep 25 (/cat): built and pushed public same day; distrib
 | Tool | Standing |
 | --- | --- |
 | ferry (carrying-consistency checker) | 10/10 tests green (real-failure positive controls from the Sep 25 sweep, neutralized; clean negatives); live collisions + sweep CLEAN against the corrected record. Verbs: sweep / collisions / carry. Reports, never rewrites. |
-| ark (movable tools home) | built + pushed same day as ferry (brief 047): own suite 6/6, full-house rollup 13 suites PASS / 0 FAIL / 5 by-design no-suite. Verbs: list / test / plug. Archive contract derived from tool READMEs with receipts; archives never live in the repo |
+| ark (movable tools home) | built + pushed same day as ferry (brief 047): own suite 6/6, full-house rollup 13 suites PASS / 0 FAIL / 5 by-design no-suite. Verbs: list / test / plug. Archive contract derived from tool READMEs with receipts; archives never live in the repo. **Extended same day (brief 048): kernel-arc/ adds the agent layer -- `plug --kernel` validates kernel.md + archive/ + BOOT.md; suite now 9/9; Mini cloud test = intended field venue** |
 | minibeat (Pink, workspace heartbeat) | a run on the Mac Mini, not just the sandbox |
 
 ## TESTED, PENDING GATE

@@ -44,3 +44,11 @@ archive on your hardware, with a date, a checksum, and a manifest.
 
 If any tool README and the ARCHIVE-CONTRACT disagree, stop and report the
 conflict instead of guessing. Reports, never rewrites -- same as the tools.
+
+## Carrying a kernelized agent?
+
+See `kernel-arc/` -- the agent layer. `python3 ark.py plug --kernel
+--archive <dir>` checks a kernel archive (kernel.md + archive/ + BOOT.md);
+KERNEL-CONTRACT.md and BOOT-INSTRUCTIONS.md hold the boot procedure and the
+verification probes. The record layer and the kernel layer are independent:
+a movable lab carries both.
