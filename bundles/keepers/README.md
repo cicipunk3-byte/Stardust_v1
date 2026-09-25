@@ -16,5 +16,6 @@ Different stages of one motion: a thread's knowledge, made portable.
 | [throughline](../../tools/throughline/) | counts terms across a corpus, oldest to newest, trend lines out |
 | [heartbeat-scaffold](../../tools/heartbeat-scaffold/) | the NOW file: what is true right now, what is open, what rules never move |
 | [ferry](../../tools/ferry/) | checks that what must carry actually carries: claims sweep, number-collision check, carry package + plain-English carry sheet |
+| [ark](../../ark/) | the movable tools home: clone it, plug an archive into it, run everything offline (`list` / `test` / `plug`) |
 
 Status of every tool: [tools/TOOL-STATUS.md](../../tools/TOOL-STATUS.md).

@@ -1,0 +1,22 @@
+{
+  "tools": [
+    {"name": "cleanroom", "slots": ["timeline.jsonl"]},
+    {"name": "descent", "slots": []},
+    {"name": "driftprobe", "slots": ["transcripts"]},
+    {"name": "ethics-calculator", "slots": []},
+    {"name": "export-ingest", "slots": ["timeline.jsonl"]},
+    {"name": "exportcoroner", "slots": ["timeline.jsonl"]},
+    {"name": "fabcheck", "slots": []},
+    {"name": "ferry", "slots": []},
+    {"name": "heartbeat-scaffold", "slots": ["record"]},
+    {"name": "kernelpress", "slots": ["transcripts", "kernels"]},
+    {"name": "loopwatch", "slots": ["transcripts"]},
+    {"name": "minibeat", "slots": ["timeline.jsonl"]},
+    {"name": "nextcheck", "slots": ["briefs"]},
+    {"name": "pushgate", "slots": []},
+    {"name": "rainbow9cat", "slots": []},
+    {"name": "repo-audit", "slots": ["record", "briefs"]},
+    {"name": "staleness", "slots": ["briefs"]},
+    {"name": "throughline", "slots": ["timeline.jsonl", "briefs"]}
+  ]
+}
