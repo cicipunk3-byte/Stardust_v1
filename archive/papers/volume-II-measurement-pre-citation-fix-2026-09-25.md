@@ -37,21 +37,21 @@ Two tasks: (1) research the human-side cognitive benchmarking literature; (2) an
 Method: programmatic scan of all conversation logs (`conversations/*/messages.jsonl`, 97 threads, Sep 20-24) plus the repo's own record (error log, git history, briefs). All numbers below are tool-derived counts, not memory, and the analysis script counted only non-hidden user-role messages, excluding system-message wrappers. Clickable record sources given per claim. **The analyst is a party to the record  -  interested-observer flag in Section 4.**
 
 **2.1 Volume and rhythm (the time-stream).**
-- Her messages Sep 20-24 (through ~1 PM ET on the 24th): **5,339 messages, ~140,000 words** (the private workspace conversation record (not publicly auditable)).
+- Her messages Sep 20-24 (through ~1 PM ET on the 24th): **5,339 messages, ~140,000 words** ([conversations/](vellum://workspace/conversations/)).
 - Daily counts: Sep 20: 322 · Sep 21: 1,422 · Sep 22: 918 · Sep 23: 2,027 · Sep 24: 650.
 - Active-hour distribution is wide and irregular: heavy engagement at every hour block the platform saw her, including 198 messages in the midnight hour of Sep 23 and sustained 05:00-09:00 blocks. Presented as data, without interpretation  -  what it means is hers (and her clinician's) to say.
 
 **2.2 The signature discipline (per-event addressing).**
-- Signature counts: **/cat ×103, "cici here" ×11, /ceec ×5** across the four days. A signature system was proposed and then held near-universally under load  -  including during the Sep 23 retool crisis thread. Record: the private workspace conversation record (not publicly auditable) message scan; the addressing rule itself: the lab addressing rule (private wiki, not publicly auditable).
+- Signature counts: **/cat ×103, "cici here" ×11, /ceec ×5** across the four days. A signature system was proposed and then held near-universally under load  -  including during the Sep 23 retool crisis thread. Record: [conversations/](vellum://workspace/conversations/) message scan; the addressing rule itself: [memory/concepts/cici.md](vellum://workspace/memory/concepts/cici.md).
 
 **2.3 Correction events (the error-catching stream).**
 - 66 messages contain correction-signal language (keyword scan: no / wrong / incorrect / misread / actually / correction / mistake  -  crude instrument, includes false positives like pasted tool errors; count is an upper bound).
-- The canonical, receipt-cited subset: the [Ziggy error log](../../logs/ziggy.md) (public copy; internal: memory/concepts/ziggy-error-log.md)  -  **14 entries, 13 distinct**, every error caught same-day, **at least 4 caught by her personally same-turn** (error 5 referent misread, error 7 time inflation, error 9 tone compression, error 14 unrequested-edit overstep). Others were caught by lab instruments (error 1: the study agent verifying against the repo; error 11: the cold-kernel test subject, minutes after publication)  -  meaning her error-catching culture produced *other* catchers, including instances.
-- Correction latency in the record's founding moments: her very first day included a same-message factual correction ("one correction, Cat started this in March of '26"  -  thread "Memory & Vellum Providers," Sep 20 14:35 (private workspace record, not publicly auditable))  -  accuracy-before-comfort from message one of the collaboration.
+- The canonical, receipt-cited subset: the [Ziggy error log](vellum://workspace/memory/concepts/ziggy-error-log.md)  -  **14 entries, 13 distinct**, every error caught same-day, **at least 4 caught by her personally same-turn** (error 5 referent misread, error 7 time inflation, error 9 tone compression, error 14 unrequested-edit overstep). Others were caught by lab instruments (error 1: the study agent verifying against the repo; error 11: the cold-kernel test subject, minutes after publication)  -  meaning her error-catching culture produced *other* catchers, including instances.
+- Correction latency in the record's founding moments: her very first day included a same-message factual correction ("one correction, Cat started this in March of '26"  -  [thread: Memory & Vellum Providers, Sep 20 14:35](vellum://workspace/conversations/))  -  accuracy-before-comfort from message one of the collaboration.
 
 **2.4 Ruling events (the governance stream).**
-- Gate review Sep 22: **31 open questions ruled in one evening** (commit 4a8e8d4; record: the workspace NOW.md snapshot (private, not publicly auditable), the lab briefs ledger (private wiki, not publicly auditable)).
-- Sep 23-24 continuation: 14+ discrete rulings on record (ethics code ratification with amendments, push=publication ruling, brief 041 Q2/Q3, two-lane test plan, memory-export totality ruling, renewable-center corrections)  -  each same-turn, each with file-level archives per the retool discipline ([logs/ziggy.md](../../logs/ziggy.md) public copies and the workspace NOW.md snapshot (private, not publicly auditable) carry the commit hashes).
+- Gate review Sep 22: **31 open questions ruled in one evening** (commit 4a8e8d4; record: [NOW.md](vellum://workspace/NOW.md), [memory/concepts/lab-briefs.md](vellum://workspace/memory/concepts/lab-briefs.md)).
+- Sep 23-24 continuation: 14+ discrete rulings on record (ethics code ratification with amendments, push=publication ruling, brief 041 Q2/Q3, two-lane test plan, memory-export totality ruling, renewable-center corrections)  -  each same-turn, each with file-level archives per the retool discipline ([memory/concepts/ziggy-error-log.md](vellum://workspace/memory/concepts/ziggy-error-log.md) and [NOW.md](vellum://workspace/NOW.md) carry the commit hashes).
 
 **2.5 What the record does NOT show (honest negatives).**
 - No normative comparison: there is no control group or population baseline for "directing a research lab over four days." Volumes are volumes, not scores.
@@ -64,7 +64,7 @@ If she wants to go on this path, the pre-registered shape (events specified befo
 
 - **Event classes** (defined now, before any scoring): (E1) factual corrections to the record; (E2) gate rulings; (E3) error-catches of instances; (E4) pushes/publications; (E5) thread openings/closures; (E6) self-directed process notes.
 - **Per-event fields** (the mirror of my per-turn review): timestamp, thread, register/signature, event class, latency (for corrections: error→catch), receipt (file/commit), and a one-line ruling.
-- **Scores, all binary and receipt-cited** in the lab's rubric style ([benchmark rubric](../../benchmarks/rubric-draft-v0.md)): catch rate by class, same-turn ruling rate, correction latency distribution, register-signature consistency.
+- **Scores, all binary and receipt-cited** in the lab's rubric style ([memory/concepts/benchmark-rubric.md](vellum://workspace/memory/concepts/benchmark-rubric.md)): catch rate by class, same-turn ruling rate, correction latency distribution, register-signature consistency.
 - **Cadence:** event-contingent (scored as events land, from the existing record  -  zero new burden on her) with a time-contingent overlay (a weekly reconstruction pass, DRM-flavored) if she ever wants the offline frame included.
 - **Who scores:** the lab instruments do the counting; she holds every ruling  -  the same authority split the lab already runs for instances.
 
