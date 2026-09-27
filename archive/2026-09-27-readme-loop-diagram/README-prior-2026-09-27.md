@@ -4,10 +4,6 @@
 
 Local-first research loop. Plain markdown, git versioned, no platform owns it.
 
-![The PinkPromise loop: a human governs a six-step loop (carry, hatch, work, record, distill, hand off) over a stack of free open-source tools: git, Python stdlib, Ollama, and open-weight models](assets/pinkpromise-loop-diagram.png)
-
-*The PinkPromise loop, drawn by Ziggy, 27 September 2026.*
-
 ## The Loop
 
 ```
