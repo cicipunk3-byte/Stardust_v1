@@ -90,17 +90,18 @@ Platform costs in this leg, for completeness:
   first payment 2026-09-23 ~6:47 AM ET. Recurs monthly while active.
   Receipt on file with the builders.
 - Leg 5 (2026-09-27): Vellum plan upgrade to Super, purchased by the
-  operator (/cat, on record: storage was critically low). Plan credit
-  became $55.00 per month, a MONTHLY allowance. Recurs monthly while
-  active. Receipt amount pending assembly with the builders; no
-  figure is claimed here until it is.
+  operator (/cat, on record: storage was critically low). Price:
+  $100.00/month, billed monthly (plans screen, "Current Plan" shown).
+  Plan credit became $55.00 per month, a MONTHLY allowance. Recurs
+  monthly while active. Includes 30 GB storage, Super usage reset
+  monthly, assistant email and subdomain.
 - Update, 2026-09-27 ~10:35 AM ET (live reading, platform credits
   command): $31.01 remaining of $55.00 plan credit, 44 percent used;
   $10.80 of it expires 2026-10-23 (monthly allowance expiry, next
   renewal 2026-10-23). All public figures must use $31.01 / 44
   percent of $55.00 until the next reading. Cash spent to date: the
-  $30.00 subscription (Leg 4) plus the Super upgrade (Leg 5, amount
-  pending receipt).
+  $30.00 subscription (Leg 4) plus the Super upgrade at $100.00/month
+  (Leg 5).
 - Local compute: existing hardware, $0.
 
 ## Leg 1 (pre-production): earlier tool testing
