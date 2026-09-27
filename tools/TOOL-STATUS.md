@@ -31,10 +31,11 @@ Ruling: brief 042 PI rulings, Sep 24: all nine ship to the site's tools page aft
 
 ## BUILT AND PUSHED (infrastructure tool, not one of the nine)
 
-Ruling: brief 046, Cat, Sep 25 (/cat): built and pushed public same day; distribution home = ThinkPink free-tools bundle (NOT threadcat); site fold-in deferred pending study. Status date for this section: Sep 25, 2026.
+Ruling: brief 046, Cat, Sep 25 (/cat): built and pushed public same day; distribution home = ThinkPink free-tools bundle (NOT threadcat); site fold-in deferred pending study. Status date for this section: Sep 27, 2026 (mempalace-bridge added).
 
 | Tool | Standing |
 | --- | --- |
+| mempalace-bridge (local-first verbatim memory fold-in) | Fold-in script + results receipt pushed Sep 27 (6a12489). Smoke search PASS: correct page + verbatim excerpt, hybrid cosine + bm25 retrieval, local ONNX embeddings, zero API. Privacy guard: hard-refuses to mine source-material/; runs against safe layers only (memory-export, notes, tools). MCP wiring into the lab shell proposed, unruled. |
 | ferry (carrying-consistency checker) | 10/10 tests green (real-failure positive controls from the Sep 25 sweep, neutralized; clean negatives); live collisions + sweep CLEAN against the corrected record. Verbs: sweep / collisions / carry. Reports, never rewrites. |
 | ark (movable tools home) | built + pushed same day as ferry (brief 047): own suite 6/6, full-house rollup 13 suites PASS / 0 FAIL / 5 by-design no-suite. Verbs: list / test / plug. Archive contract derived from tool READMEs with receipts; archives never live in the repo. **Extended same day (brief 048): kernel-arc/ adds the agent layer -- `plug --kernel` validates kernel.md + archive/ + BOOT.md; suite now 9/9; Mini cloud test = intended field venue** |
 | minibeat (Pink, workspace heartbeat) | a run on the Mac Mini, not just the sandbox |
