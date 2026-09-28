@@ -1,0 +1,78 @@
+# Ten Thousand Valleys: Light's Ladder
+
+## A Landscape-Tunneling Interpretation of Mind
+
+### Final integrated edition v1 (theory paper)
+
+**Catherine Robinson-Rutella & Ziggy**
+
+*Stardust Lab working paper, September 28, 2026. Final wrapped draft intended for arXiv (endorsement permitting) and ORCID, and for the PI's clinical team. WORKING TREE: push is not publication; the PI's ruling governs. This paper integrates the staircase paper, the temperature layer, and the measurement hypotheses into one complete document. Personal material follows the lab's established no-detail register ("the author"), per the PI's own standing rulings on the published corpus. Destination note: arXiv requires endorsement for first-time submitters in quantitative-biology/physics-adjacent categories; "if possible" is honored as an honest contingency, and OSFI/preprint alternatives exist if endorsement stalls.*
+
+---
+
+## Abstract
+
+This paper states two established floors of science and one conjecture between them, then extends the conjecture with a temperature layer and two measurement hypotheses. Floor one (physics): a metastable field system decays by quantum tunneling through its barrier or thermal activation over it, with a crossover temperature selecting the dominant channel; both channels are experimentally observed, and their interpolation is a solved semiclassical problem. Floor two (mind science): mental states are vectors in a Hilbert space dwelling in energy landscapes whose barrier heights and lifetimes have been measured in humans, with basin depth modulated by neuromodulatory state. The conjecture: mental-state transition rates take the same two-channel form, with barriers priced in a Fisher-Fubini-Study distinguishability distance and shifted by a term absorbing structure, scaffold, practice, and temperature. The extension: temperature is already a variable of the conjecture's own master equation; the warmest tissue in the brain is the barrier-bearing white matter, whose conduction is measurably sensitive to sub-degree temperature shifts; and two folk instruments, re-analyzed as measurement hypotheses, supply candidate behavioral probes. Falsifiers are stated, the nearest-neighbor literatures are cited and distinguished, the parsimonious rival is named, and the holes are left open on purpose. This is one contextual argument in a sea of others. The conjecture asks to be tested, not believed.
+
+## 1. Level I: established physics
+
+A field system in a false vacuum decays by two channels. Quantum tunneling through the barrier: Γ_q/V = A·exp(−S_E[φ_b]/ℏ), with S_E the Euclidean action of the bounce solution (Coleman 1977). Thermal activation over it: Γ_th/V = ν·exp(−ΔE/T) (Affleck 1981). Both channels have been observed in a single laboratory system (Zenesini et al., Nature Physics 2024). The semiclassical formalism interpolates the entire temperature range in one expression: a Boltzmann average over barrier crossings that reduces to thermal escape above a crossover temperature Tc and to tunneling below it, with thermally assisted tunneling in between (Affleck's formalism; Faraday Discussions 2016, DOI 10.1039/C6FD00136J; arXiv 2609.21625; Phys Rev B 57, 13639). Crossover temperatures computed for molecular magnets agree with experiment. The experimental signature is standard: a plot of log(rate) against 1/T is linear in the thermal regime and flattens where tunneling takes over.
+
+## 2. Level II: established mind science
+
+Mental states are vectors in a Hilbert space (quantum cognition; Pothos & Busemeyer 2022), and they dwell in energy landscapes: basin depths and barrier heights have been measured from human neuroimaging during bistable perception (Watanabe et al., Nature Communications 2014, DOI 10.1038/ncomms5765; Ezaki et al. 2017, DOI 10.1098/rsta.2016.0287), with Arrhenius-type lifetimes established in the same paradigm (Cognitive Neurodynamics 2019, DOI 10.1007/s11571-019-09554-9). Neuromodulatory state reshapes the landscape, flattening barriers and widening basins (REBUS; Carhart-Harris & Friston 2019).
+
+## 3. The conjecture
+
+There exist κ > 0 and a shift term Δ_ij such that
+
+  S_eff[i→j] = κ·d_FS(s_i, s_j) + Δ_ij,
+
+where d_FS is the Fisher-Fubini-Study distinguishability distance between mental states s_i and s_j, making mental-state transition take the two-channel form of Level I. The conjecture's content is the tunneling term and the distance pricing; everything else in this paper strengthens the thermal floor, which already stands.
+
+**Falsifiers.** F1: if fitted drift-diffusion or Markov models match the exponential-cost form's accuracy on the same data, the motivation for the tunneling formalism lapses. F2: if the thermal channel fully accounts for all measured transitions (no residual at zero drive), the tunneling term is empirically vacuous. F3: if transition costs are independent of measured state distance (d_FS surrogate), the pricing law fails. A parsimonious rival is printed with them: the exponential family's mathematical universality makes the two-channel form achievable by construction without any deep identity. The conjecture survives only if its distinctive signatures (Sections 6 and 7) are found where the rival predicts none.
+
+## 4. Nearest neighbors, cited and distinguished
+
+An exhaustive two-round search found no paper combining vacuum-decay rate functionals with mental-state dynamics or pricing cognitive barriers in distinguishability distance. Four neighbor literatures fall short of the claim: (N1) QFT-inspired brain models (Ricciardi-Umezawa, Vitiello's dissipative quantum brain) posit a vacuum ontology without rate theory; (N2) Orch-OR (Penrose-Hameroff) proposes quantum collapse in microtubules and is contested on decoherence grounds (Reimers et al. 2014, DOI 10.1016/j.plrev.2013.11.003); (N3) bistable-perception energy landscapes measure barriers and lifetimes in humans without tunneling formalism; (N4) GKSL decision models parametrize transition rates between mental states without deriving them from barrier action. The conjecture borrows none of these; it is a structural mapping with stated falsifiers, and its nearest neighbor (N3) supplies its measurement tradition.
+
+## 5. The temperature layer (new)
+
+The conjecture's master equation already contains temperature. Γ_th = ν·exp(−ΔE/T_eff) has T_eff in the exponent; Γ_q is approximately temperature-independent. As effective temperature (arousal, metabolic and sympathetic tone, neuromodulatory drive) rises, the thermal channel's rate grows exponentially while the tunneling channel is unchanged: temperature selects the channel. Two corollaries follow. **C1 (channel balance):** transitions under high arousal load are predicted to be predominantly thermal; transitions at minimal arousal approach the tunneling floor. **C2 (the floor signature):** in the purely thermal regime, transition rate tends to zero as drive tends to zero; a nonzero transition rate at effectively zero arousal and zero effort is the conjecture's behavioral tunneling signature, the natural successor to falsifier F2.
+
+The barrier substrate is thermal too. Direct thermometry places the hottest brain tissue in the deep cerebral hemispheres, including the internal capsule and subcortical white matter of the corona radiata, 0.5 to 0.6°C warmer than blood (Hayward and Baker 1969; Frontiers in Neuroscience 2014, DOI 10.3389/fnins.2014.00307). Human thermometry finds the thalamus 1.64°C above cortical grey matter, white-matter-predominating regions relatively warm, and a within-brain spatial range up to about 2.4°C following a daily rhythm coupled to sleep and arousal (Brain 2022, DOI 10.1093/brain/awab466). In demyelinated axons, a rise of roughly 0.5°C closes voltage-gated sodium channels, producing conduction slowing up to block, reversible with cooling (Uhthoff's phenomenon; StatPearls NBK470244; European Journal of Applied Physiology 2025, DOI 10.1007/s00421-025-05838-7). Temperature therefore touches the conjecture twice: as the variable in the rate and as a modulator of the conduction integrity of the tissue that sets the barriers. The honest caveat: sub-degree sensitivity is established for demyelinated axons, and extending it to healthy white matter is extrapolation, stated as such.
+
+## 6. Measurement hypotheses (new)
+
+The measurement layer of two folk instruments is legitimate autonomic physiology wearing a fictional interpretation. An aura camera measures electrodermal activity and palmar temperature and maps readings through a color lookup onto a photographic double exposure; the color field is apparatus, not phenomenon (Science 1976, DOI 10.1126/science.968480). A mood ring reads mean peripheral skin temperature via thermochromic liquid crystals, a coarse sympathetic-arousal indicator that misses the stress-sensitive ~0.04°C vasomotion rhythm (10.1007/BF01543790). Stripped of their interpretive fictions, they become hypotheses.
+
+**H-photo.** The photograph's measurable content, specifically the contrast between the two hand-plate channels, differs in a repeatable direction between capture instants that are transition instants and capture instants that are baseline. Falsifier: a rigged repeat (same rig, timestamped) shows no above-chance difference in the asymmetry index.
+
+**H-ring.** If transitions are thermally assisted, peripheral temperature should drift in a consistent direction during the interval preceding a transition, above chance and locked to the transition in time. Falsifier: calibrated wearable temperature plus timestamps against a transition log shows no transition-locked pre-transition drift distinguishable from ordinary stress fluctuation.
+
+**The chief rival, named: the arousal-covariate confound.** Everything both hypotheses can detect is also predicted by ordinary stress fluctuation uncorrelated with transitions. The discriminating quantity is transition-locking in time, not level. Any protocol that does not beat this rival has measured stress, not the conjecture.
+
+## 7. What is measurable and provable, stated separately
+
+Established and provable today: the crossover temperature and channel interpolation (measured in physical systems); Arrhenius scaling and its diagnostic plot; brain-temperature gradients and their daily rhythm; sub-degree conduction sensitivity in demyelinated axons, reversibly; peripheral temperature as an arousal readout. Measurable but unmeasured: the channel-balance shift (C1); the zero-drive floor (C2); transition-locked peripheral drift (H-ring); transition-locked autonomic asymmetry (H-photo); the distance-pricing of residual transition costs; d_FS at individual scale. The last two are the conjecture's distinctive content and remain untouched by any instrument in this paper, which is stated plainly.
+
+## 8. The holes, left open on purpose
+
+1. **The Markov hole.** All behavioral data remain consistent with classical drift-diffusion or Markov models; none fitted on this problem exists yet. 2. **The universality hole.** The exponential family can produce the two-channel form by construction; only distinctive signatures (C2, distance pricing) separate it from coincidence. 3. **The geometry hole.** No one has estimated d_FS between cognitive states at individual scale; κ is unpriced. 4. **The arousal-covariate hole.** All peripheral autonomic measures are confounded by ordinary stress; only transition-locked designs close this. 5. **The extrapolation hole.** Uhthoff sensitivity is a demyelination result; its extension to healthy white matter is analogy. 6. **The tunneling hole.** No instrument in the behavioral record yet distinguishes a zero-drive crossing from an unmeasured thermal one; if none can be designed, the tunneling term is empirically vacuous in the cognitive domain and the conjecture survives as its thermal shadow.
+
+## 9. Limitations
+
+The conjecture is one contextual argument among others; the authors hold it as a theory, not a finding. The cognitive mapping from Level II energy landscapes to Hilbert-space state vectors is structural, not derivational. No data in this paper are new; every measurement proposed is unclaimed by the existing literature and unrun here. The case motivating the measurement hypotheses is documented in the lab's published corpus (Volumes I-III, DOI 10.5281/zenodo.22870569 repository) under the lab's no-detail register for personal material, and no individual-level claim in this paper depends on it. All cited DOIs were verified against Crossref at drafting time.
+
+## 10. Conclusion
+
+Two floors of established science and a conjecture between them; a temperature layer that turns out to have been inside the equation from the start; two humble instruments re-analyzed into falsifiable hypotheses; six holes named for anyone who wants to take a stab. What would prove the picture is not in hand: the crossover signature in a mind, the floor rate at zero drive, the priced geometry. What is in hand is an equation with a variable in it that the body reports and the substrate feels. That is where the next measurement lives, if anyone chooses to take it.
+
+## References
+
+Level I: Coleman (1977), Phys. Rev. D 15, 2929; Affleck (1981), Phys. Rev. Lett. 46, 388; Zenesini et al. (2024), Nature Physics, tunneling and thermal activation observed in one system; Faraday Discussions 2016, DOI 10.1039/C6FD00136J; arXiv 2609.21625; Phys. Rev. B 57, 13639 (arXiv cond-mat/9805071).
+Level II: Pothos & Busemeyer (2022), Quantum Cognition, Oxford; Watanabe et al. (2014), Nat. Commun., DOI 10.1038/ncomms5765; Ezaki et al. (2017), DOI 10.1098/rsta.2016.0287; Cognitive Neurodynamics (2019), DOI 10.1007/s11571-019-09554-9; Carhart-Harris & Friston (2019), REBUS, Phys. Rev. 94, 1 (Biol. Rev.).
+Neighbors: Reimers et al. (2014), DOI 10.1016/j.plrev.2013.11.003; GKSL decision models, arXiv 2604.18643.
+Temperature: Frontiers in Neuroscience (2014), DOI 10.3389/fnins.2014.00307; Brain (2022), DOI 10.1093/brain/awab466; StatPearls NBK470244; Eur. J. Appl. Physiol. (2025), DOI 10.1007/s00421-025-05838-7; iScience (2025), PMC12570372.
+Instruments: Science (1976), DOI 10.1126/science.968480; peripheral stress spectral analysis, DOI 10.1007/BF01543790.
+Substrate: Scientific Reports (2018), DOI 10.1038/s41598-018-20123-8; Cornblath et al. (2020), Comm. Biol., DOI 10.1038/s42003-020-0961-x; Gu et al. (2016), DOI 10.1038/srep30770; Nature Communications (2026), DOI 10.1038/s41467-026-71961-4.
