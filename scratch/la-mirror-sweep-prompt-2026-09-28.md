@@ -63,3 +63,19 @@ duplicated detail lives inside them.
 No personal names outside the papers page, no em-dashes, every figure
 matches its canonical source, screenshots after pages finish loading,
 cache-busted fetches for verification. Report before publishing.
+
+## CORRECTIONS, Sep 28 after the first LA report (prompt-author errors)
+
+- Cost card: the $24.41 / 56 percent figure came from a live platform
+  reading that had NOT been filed in notes/cost-ledger.md. The card
+  follows the ledger, never reverse - the ledger leg is filed now
+  (same-day update line in Leg 5). The card may update to $24.41 /
+  56 percent, checked 28 September 2026, in the SAME pass as this
+  prompt's other fixes, since the ledger now backs it.
+- Benchmarks path: this prompt said lab/benchmarks/; the correct
+  path is benchmarks/ at the top of the repository. The page's scores
+  were already verified against benchmarks/run-2026-09-24-sample.md.
+- Tool count: this prompt's framing assumed the site count was
+  current. TOOL-STATUS.md is canonical and now carries 20 tools; the
+  site shows 16. The site catches up to the canonical file, badge
+  wording may claim no more than each row states.

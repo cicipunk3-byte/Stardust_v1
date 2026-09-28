@@ -102,6 +102,11 @@ Platform costs in this leg, for completeness:
   percent of $55.00 until the next reading. Cash spent to date: the
   $30.00 subscription (Leg 4) plus the Super upgrade at $100.00/month
   (Leg 5).
+- Update, 2026-09-28 ~12:17 PM ET (live reading, platform credits
+  command): $24.41 remaining of $55.00 plan credit, 56 percent used;
+  $4.20 of it expires 2026-10-23 (within 30 days; next expiry
+  2026-10-23T10:47:38Z). All public figures move to $24.41 / 56
+  percent of $55.00 until the next reading.
 - Local compute: existing hardware, $0.
 
 ## Leg 1 (pre-production): earlier tool testing
