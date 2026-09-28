@@ -81,16 +81,21 @@ the tool and carries the source; the lab's packaged zips stay PRIVATE
 in the handoff repo as disaster backups in case public downloads
 disappear.
 
-## Upload sequence (REVISED for the public-git shape; the PI's browser step)
+## Upload sequence (REVISED for the fresh-public-git shape; the PI's browser step)
 
-1. PI nods on the public git shape and the CC BY-NC-SA packaging
-   license.
-2. Upload the 62cac5a7 zip to a DRAFT GitHub release on
-   cicipunk3-byte/Stardust_v1, tag `thinkpink-desktop-v0.1.0`.
-3. Paste the release body (facts + honest limits above).
-4. Publish the release.
-5. Then (and only then) the site card goes live - see
-   `scratch/la-thinkpink-download-prompt-2026-09-28.md` (to be revised
-   for the suggest-the-tool shape).
-6. Verify: fetch the release asset URL, re-hash the download, confirm
-   it matches 62cac5a7.
+Ruling (/cat, Sep 28): "archive and fresh. separate paths. archive
+only on git." The private thinkpink repo is the archive path and stays
+private. A FRESH public repo carries the release. The lab hosts no
+packaged zips publicly; the site card suggests the tool and links the
+fresh repo + upstream Hindsight.
+
+1. PI nod on the fresh-repo name and creation.
+2. Fresh public repo created; LICENSE + NOTICE land first (staged at
+   releases/thinkpink-public/ in this lab repo).
+3. README + packaging source land from Cecil/Cat's hands (kernel
+   content is theirs, verbatim or not at all).
+4. Site card goes live per
+   `scratch/la-thinkpink-public-git-prompt-2026-09-28.md` (replaces
+   the archived download prompt).
+5. Verify: live fetch of the card, links resolve, no names, no
+   em-dashes, claims match lab/pinkpromise.md.
