@@ -53,15 +53,44 @@ shows an only-local-Ollama pill when connected.
 - Beta. Private family testing is the current gate; the market gate
   (tested in cloud AND with scientific partners) is untouched.
 
-## Upload sequence (the PI's browser step)
+## License clearance (RESOLVED Sep 28, receipts)
 
-1. PI nods on the publish (and on the Hindsight upstream-license
-   question if still open for public distribution).
+The handoff README's caution ("do not make the ThinkPink desktop build
+public while its Hindsight license question is open") is RETIRED. The
+upstream is public and permissive:
+
+- Hindsight: github.com/vectorize-io/hindsight (Vectorize AI, Inc.),
+  public repo, LICENSE = MIT (Copyright (c) 2025 Vectorize AI, Inc.).
+  Confirmed against the repo LICENSE file AND the pinned wheel
+  (hindsight-embed==0.10.1, License-Expression: MIT).
+- MIT permits redistribution and sale by anyone. No restriction flows
+  upstream into ThinkPink.
+
+Layered licensing for the release (PI ruling, Sep 28, /cat):
+
+- ThinkPink packaging layer: CC BY-NC-SA 4.0. Free for all to use,
+  share, and rebuild; commercial use excluded; downstream adaptations
+  carry the same terms. Plain-language line for the page: "Free for
+  everyone. Nobody sells this packaging."
+- Hindsight underneath: remains MIT, credited, untouched.
+- Owed before release: a third-party notices file (Hindsight's own
+  transitive dependencies each carry their own licenses).
+
+Distribution shape (PI ruling, Sep 28, /cat): the public git suggests
+the tool and carries the source; the lab's packaged zips stay PRIVATE
+in the handoff repo as disaster backups in case public downloads
+disappear.
+
+## Upload sequence (REVISED for the public-git shape; the PI's browser step)
+
+1. PI nods on the public git shape and the CC BY-NC-SA packaging
+   license.
 2. Upload the 62cac5a7 zip to a DRAFT GitHub release on
    cicipunk3-byte/Stardust_v1, tag `thinkpink-desktop-v0.1.0`.
 3. Paste the release body (facts + honest limits above).
 4. Publish the release.
-5. Then (and only then) the site download button goes live - see
-   `scratch/la-thinkpink-download-prompt-2026-09-28.md`.
+5. Then (and only then) the site card goes live - see
+   `scratch/la-thinkpink-download-prompt-2026-09-28.md` (to be revised
+   for the suggest-the-tool shape).
 6. Verify: fetch the release asset URL, re-hash the download, confirm
    it matches 62cac5a7.
