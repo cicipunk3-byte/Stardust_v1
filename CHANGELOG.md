@@ -4,6 +4,48 @@ All notable changes to the Stardust Lab repository and its public
 surfaces. Newest first. House rules apply: no em-dashes, no personal
 names on public surfaces, every entry traceable to a commit.
 
+## [2026-09-28] Site thread: sweep, papers corpus, release prep
+
+- **Redundancy sweep**: brief 049 filed with its pre-approval archive;
+  the Volume II benchmark sample run committed; the LOG-v4 archive
+  restored from HEAD after a working-tree clobber was caught
+  (448326e).
+- **Papers**: "Ten Thousand Valleys: Light's Ladder" (final v1) and
+  the capability roadmap (final v1) added to `papers/`, with
+  disclosure-section priors archived the same turn (de8f249).
+- **Hindsight upstream license resolved**: public repo
+  (github.com/vectorize-io/hindsight), MIT confirmed on the repo
+  LICENSE and the pinned wheel `hindsight-embed==0.10.1`; the handoff
+  README's distribution caution retired (63d8095).
+- **ThinkPink release shape ruled**: the private repo is the archive
+  path and stays private; a fresh public repo carries the release;
+  no packaged zips hosted publicly. Packaging layer CC BY-NC-SA 4.0,
+  Hindsight stays MIT underneath; LICENSE + third-party notices staged
+  (2970362).
+- **Cost ledger Sep 28 reading filed**: $24.41 of $55.00 plan credit,
+  56 percent used, $4.20 expires 2026-10-23 (58ab635). All public
+  site figures move to it.
+- **Bundles README**: tool-count line fixed to match the ruled site
+  wording ("One record, four postures"); prior archived same turn.
+
+## [2026-09-27] PinkPromise day
+
+- **PinkPromise (beta) named**: the portable self-run research loop;
+  site pieces published across the day (PinkPromise button and page,
+  pink gradient palette, phone menu: 2e63555, 3f5cd3c, 45e5d43,
+  8579bd5).
+- **mempalace-bridge pushed** with its results receipt, privacy guard
+  included (6a12489).
+- **PinkPromise loop diagram** pushed to `assets/` and placed on the
+  homepage hero and top of /pinkpromise (6e0384f, 47e3d7a).
+
+## [2026-09-24] Ethics code and the first paper cluster
+
+- **Ethics code v1.1 ratified and published**, constitution annex
+  included (c401c27).
+- **First paper cluster published**: `papers/volumes/` Volumes I-III,
+  seven papers (a29fa84).
+
 ## [2026-09-22] Evening: gate night
 
 - **Gate review complete**: all 31 open questions ruled in one sitting
