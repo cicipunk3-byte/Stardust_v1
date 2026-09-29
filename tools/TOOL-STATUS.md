@@ -53,7 +53,7 @@ Ruling: brief 046, Cat, Sep 25 (/cat): built and pushed public same day; distrib
 | heartbeat-scaffold | Not a program: a one-file starting format (the NOW file, generalized). No test suite by design. |
 | descent | README filed Sep 24 (a4ef894), card-ready. Bare inventory script; first Mini run pending, output owed to the lab record. |
 | ethics-calculator | Built and self-tested Sep 24 by the instance it will check (reflexivity flag on record); never field-run. First real run pending. Companion grader rubric filed same day. |
-| pushgate | Pre-push discipline gate (staged-only em-dash sweep + staged-list review, hook-installable). Built and self-tested Sep 24 (4 controls + live index smoke); not yet field-run. born from the error-4 push-through class, three instances same day. |
+| pushgate | Pre-push discipline gate (staged-only em-dash sweep + staged-list review, hook-installable). Built Sep 24; the self-tested controls are now COMMITTED as a runnable suite (Sep 29, 5/5: dirty blocked / clean passes / staged-missing flagged / unstaged stays invisible / `--files` mode). Rollup: PASS. Still not field-run as a live hook -- hook activation waits on the PI word (see WORKING-LIST). Born from the error-4 push-through class, three instances same day. |
 
 ## Rule that governs all of it
 
