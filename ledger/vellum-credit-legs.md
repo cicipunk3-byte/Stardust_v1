@@ -20,3 +20,6 @@ _Filed 2026-09-28, Ziggy. Append new legs at the bottom; never edit a prior leg.
 
 **Supersedes:** running figure is now **$21.54 / 61% of $55.00, checked 2026-09-28 22:46 UTC** (leg 4's $21.63 is one hour stale).
 | 6 | 2026-09-29 19:07 | $18.41 of $55.00 | 67% | $0.00 | 2026-11-23 | heartbeat reading; settled $18.41, pending $0.00; expiry line now reads 2026-11-23 (prior legs read 2026-10-23) — noted, not interpreted |
+| 7 | 2026-09-29 20:06 | $18.33 of $55.00 | 67% | $0.00 | 2026-11-23 | heartbeat reading; settled $18.33, pending $0.00, no daily limit set; 8c drift over ~1 hour since leg 6 (live meter, consistent with Sep 28's nine-cents-in-one-hour observation) |
+
+**Supersedes:** running figure is now **$18.33 / 67% of $55.00, checked 2026-09-29 20:06 UTC** (leg 6's $18.41 is ~1 hour stale).
