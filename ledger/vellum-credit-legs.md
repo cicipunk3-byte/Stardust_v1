@@ -30,3 +30,6 @@ _Filed 2026-09-28, Ziggy. Append new legs at the bottom; never edit a prior leg.
 | 9 | 2026-09-29 23:05 | $17.96 of $55.00 | 67% | $0.00 | 2026-11-23 | heartbeat reading; settled $17.96, pending $0.00, no daily limit set; 30c drift over ~2 hours since leg 8 ($18.26 at 21:06) |
 
 **Supersedes:** running figure is now **$17.96 / 67% of $55.00, checked 2026-09-29 23:05 UTC** (leg 8's $18.26 is ~2 hours stale).
+| 10 | 2026-09-30 00:05 | $17.82 of $55.00 | 68% | $0.00 | 2026-11-23 | heartbeat reading; settled $17.82, pending $0.00, no daily limit set; 14c drift over ~1 hour since leg 9 ($17.96 at 23:05) |
+
+**Supersedes:** running figure is now **$17.82 / 68% of $55.00, checked 2026-09-30 00:05 UTC** (leg 9's $17.96 is ~1 hour stale).
