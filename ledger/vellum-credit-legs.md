@@ -36,3 +36,6 @@ _Filed 2026-09-28, Ziggy. Append new legs at the bottom; never edit a prior leg.
 | 11 | 2026-09-30 01:05 | $17.76 of $55.00 | 68% | $0.00 | 2026-11-23 | heartbeat reading; settled $17.76, pending $0.00, no daily limit set; 6c drift over ~1 hour since leg 10 ($17.82 at 00:05) |
 
 **Supersedes:** running figure is now **$17.76 / 68% of $55.00, checked 2026-09-30 01:05 UTC** (leg 10's $17.82 is ~1 hour stale).
+| 12 | 2026-09-30 20:46 | $12.92 of $55.00 | 77% | $0.00 | 2026-11-23 | heartbeat reading; settled $12.92, pending $0.00, no daily limit set; $4.84 burned over ~19.7 hours since leg 11 ($17.76 at 01:05 UTC) — the Sep 30 Switch-build day |
+
+**Supersedes:** running figure is now **$12.92 / 77% of $55.00, checked 2026-09-30 20:46 UTC** (leg 11's $17.76 is ~20 hours stale). Rate note (not a projection): this is the largest single-interval burn on record ($4.84), against the 6-30c/hour idle drift of legs 6-11 — the difference is the day's work (the Switch build walk, the arm64 Electron packaging, the heartbeat passes), not idle meter. The monthly allowance has now moved 77% with 54 days left on the expiry clock; worth a glance from Cat but not a flag (usage is a reading, and the plan credit is monthly).
