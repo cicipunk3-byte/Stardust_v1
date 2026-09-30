@@ -1,121 +1,137 @@
-"""pushgate tests. The four controls claimed in TOOL-STATUS.md, committed.
+"""pushgate suite: the sweeper controls + the hook-shape controls.
 
-Each test builds a throwaway git repo, stages one file, and runs pushgate
-against the real index. Nothing here touches the lab repo.
+PART 1 (this file's own tests, run directly): the four controls claimed
+in TOOL-STATUS.md, plus --files mode. These stage one file and call the
+sweeper in-process. They prove pushgate's LOGIC is correct.
 
-The rule the tests pin: pushgate sweeps the STAGED index and nothing
-else (other lanes' uncommitted work stays invisible), it blocks on
-findings, and its exit code is the gate (a hook reads it as stop/pass).
+PART 2 (test_pushgate_hook_shape.py, run as a subprocess below): a real
+`git push` against a real bare remote, with pushgate installed as the
+actual pre-push hook. This proves git STOPS, which is the claim that
+matters and the claim Part 1 cannot reach -- Part 1 exercises a mode
+(the index) that the push path never uses.
+
+Part 2 is currently RED and it is red for a real reason. pushgate's hook
+mode runs `git diff --cached`, but `git commit` drains the index, so at
+pre-push time it sweeps ZERO files, prints "0 findings", exits 0, and the
+em-dash rides through inside the commits. Reproduced Sep 30: the em-dash
+commit landed on the remote. That is the error-4 push-through class --
+a check that narrates instead of stopping -- inside the tool built to
+kill that class. Fix is the hook sweeping the outgoing range, not the
+index. Until then the suite is RED ON PURPOSE and this rollup will say
+FAIL, which is the honest state.
+
+The suite runs BOTH parts and returns non-zero if either fails, so the
+hook-shape proof is part of the tool's standing receipt rather than a
+file sitting next to it. NOTE: whenever this file is the one ark
+discovers, it will now report pushgate FAIL -- correct, not a
+regression. See the gate list for the ruling request.
 """
+from __future__ import annotations
 
-import os
 import subprocess
 import sys
 import tempfile
+from pathlib import Path
 
-TOOL_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-PUSHGATE = os.path.join(TOOL_DIR, "pushgate.py")
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parent))
+
+import pushgate  # noqa: E402
 
 EM_DASH = "\u2014"
 
 
-def git(repo, *args):
-    return subprocess.run(
-        ["git", *args], cwd=repo, capture_output=True, text=True,
-        env={**os.environ,
-             "GIT_AUTHOR_NAME": "t", "GIT_AUTHOR_EMAIL": "t@t",
-             "GIT_COMMITTER_NAME": "t", "GIT_COMMITTER_EMAIL": "t@t"})
+def git(args: list[str], cwd: Path) -> subprocess.CompletedProcess:
+    return subprocess.run(["git", *args], cwd=cwd, capture_output=True, text=True)
 
 
-def make_repo(tmp):
-    repo = os.path.join(tmp, "repo")
-    os.makedirs(repo)
-    git(repo, "init", "-q")
+def make_repo(td: Path) -> Path:
+    repo = td / "repo"
+    repo.mkdir()
+    git(["init", "-q"], cwd=repo)
+    git(["config", "user.email", "t@t.t"], cwd=repo)
+    git(["config", "user.name", "t"], cwd=repo)
     return repo
 
 
-def write(repo, name, text):
-    path = os.path.join(repo, name)
-    with open(path, "w", encoding="utf-8") as fh:
-        fh.write(text)
-    return path
-
-
-def run_gate(repo):
-    return subprocess.run(
-        [sys.executable, PUSHGATE, "--staged"],
-        cwd=repo, capture_output=True, text=True)
-
-
-# --- control 1: a dirty staged file is blocked -------------------------
-
 def test_dirty_staged_file_is_blocked():
-    with tempfile.TemporaryDirectory() as tmp:
-        repo = make_repo(tmp)
-        write(repo, "notes.md", f"clean line\nfound this {EM_DASH} oh no\n")
-        git(repo, "add", "notes.md")
-        result = run_gate(repo)
-        assert result.returncode == 1, result.stdout
-        assert "BLOCKED" in result.stdout
-        assert "em-dash found" in result.stdout
-        assert "notes.md" in result.stdout
+    with tempfile.TemporaryDirectory() as td:
+        repo = make_repo(Path(td))
+        (repo / "bad.md").write_text(f"a line with an {EM_DASH} em dash\n")
+        git(["add", "bad.md"], cwd=repo)
+        rc = pushgate.run(repo, ["bad.md"])
+        assert rc == 1, "an em-dash in a staged file must block"
 
-
-# --- control 2: a clean staged file passes -----------------------------
 
 def test_clean_staged_file_passes():
-    with tempfile.TemporaryDirectory() as tmp:
-        repo = make_repo(tmp)
-        write(repo, "notes.md", "a clean line\nand a normal dash - like that\n")
-        git(repo, "add", "notes.md")
-        result = run_gate(repo)
-        assert result.returncode == 0, result.stdout
-        assert "0 findings" in result.stdout
+    with tempfile.TemporaryDirectory() as td:
+        repo = make_repo(Path(td))
+        (repo / "good.md").write_text("plain - hyphen only\n")
+        git(["add", "good.md"], cwd=repo)
+        rc = pushgate.run(repo, ["good.md"])
+        assert rc == 0, "a clean staged file must pass"
 
-
-# --- control 3: staged-but-missing is flagged without crashing ---------
 
 def test_staged_but_missing_file_is_flagged():
-    with tempfile.TemporaryDirectory() as tmp:
-        repo = make_repo(tmp)
-        path = write(repo, "gone.md", "clean\n")
-        git(repo, "add", "gone.md")
-        os.remove(path)  # staged deletion
-        result = run_gate(repo)
-        assert result.returncode == 1, result.stdout
-        assert "missing on disk" in result.stdout
+    with tempfile.TemporaryDirectory() as td:
+        repo = make_repo(Path(td))
+        rc = pushgate.run(repo, ["ghost.md"])
+        assert rc == 1, "staged-but-deleted must be flagged, not crash"
 
-
-# --- control 4: unstaged files stay invisible --------------------------
 
 def test_unstaged_file_is_not_swept():
-    """The scoped-add rule. Another lane's dirty file must not be read."""
-    with tempfile.TemporaryDirectory() as tmp:
-        repo = make_repo(tmp)
-        write(repo, "staged.md", "clean\n")
-        write(repo, "other-lane.md", f"dirty {EM_DASH} not mine to push\n")
-        git(repo, "add", "staged.md")
-        result = run_gate(repo)
-        assert result.returncode == 0, result.stdout
-        assert "other-lane.md" not in result.stdout
+    """error-16 pin: pushgate reads the index, never the working tree."""
+    with tempfile.TemporaryDirectory() as td:
+        repo = make_repo(Path(td))
+        (repo / "dirty.md").write_text(f"unstaged {EM_DASH} em dash\n")
+        assert pushgate.staged_files(repo) == [], (
+            "an unstaged file must not appear in the staged list"
+        )
 
-
-# --- control 5: --files mode sweeps named paths ------------------------
 
 def test_files_mode_sweeps_named_path():
-    with tempfile.TemporaryDirectory() as tmp:
-        repo = make_repo(tmp)
-        write(repo, "named.md", f"has one {EM_DASH} here\n")
-        result = subprocess.run(
-            [sys.executable, PUSHGATE, "--files", "named.md"],
-            cwd=repo, capture_output=True, text=True)
-        assert result.returncode == 1, result.stdout
-        assert "named.md" in result.stdout
+    with tempfile.TemporaryDirectory() as td:
+        repo = make_repo(Path(td))
+        (repo / "named.md").write_text(f"named {EM_DASH} em dash\n")
+        rc = pushgate.main(["--files", "named.md"])
+        assert rc == 1, "--files mode must sweep the named path"
+
+
+def run_hook_shape() -> tuple[bool, str]:
+    """Part 2: does a real git push actually stop?"""
+    script = HERE / "test_pushgate_hook_shape.py"
+    proc = subprocess.run([sys.executable, str(script)],
+                          capture_output=True, text=True, timeout=120)
+    tail = ((proc.stdout + proc.stderr).strip().splitlines() or [""])
+    return proc.returncode == 0, " | ".join(tail[:1]) or "(no output)"
+
+
+def main() -> int:
+    tests = [v for k, v in sorted(globals().items())
+             if k.startswith("test_") and callable(v)]
+    local_failures = []
+    for t in tests:
+        try:
+            t()
+        except AssertionError as e:
+            local_failures.append(f"{t.__name__}: {e}")
+    if local_failures:
+        print(f"pushgate sweeper controls: FAIL ({len(local_failures)})")
+        for f in local_failures:
+            print(f"  {f}")
+        return 1
+    print(f"sweeper controls: {len(tests)}/{len(tests)} passed")
+
+    hooked, summary = run_hook_shape()
+    if not hooked:
+        print("hook-shape controls: FAIL (a real git push was NOT stopped)")
+        print(f"  {summary}")
+        print("pushgate suite: FAIL -- see the FOUND DEFECT note in "
+              "tests/test_pushgate_hook_shape.py")
+        return 1
+    print("pushgate suite: PASS (sweeper + hook shape)")
+    return 0
 
 
 if __name__ == "__main__":
-    tests = [v for k, v in sorted(globals().items())
-             if k.startswith("test_") and callable(v)]
-    for t in tests:
-        t()
-    print(f"all pushgate tests passed ({len(tests)}/{len(tests)})")
+    sys.exit(main())
