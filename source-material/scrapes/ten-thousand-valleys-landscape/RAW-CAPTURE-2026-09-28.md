@@ -1,0 +1,11 @@
+# RAW-CAPTURE — Ten Thousand Valleys / landscape-of-mind scrape
+*2026-09-28. Pilot-ordered brief scrape: check the concrete items of the Ten Thousand Valleys formalization against current published work. Working tree only; push waits on Cat's gate (the findings are entangled with the unpublished theory).*
+
+| Round | Query | Key sources retrieved |
+| :---- | :---- | :---- |
+| 1 | Quantum cognition Hilbert space models decision making Busemeyer | Royal Society Open Science (2026) quantum cognition moral judgement; PMC QCDM phase-interpretation paper; Busemeyer & Bruza CUP book page; Pothos & Busemeyer Annu Rev Psychol 2022 (DOI verified 10.1146/annurev-psych-033020-123501) |
+| 1 | Brain energy landscape attractor basins REBUS Carhart-Harris Friston | REBUS and the Anarchic Brain (Pharmacol Rev 2019; DOI verified 10.1124/pr.118.017160); ScienceDirect full text; Blossom analysis; enthea.net PDF (primary mirror) |
+| 1 | Fubini-Study metric information geometry Fisher metric applications cognition | Wikipedia FS metric (real part = quarter Fisher metric; Bures identity); Fisher metric page (FS pulled back from Fisher on projective Hilbert space); arXiv 1503.04146 generalized measurable FS metric |
+| 1 | Vacuum decay tunneling consciousness string landscape mind 2024-2026 | Zenesini et al., Nature Physics 2024 (DOI verified 10.1038/s41567-023-02345-4): false vacuum decay via bubble formation in ferromagnetic superfluids; string-induced vacuum decay arXiv 2510.27579; Keppler Frontiers Hum Neurosci 2025 (quantum vacuum resonance — flagged, not adopted); Northoff "landscape of consciousness" PMC12718250; kundalini blog (noted, not science, not adopted) |
+
+**Retrieval notes:** No paywall blocks on load-bearing sources; ScienceDirect shown via summary page, primary claims taken from the Pharmacol Rev full-text mirror and Crossref-verified metadata. Crossref returned one transient empty response on the Zenesini query; retried successfully. Keppler 2025 and the kundalini blog are captured as adjacent-in-the-wild items and explicitly NOT adopted into the theory (mechanism differs; one is a blog). DOI checks: 10.1124/pr.118.017160, 10.1038/s41567-023-02345-4, 10.1146/annurev-psych-033020-123501 verified against Crossref this turn.
