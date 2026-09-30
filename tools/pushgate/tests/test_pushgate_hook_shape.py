@@ -31,9 +31,16 @@ unaffected and correct, which is why nine months of staging-based tests
 never saw it: every existing control stages a file and calls the sweeper
 directly, so the controls test a mode the push path never uses.
 
-This file currently FAILS on control A by design. The test is the
-receipt; it goes red until the hook path is fixed (the hook needs to
-sweep the outgoing commit range, not the index).
+FIXED (Sep 30 ~23:40 ET heartbeat). pushgate.py hook mode now reads
+the outgoing refs git hands a pre-push hook on stdin and sweeps the
+commit range they name, instead of the (by-then-drained) index. Control
+A passes: a real `git push` carrying an em-dash is BLOCKED and the
+remote does not advance. Control B (clean push succeeds) still holds,
+which is the load-bearing direction: a hook that blocks everything is
+an outage, not a gate.
+
+Still NOT installed anywhere. A green test is not an installed gate;
+installing it on any repo waits on the PI word.
 
 Everything runs against throwaway repos built under a temp dir. Nothing
 here touches the lab repo or the network: the "remote" is a bare repo on
@@ -81,7 +88,7 @@ def build_pair(root: Path, name: str) -> tuple[Path, Path, Path]:
     pg = pg_dir / "pushgate.py"
     pg.write_text(PUSHGATE.read_text())
     hook = work / ".git" / "hooks" / "pre-push"
-    hook.write_text(f'#!/bin/sh\nexec python3 "{pg}" --staged\n')
+    hook.write_text(f'#!/bin/sh\nexec python3 "{pg}" --hook\n')
     hook.chmod(0o755)
     return work, remote, pg
 
