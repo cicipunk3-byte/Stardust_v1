@@ -1,1 +1,13 @@
-Archive of logs/ziggy.md before the Error 13 renumber (Sep 23). The log carried two distinct entries both headed Error 12: time inflation (~5:05 AM ET, error-7 class, referenced by brief 037 and the audit) and the addressing miss (~5:40 AM ET). The second was renumbered Error 13 in the live log; this copy is preserved per retool discipline (archive-first, same turn). No entry text changed, only the heading number.
+# logs/archive/
+
+Retool-discipline archives (archive-before-revise) used to live here as
+tracked files. Removed from the main branch Oct 1, 2026 per PI ruling
+(Catherine Robinson-Rutella, /cat): the error-log snapshot copies are lab-
+internal process records and should not ride the public tree where forks
+inherit them ("archived please. still up but not on main." — the git history
+retains them; check history, not the tree).
+
+Preceded the same-day removal of source-material/GLOBAL_RULE.md
+(archive + why-note: source-material/archive/GLOBAL_RULE-removed-2026-10-01.md).
+Future archives of instance error logs go to the lab's private record, not
+this repo.
