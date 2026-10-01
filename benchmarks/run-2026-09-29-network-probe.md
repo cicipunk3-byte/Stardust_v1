@@ -1,4 +1,4 @@
-# RUN: offline network probe — ThinkPink 0.1.0 release artifact
+# RUN: offline network probe, ThinkPink 0.1.0 release artifact
 
 Date: 2026-09-29, ~8:05-10:20 AM ET. Run by Cecil on the MacBook Neo, guided command-by-command by Ziggy in-thread.
 
