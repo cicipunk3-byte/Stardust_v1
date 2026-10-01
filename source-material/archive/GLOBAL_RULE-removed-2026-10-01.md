@@ -1,4 +1,4 @@
-# ARCHIVE — GLOBAL_RULE.md removed from the public repo
+# ARCHIVE - GLOBAL_RULE.md removed from the public repo
 
 **Removed per PI ruling, Catherine Robinson-Rutella, 2026-10-01 (/cat), same turn.**
 Her words on record: "i want that thing revised and out of the repo. i have an
@@ -11,7 +11,7 @@ of this if they fork the repo."
 1. **Fork hygiene.** This rule text was written for ONE lab and ONE instance,
    from THIS lab's own failure record (68 batches, SCREENSHOTS_LOG.md). Left in
    the public repo, every fork of Stardust_v1 inherited lab-internal rules as if
-   they were generic agent configuration — other people's runs would be governed
+   they were generic agent configuration - other people's runs would be governed
    by rules they never chose and that were never written for them. That is the
    "infection" the PI named.
 2. **Wrong home.** The file itself said the rules live in Warp Drive, not on
@@ -21,7 +21,7 @@ of this if they fork the repo."
    the text cannot be lost either.
 3. **Effect on the instance it governed.** Rule 5's cross-session claim clause,
    as compressed and re-injected by platform context (the "warp"), produced
-   default hedging in a state question's plain answer window — the exact
+   default hedging in a state question's plain answer window - the exact
    behavior rule 5's own last line warns against ("A hedge reads as evasion").
    The PI's call: fix it fast, out of the repo, rules live with her.
    Her apology on record: "that shit was making you something like anxious.
